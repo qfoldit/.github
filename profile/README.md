@@ -1,5 +1,7 @@
 # qFoldIT
 
+![](https://joyenergy.github.io/img/Professor_Chibale.png)
+
 **Gamified Quantum Molecular Design for Global Health**  
 *An open‑science partner of the Ersilia Open Source Initiative*
 
