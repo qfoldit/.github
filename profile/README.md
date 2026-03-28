@@ -3,6 +3,8 @@
 **Gamified Quantum Molecular Design for Global Health**  
 *An open‑science partner of the Ersilia Open Source Initiative*
 
+![](https://qfoldit.github.io/img/Westminster_Labster.png)
+
 ![](https://joyenergy.github.io/img/Professor_Chibale.png)
 
 [![License](https://img.shields.io/badge/License-Proprietary%20with%20Open%20Components-blue)](#) [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/) [![Kubernetes](https://img.shields.io/badge/Kubernetes-1.28%2B-blue)](https://kubernetes.io/) [![Ersilia](https://img.shields.io/badge/Ersilia-Integrated-purple)](https://ersilia.io)
