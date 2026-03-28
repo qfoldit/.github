@@ -4,7 +4,6 @@
 *An open‑science partner of the Ersilia Open Source Initiative*
 
 ![](https://qfoldit.github.io/img/Westminster_Labster.png)
-
 ![](https://joyenergy.github.io/img/Professor_Chibale.png)
 
 [![License](https://img.shields.io/badge/License-Proprietary%20with%20Open%20Components-blue)](#) [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/) [![Kubernetes](https://img.shields.io/badge/Kubernetes-1.28%2B-blue)](https://kubernetes.io/) [![Ersilia](https://img.shields.io/badge/Ersilia-Integrated-purple)](https://ersilia.io)
@@ -16,6 +15,8 @@
 **qFoldIT** is a distributed, immersive platform that turns molecular design into a collaborative game. By combining quantum computing, AI‑driven screening, and citizen science, we empower researchers and players worldwide to discover new drug candidates against infectious diseases—starting with malaria, tuberculosis, and antimicrobial resistance (AMR).
 
 We are proud to align with the **Ersilia Open Source Initiative**: we share the commitment to open, accessible AI tools for the Global South. qFoldIT extends Ersilia’s model hub with an interactive, gamified layer that scales scientific contribution to thousands of participants while maintaining rigorous open‑science principles.
+
+![](https://qfoldit.github.io/img/posters/medChem.png)
 
 ---
 
