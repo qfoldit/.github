@@ -171,7 +171,7 @@ We welcome collaboration in the spirit of Ersilia’s community. You can contrib
 - **Training**: Partner with us to run workshops that combine Ersilia’s AI models with qFoldIT’s gamified interface.
 - **Funding**: Support our mission through grants, corporate sponsorship, or licensing partnerships.
 
-For inquiries: **qFoldIT@gmail.com** or reach out via our [website](https://qfoldit.com).
+For inquiries: **qFoldIT@gmail.com** or reach out via our [website](https://fold.it).
 
 ---
 
