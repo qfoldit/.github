@@ -147,6 +147,8 @@ While the core game engine and certain proprietary components remain closed, all
 
 We believe that **AI for global health must be transparent**. By partnering with Ersilia, we ensure that our tools remain accessible to researchers in low‑resource settings.
 
+![](https://qfoldit.github.io/img/rafiki.png)
+
 ---
 
 ## 📊 Impact Metrics (Roadmap)
