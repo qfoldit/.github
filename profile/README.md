@@ -1,4 +1,4 @@
-#### **Gamified Quantum Molecular Design for Global Health**  
+### **Gamified Quantum Molecular Design for Global Health**  
 *An open‑science partner of the Ersilia Open Source Initiative*
 
 ![](https://qfoldit.github.io/img/Westminster_Labster.png)
