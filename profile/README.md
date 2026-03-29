@@ -1,5 +1,3 @@
-# qFoldIT
-
 **Gamified Quantum Molecular Design for Global Health**  
 *An open‑science partner of the Ersilia Open Source Initiative*
 
