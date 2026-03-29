@@ -14,8 +14,6 @@
 
 We are proud to align with the **Ersilia Open Source Initiative**: we share the commitment to open, accessible AI tools for the Global South. qFoldIT extends Ersilia’s model hub with an interactive, gamified layer that scales scientific contribution to thousands of participants while maintaining rigorous open‑science principles.
 
-![](https://qfoldit.github.io/img/posters/medChem.png)
-
 ---
 
 ## 🌍 Why qFoldIT ?
@@ -136,6 +134,8 @@ qFoldIT inherits the proven citizen‑science mechanics of FoldIT but adds three
 - **Energy** – limits non‑scientific activities (races, exploration). **Scientific modules (folding, design) consume no energy**, preserving the spirit of citizen science.
 
 ---
+
+![](https://qfoldit.github.io/img/posters/medChem.png)
 
 ## 🔓 Open Science & Reproducibility
 
