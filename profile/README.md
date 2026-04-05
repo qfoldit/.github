@@ -1,8 +1,21 @@
-### **Gamified Quantum Molecular Design for Global Health**  
-*An open‑science partner of the Ersilia Open Source Initiative*
 
+### **Gamified Quantum Molecular Design for Global Science**  
+
+[Concept](https://youtu.be/mdFrn89x74k?list=RDmdFrn89x74k)
+
+[Beyond the Code: AI 2050 | Kelly Chibale](https://youtu.be/7KmUzG1hltI?si=_qfeX7fGWFYwDdJt)
+
+![](https://qfoldit.github.io/video/qfolditdna.png)
+
+*An open‑science partner of the [Ersilia Open Source Initiative](https://github.com/ersilia-os/) and [Visualizing biological data](https://vizbi.org/)*
+
+![](https://qfoldit.github.io/video/Drew_Berry.png)
 ![](https://qfoldit.github.io/img/Westminster_Labster.png)
 ![](https://joyenergy.github.io/img/Professor_Chibale.png)
+![](https://qfoldit.github.io/img/1/logo/syntech.png)
+![](https://qfoldit.github.io/img/1/logo/idmt.png)
+![](https://qfoldit.github.io/img/1/logo/idmt_partners.png)
+
 
 [![License](https://img.shields.io/badge/License-Proprietary%20with%20Open%20Components-blue)](#) [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/) [![Kubernetes](https://img.shields.io/badge/Kubernetes-1.28%2B-blue)](https://kubernetes.io/) [![Ersilia](https://img.shields.io/badge/Ersilia-Integrated-purple)](https://ersilia.io)
 
@@ -25,9 +38,9 @@ We are proud to align with the **Ersilia Open Source Initiative**: we share the 
 
 ---
 
-## 🤝 Partnership with Ersilia
+## 🤝 Partnership with [Ersilia](https://ersilia.io/)
 
-We are proud to be a **technology partner** of the Ersilia Open Source Initiative. Ersilia builds the largest collection of ready‑to‑use AI models for infectious diseases. qFoldIT integrates these models into an interactive, game‑driven environment and extends them with quantum‑accelerated calculations.
+We are proud to be a **technology partner** of the [Ersilia Open Source Initiative](https://github.com/ersilia-os/zaira-chem). Ersilia builds the largest collection of ready‑to‑use AI models for infectious diseases. qFoldIT integrates these models into an interactive, game‑driven environment and extends them with quantum‑accelerated calculations.
 
 | Ersilia Component | qFoldIT Integration |
 |-------------------|---------------------|
@@ -40,6 +53,8 @@ Together, we are building an **open‑source ecosystem** where AI models are not
 ---
 
 ## 🏗️ Technical Architecture
+
+![](https://qfoldit.github.io/img/posters/medChem.png)
 
 qFoldIT follows a **microservices architecture** with containerisation (Docker) and orchestration (Kubernetes). Each service is designed to be stateless, horizontally scalable, and optimised for hybrid cloud infrastructure leveraging Singapore’s advanced computing resources.
 
@@ -133,9 +148,9 @@ qFoldIT inherits the proven citizen‑science mechanics of FoldIT but adds three
 - **Photons** – premium currency pegged to a generic **Central Bank Digital Currency (CBDC)** framework. This provides a stable, transparent value store and can later be adapted to specific national digital currencies (e.g., eCedi, digital dollar, etc.). Photons are earned through gameplay or purchased; they are used for cosmetics, battle passes, and optional risk‑management items.
 - **Energy** – limits non‑scientific activities (races, exploration). **Scientific modules (folding, design) consume no energy**, preserving the spirit of citizen science.
 
----
+![](https://qfoldit.github.io/img/posters/VISUALIZING_BIOLOGICAL_DATA.png)
 
-![](https://qfoldit.github.io/img/posters/medChem.png)
+---
 
 ## 🔓 Open Science & Reproducibility
 
@@ -147,7 +162,9 @@ While the core game engine and certain proprietary components remain closed, all
 
 We believe that **AI for global health must be transparent**. By partnering with Ersilia, we ensure that our tools remain accessible to researchers in low‑resource settings.
 
+![](https://qfoldit.github.io/img/posters/cambridge_symposium.png)
 ![](https://qfoldit.github.io/img/rafiki.png)
+![](https://qfoldit.github.io/img/posters/concept_art.png)
 
 ---
 
@@ -198,3 +215,6 @@ For inquiries: **qFoldIT@gmail.com** or reach out via our [website](https://fold
 **qFoldIT – where every player becomes a co‑inventor.**  
 *Sankofa: we retrieve wisdom from the past to build the future.*  
 *Gye Nyame: except God, there are no limits.*
+
+[](https://qfoldit.github.io/qFold.html)
+![](https://qfoldit.github.io/img/1/qFold.png)
