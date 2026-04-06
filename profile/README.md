@@ -5,6 +5,7 @@
 [H3D | Drug Discovery Platform](https://youtu.be/yYfb2_oLlVo)
 
 ![](https://qfoldit.github.io/video/qfolditdna.png)
+![](https://qfoldit.github.io/img/posters/leti_letter.png)
 
 *An open‑science partner of the [Ersilia Open Source Initiative](https://github.com/ersilia-os/) and [Visualizing biological data](https://vizbi.org/)*
 
