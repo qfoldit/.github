@@ -1,9 +1,8 @@
+### **Gamified Quantum Molecular Design for Global Science**
 
-### **Gamified Quantum Molecular Design for Global Science**  
-
-[Concept](https://youtu.be/mdFrn89x74k?list=RDmdFrn89x74k)
-
-[Beyond the Code: AI 2050 | Kelly Chibale](https://youtu.be/7KmUzG1hltI?si=_qfeX7fGWFYwDdJt)
+[Beyond the Code: AI 2050 | Kelly Chibale](https://youtu.be/7KmUzG1hltI) <br>
+[iDMT | Cambridge](https://youtu.be/Dd7ZwpgT4nw) <br>
+[H3D | Drug Discovery Platform](https://youtu.be/yYfb2_oLlVo)
 
 ![](https://qfoldit.github.io/video/qfolditdna.png)
 
@@ -13,6 +12,7 @@
 ![](https://qfoldit.github.io/img/Westminster_Labster.png)
 ![](https://joyenergy.github.io/img/Professor_Chibale.png)
 ![](https://qfoldit.github.io/img/1/logo/syntech.png)
+![](https://qfoldit.github.io/img/posters/iDMT_Center.png)
 ![](https://qfoldit.github.io/img/1/logo/idmt.png)
 ![](https://qfoldit.github.io/img/1/logo/idmt_partners.png)
 
