@@ -1,11 +1,12 @@
 ### **Gamified Quantum Molecular Design for Global Science**
 
+[Mixed Reality Meets Quantum Science on the International Space Station](https://youtu.be/5Br-y6S4pMc) <br>
 [Beyond the Code: AI 2050 | Kelly Chibale](https://youtu.be/7KmUzG1hltI) <br>
 [iDMT | Cambridge](https://youtu.be/Dd7ZwpgT4nw) <br>
 [H3D | Drug Discovery Platform](https://youtu.be/yYfb2_oLlVo)
 
 ![](https://qfoldit.github.io/video/qfolditdna.png)
-![](https://qfoldit.github.io/img/posters/leti_letter.png)
+![](https://qfoldit.github.io/img/posters/letti_letters.png)
 
 *An open‑science partner of the [Ersilia Open Source Initiative](https://github.com/ersilia-os/) and [Visualizing biological data](https://vizbi.org/)*
 
