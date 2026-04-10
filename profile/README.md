@@ -1,5 +1,10 @@
 ### **Gamified Quantum Molecular Design for Global Science**
 
+<!--![](https://issnationallab.org/wp-content/uploads/2025/05/ISSNL-CASIS_Logo_Inline_Black.svg)-->
+<!--![](https://africaquantum.org/img/logo_svg.svg)-->
+
+![](https://qfoldit.github.io/video/qf_logo_2.png)
+
 [Mixed Reality Meets Quantum Science on the International Space Station](https://youtu.be/5Br-y6S4pMc)
 
 ![](https://assets.science.nasa.gov/dynamicimage/assets/science/missions/cold-atom-laboratory/Upgrading%20the%20Space%20Station%E2%80%99s%20Cold%20Atom%20Lab%20With%20Mixed%20Reality.png?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint)
