@@ -1,21 +1,6 @@
 ### **Gamified Quantum Molecular Design for Global Science**
 
-Kelly Chibale: [Beyond the Code: AI 2050](https://youtu.be/7KmUzG1hltI)
-
-Dell & NVidia: [AI Factory Powering Drug Discovery](https://youtu.be/pl-W5yN8nDQ?si=LQELlfIrC4sS8OZK)
-
-NASA: [Virtual Reality in the 80's](https://youtu.be/gvkA3qG0zuI)
-
-NASA: [Virtual Environment Workstation Project (VIEWLab) VR demo 1989](https://youtu.be/3L0N7CKvOBA)
-
-NVIDIA: [AI for Quantum. NVIDIA Ising Accelerates Useful Quantum Computing](https://youtu.be/z978rGwiW6E?si=xbShhPBZyvi62L9_)
-
-qFold: [Quantum Walks and Deep Learning to Solve Protein Folding](https://arxiv.org/abs/2101.10279)
-
-qFold: [A modeling paradigm for the RNA](https://dl.acm.org/doi/10.1007/s10732-021-09471-3)
-
-ISS: [Mixed Reality Meets Quantum Science on the Space Station](https://youtu.be/5Br-y6S4pMc)
-
+![](https://qfoldit.github.io/video/NVidia_ISING.png)
 ![](https://qfoldit.github.io/video/Nvidia_evo2.jpg)
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
 ![](https://qfoldit.github.io/video/ISS_CAL_MR.png)
@@ -238,7 +223,19 @@ For inquiries: **qFoldIT@gmail.com** or reach out via our [website](https://fold
 
 <!-- ![](https://qfoldit.github.io/img/posters/letti_letters.png) -->
 
-<!--  -->
+<!-- Kelly Chibale: [Beyond the Code: AI 2050](https://youtu.be/7KmUzG1hltI)
+
+ISS: [Mixed Reality Meets Quantum Science on the Space Station](https://youtu.be/5Br-y6S4pMc)
+
+NASA: [Virtual Reality in the 80's](https://youtu.be/gvkA3qG0zuI) <br>
+NASA: [Virtual Environment Workstation Project (VIEWLab) VR demo 1989](https://youtu.be/3L0N7CKvOBA)
+
+
+Dell & NVidia: [AI Factory Powering Drug Discovery](https://youtu.be/pl-W5yN8nDQ?si=LQELlfIrC4sS8OZK) <br>
+NVidia: [AI for Quantum. NVIDIA Ising Accelerates Useful Quantum Computing](https://youtu.be/z978rGwiW6E?si=xbShhPBZyvi62L9_)
+
+qFold: [Quantum Walks and Deep Learning to Solve Protein Folding](https://arxiv.org/abs/2101.10279) <br>
+qFold: [A modeling paradigm for the RNA](https://dl.acm.org/doi/10.1007/s10732-021-09471-3) -->
 
 <!--![](https://issnationallab.org/wp-content/uploads/2025/05/ISSNL-CASIS_Logo_Inline_Black.svg)-->
 <!--![](https://africaquantum.org/img/logo_svg.svg)-->
