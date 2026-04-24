@@ -1,8 +1,12 @@
 ### **Gamified Quantum Molecular Design for Global Science**
 
-![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
+![](https://qfoldit.github.io/video/ISS_CAL_MR.png)
 
-Dell & NVidia: [AI Factory Powering Drug Discovery](https://youtu.be/pl-W5yN8nDQ?si=LQELlfIrC4sS8OZK)
+![](https://qfoldit.github.io/video/Artemis_VR.png)
+
+![](https://qfoldit.github.io/video/space_qfold.png)
+
+<!-- Dell & NVidia: [AI Factory Powering Drug Discovery](https://youtu.be/pl-W5yN8nDQ?si=LQELlfIrC4sS8OZK)
 
 NASA: [Virtual Reality in the 80's](https://youtu.be/gvkA3qG0zuI)
 
@@ -12,14 +16,12 @@ qFold: [Quantum Walks and Deep Learning to Solve Protein Folding](https://arxiv.
 
 qFold: [A modeling paradigm for the RNA](https://dl.acm.org/doi/10.1007/s10732-021-09471-3)
 
-ISS: [Mixed Reality Meets Quantum Science on the International Space Station](https://youtu.be/5Br-y6S4pMc)
+ISS: [Mixed Reality Meets Quantum Science on the Space Station](https://youtu.be/5Br-y6S4pMc) -->
 
 <!--![](https://issnationallab.org/wp-content/uploads/2025/05/ISSNL-CASIS_Logo_Inline_Black.svg)-->
 <!--![](https://africaquantum.org/img/logo_svg.svg)-->
 
-![](https://qfoldit.github.io/video/space_qfold.png)
-
-![](https://assets.science.nasa.gov/dynamicimage/assets/science/missions/cold-atom-laboratory/Upgrading%20the%20Space%20Station%E2%80%99s%20Cold%20Atom%20Lab%20With%20Mixed%20Reality.png?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint)
+![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
 
 [Beyond the Code: AI 2050 | Kelly Chibale](https://youtu.be/7KmUzG1hltI)
 
@@ -28,6 +30,7 @@ ISS: [Mixed Reality Meets Quantum Science on the International Space Station](ht
 [H3D | Drug Discovery Platform](https://youtu.be/yYfb2_oLlVo)
 
 ![](https://qfoldit.github.io/video/qfolditdna.png)
+
 <!-- ![](https://qfoldit.github.io/img/posters/letti_letters.png) -->
 
 *An open‑science partner of the [Ersilia Open Source Initiative](https://github.com/ersilia-os/) and [Visualizing biological data](https://vizbi.org/)*
