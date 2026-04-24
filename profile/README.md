@@ -16,6 +16,7 @@ qFold: [A modeling paradigm for the RNA](https://dl.acm.org/doi/10.1007/s10732-0
 
 ISS: [Mixed Reality Meets Quantum Science on the Space Station](https://youtu.be/5Br-y6S4pMc)
 
+![](https://qfoldit.github.io/video/Nvidia_evo2.jpg)
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
 ![](https://qfoldit.github.io/video/ISS_CAL_MR.png)
 ![](https://qfoldit.github.io/video/Artemis_VR.png)
