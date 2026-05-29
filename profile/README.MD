@@ -1,8 +1,8 @@
 # **Gamified Quantum Molecular Design for Global Science**
 
-Kelly Chibale - [Beyond the Code: AI 2050](https://youtu.be/7KmUzG1hltI)
-
 David Baker - [Protein Folding Code: Won a Nobel Prize](https://youtu.be/cx7l9ZGFZkw)
+
+Kelly Chibale - [Beyond the Code: AI 2050](https://youtu.be/7KmUzG1hltI)
 
 Silvia Holler - [Future of folding: Cotraslational folding simulation](https://youtu.be/C_QIO--OUf4)
 
