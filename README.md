@@ -8,12 +8,15 @@ Silvia Holler - [Future of folding: Cotraslational folding simulation](https://y
 
 Alexei Lapkin - [iDMT: Innovation Centre in Digital Molecular Technologies](https://youtu.be/Dd7ZwpgT4nw)
 
+Scientific Publication - [Playing Dice with the Universe: Programming Quantum Computers to Play Traditional Games](https://arxiv.org/abs/2604.23819)
+
 ![](https://qfoldit.github.io/video/CGS_LOGO.png)
 ![](https://qfoldit.github.io/video/CGS_CENTER_WHITE.png)
 ![](https://qfoldit.github.io/video/GSRC.png)
-![](https://qfoldit.github.io/video/NVidia_ISING.png)
+![](https://qfoldit.github.io/video/RF3_hero_image.png)
 ![](https://qfoldit.github.io/video/Nvidia_evo2.jpg)
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
+![](https://qfoldit.github.io/video/NVidia_ISING.png)
 ![](https://qfoldit.github.io/video/ISS_CAL_MR.png)
 ![](https://qfoldit.github.io/video/Artemis_VR.png)
 ![](https://qfoldit.github.io/video/space_qfold.png)
@@ -233,9 +236,15 @@ For inquiries: **qFoldIT@gmail.com** or reach out via our [website](https://fold
 
 ---
 
+<!-- https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Partners-With-Industry-Leaders-to-Advance-Genomics-Drug-Discovery-and-Healthcare/default.aspx -->
+
+<!-- Nobel Prize lecture: [David Baker About Folding](https://www.youtube.com/watch?v=KbDvQgsOI-E) -->
+
+<!-- MMOS: [Borderlands Science](https://www.youtube.com/watch?v=L_mH6Ak_Ny0) -->
+
 <!-- ![](https://qfoldit.github.io/img/posters/letti_letters.png) -->
 
-<!-- Kelly Chibale: [Beyond the Code: AI 2050](https://youtu.be/7KmUzG1hltI)
+<!-- 
 
 ISS: [Mixed Reality Meets Quantum Science on the Space Station](https://youtu.be/5Br-y6S4pMc)
 
