@@ -10,6 +10,10 @@ Alexei Lapkin - [iDMT: Innovation Centre in Digital Molecular Technologies](http
 
 Scientific Publication - [Playing Dice with the Universe: Programming Quantum Computers to Play Traditional Games](https://arxiv.org/abs/2604.23819)
 
+<a href="https://www.eppendorf.com/">
+ <img src="https://qfoldit.github.io/img/posters/David_Baker_AT_FoldIT_LAB_OFFICE.png"/>
+</a>
+
 ![](https://qfoldit.github.io/video/CGS_LOGO.png)
 ![](https://qfoldit.github.io/video/CGS_CENTER_WHITE.png)
 ![](https://qfoldit.github.io/video/GSRC.png)
