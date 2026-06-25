@@ -14,7 +14,7 @@ Scientific Publication - [Playing Dice with the Universe: Programming Quantum Co
 
 Realtime Statistics - [CAMEO: automated benchmarking of structure prediction servers, complementing CASP](https://robetta.bakerlab.org/)
 
-<a href="https://www.instituteforeducation.org/events/ife-to-host-tour-of-uw-baker-lab/">
+<a href="https://www.bakerlab.org/">
  <img src="https://qfoldit.github.io/img/posters/David_Baker_AT_FoldIT_LAB_OFFICE.png"/>
 </a>
 
