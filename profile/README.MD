@@ -10,7 +10,7 @@ Silvia Holler - [Future of folding: Cotraslational folding simulation](https://y
 
 Alexei Lapkin - [iDMT: Innovation Centre in Digital Molecular Technologies](https://youtu.be/Dd7ZwpgT4nw)
 
-Scientific Publication - [Playing Dice with the Universe: Programming Quantum Computers to Play Traditional Games](https://arxiv.org/abs/2604.23819)
+Scientific Publications - [Playing Dice with the Universe: Programming Quantum Computers to Play Traditional Games](https://arxiv.org/abs/2604.23819)
 
 Realtime Statistics - [CAMEO: automated benchmarking of structure prediction servers, complementing CASP](https://robetta.bakerlab.org/)
 
@@ -23,6 +23,7 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
 ![](https://qfoldit.github.io/video/GSRC.png)
 ![](https://qfoldit.github.io/video/RF3_hero_image.png)
 ![](https://qfoldit.github.io/video/Nvidia_evo2.jpg)
+![](https://qfoldit.github.io/assets/evo2.jpg)
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
 ![](https://qfoldit.github.io/video/NVidia_ISING.png)
 ![](https://qfoldit.github.io/video/ISS_CAL_MR.png)
