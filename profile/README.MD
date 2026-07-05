@@ -10,6 +10,8 @@ Silvia Holler - [Future of folding: Cotraslational folding simulation](https://y
 
 Alexei Lapkin - [iDMT: Innovation Centre in Digital Molecular Technologies](https://youtu.be/Dd7ZwpgT4nw)
 
+Anthropic - [qFoldIT is Claude Science Ready](https://youtu.be/idtMsa_1yNk)
+
 Scientific Publications - [Playing Dice with the Universe: Programming Quantum Computers to Play Traditional Games](https://arxiv.org/abs/2604.23819)
 
 Realtime Statistics - [CAMEO: automated benchmarking of structure prediction servers, complementing CASP](https://robetta.bakerlab.org/)
