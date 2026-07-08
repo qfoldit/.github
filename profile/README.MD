@@ -1,6 +1,6 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
-Anthropic - [qFoldIT is Claude Science Ready](https://youtu.be/idtMsa_1yNk)
+Anthropic - [qFoldIT is "Claude Science" Ready](https://youtu.be/idtMsa_1yNk)
 
 David Baker - [Protein Folding Code: Won a Nobel Prize](https://youtu.be/cx7l9ZGFZkw)
 
