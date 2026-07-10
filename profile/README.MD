@@ -4,6 +4,37 @@
  <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
 </a>
 
+---
+
+```
+Overall Technology Readiness Level (TRL): 6/9
+
+Current State:
+
+AI Agent Layer             █████████░ 90%
+
+Scientific Skills           ████████░░ 85%
+
+MCP Infrastructure          ███████░░░ 70%
+
+Scientific Models            ████████░░ 78%
+
+Quantum Computing            ██████░░░░ 60%
+
+Digital Twin                ███████░░░ 75%
+
+Spatial Computing            ██████░░░░ 65%
+
+Game Engine Integration      ███████░░░ 70%
+
+Citizen Science Layer        █████░░░░░ 50%
+
+
+TOTAL PLATFORM              ███████░░░ 73%
+```
+
+---
+
 Anthropic - [qFoldIT is "Claude Science" Ready](https://claude.com/product/claude-science)
 
 David Baker - [Protein Folding Code: Won a Nobel Prize](https://youtu.be/cx7l9ZGFZkw)
