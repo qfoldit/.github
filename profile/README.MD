@@ -1,9 +1,5 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
-<a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
- <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
-</a>
-
 ```
 Overall Technology Readiness Level (TRL): 6/9
 
@@ -30,6 +26,10 @@ Citizen Science Layer        █████░░░░░ 50%
 
 TOTAL PLATFORM              ███████░░░ 73%
 ```
+
+<a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
+ <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
+</a>
 
 ---
 
