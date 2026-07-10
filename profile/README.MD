@@ -4,8 +4,6 @@
  <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
 </a>
 
----
-
 ```
 Overall Technology Readiness Level (TRL): 6/9
 
