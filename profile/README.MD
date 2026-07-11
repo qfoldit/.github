@@ -27,10 +27,6 @@ Citizen Science Layer        █████░░░░░ 50%
 TOTAL PLATFORM              ███████░░░ 73%
 ```
 
-<a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
- <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
-</a>
-
 ---
 
 Anthropic - [qFoldIT is "Claude Science" Ready](https://claude.com/product/claude-science)
@@ -49,11 +45,17 @@ Scientific Publications - [Playing Dice with the Universe: Programming Quantum C
 
 Realtime Statistics - [CAMEO: automated benchmarking of structure prediction servers, complementing CASP](https://robetta.bakerlab.org/)
 
+<a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
+ <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
+</a>
+
+<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
+ <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
+</a>
 
 <a href="https://www.bakerlab.org/">
  <img src="https://qfoldit.github.io/img/posters/David_Baker_AT_FoldIT_LAB_OFFICE.png"/>
 </a>
-
 
 ![](https://qfoldit.github.io/video/CGS_LOGO.png)
 
