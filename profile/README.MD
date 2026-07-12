@@ -57,15 +57,15 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
 
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
 
-<a href="https://www.bakerlab.org/">
- <img src="https://qfoldit.github.io/img/posters/David_Baker_AT_FoldIT_LAB_OFFICE.png"/>
-</a>
-
 ![](https://qfoldit.github.io/video/CGS_LOGO.png)
 
 ![](https://qfoldit.github.io/video/CGS_CENTER_WHITE.png)
 
 ![](https://qfoldit.github.io/video/GSRC.png)
+
+<a href="https://www.bakerlab.org/">
+ <img src="https://qfoldit.github.io/img/posters/David_Baker_AT_FoldIT_LAB_OFFICE.png"/>
+</a>
 
 ![](https://qfoldit.github.io/video/RF3_hero_image.png)
 
