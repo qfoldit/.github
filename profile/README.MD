@@ -1,6 +1,6 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
-```
+```python
 """
 Minimal, tested proof-of-concept for the Object -> Operation -> Result
 pattern from Scientific World Schema, grounded in THREE real, already-
