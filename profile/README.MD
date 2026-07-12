@@ -24,10 +24,11 @@ Game Engine Integration      ███████░░░ 70%
 Citizen Science Layer        █████░░░░░ 50%
 
 
-TOTAL PLATFORM              ███████░░░ 73%
+TOTAL PLATFORM              ███████░░░ 73%  
 ```
 
 ---
+
 
 Anthropic - [qFoldIT is "Claude Science" Ready](https://claude.com/product/claude-science)
 
@@ -45,6 +46,7 @@ Scientific Publications - [Playing Dice with the Universe: Programming Quantum C
 
 Realtime Statistics - [CAMEO: automated benchmarking of structure prediction servers, complementing CASP](https://robetta.bakerlab.org/)
 
+
 <a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
  <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
 </a>
@@ -57,6 +59,8 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
  <img src="https://qfoldit.github.io/img/posters/David_Baker_AT_FoldIT_LAB_OFFICE.png"/>
 </a>
 
+![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
+
 ![](https://qfoldit.github.io/video/CGS_LOGO.png)
 
 ![](https://qfoldit.github.io/video/CGS_CENTER_WHITE.png)
@@ -68,8 +72,6 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
 ![](https://qfoldit.github.io/video/Nvidia_evo2.jpg)
 
 ![](https://qfoldit.github.io/assets/evo2.jpg)
-
-![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
 
 ![](https://qfoldit.github.io/video/NVidia_ISING.png)
 
