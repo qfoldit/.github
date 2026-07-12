@@ -1,6 +1,134 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
 ```
+"""
+Minimal, tested proof-of-concept for the Object -> Operation -> Result
+pattern from Scientific World Schema, grounded in THREE real, already-
+working qFoldIT functions (not hypothetical "planet"/"robot" objects).
+
+Goal: find out empirically whether the abstract pattern actually holds
+as a useful data contract across genuinely different domains (bio-
+oxidation kinetics, quantum protein folding, scene export) -- not just
+assert that it does.
+"""
+
+from dataclasses import dataclass, field, asdict
+from typing import Any
+import time
+
+
+@dataclass
+class ScientificObject:
+    """The 'Object' node -- what the operation acts on or produces."""
+    object_type: str          # e.g. "ore_sample", "peptide_sequence", "scene_plan"
+    object_id: str
+    state: dict[str, Any] = field(default_factory=dict)
+
+
+@dataclass
+class Operation:
+    """The 'Operation' node -- what was actually run, and with what."""
+    operation_name: str       # must match a real, callable function name
+    mcp_source: str           # which real skill/MCP this came from
+    inputs: dict[str, Any]
+    started_at: float = field(default_factory=time.time)
+
+
+@dataclass
+class Result:
+    """The 'Measurement/Knowledge' node -- what came back."""
+    operation: Operation
+    output_object: ScientificObject
+    raw_output: dict[str, Any]
+    completed_at: float = field(default_factory=time.time)
+
+    def to_dict(self) -> dict:
+        return {
+            "operation": {**asdict(self.operation)},
+            "output_object": asdict(self.output_object),
+            "raw_output": self.raw_output,
+            "duration_s": round(self.completed_at - self.operation.started_at, 6),
+        }
+
+
+def wrap_bioox(temperature_c: float, ph: float) -> Result:
+    """Wraps qfoldit-mining's real effective_rate_constant() as a Scientific World Schema Result."""
+    import sys
+    sys.path.insert(0, "/mnt/skills/user/qfoldit-mining/scripts")
+    import bioox_kinetics as bx
+
+    op = Operation(
+        operation_name="effective_rate_constant",
+        mcp_source="qfoldit-mining",
+        inputs={"temperature_c": temperature_c, "ph": ph},
+    )
+    k = bx.effective_rate_constant(temperature_c, ph)
+    out_obj = ScientificObject(
+        object_type="bioleaching_reaction_rate",
+        object_id=f"bioox_{temperature_c}C_pH{ph}",
+        state={"k_eff_per_day": k},
+    )
+    return Result(operation=op, output_object=out_obj, raw_output={"k_eff": k})
+
+
+def wrap_qfold(sequence: str) -> Result:
+    """Wraps qfoldit-qfold's real brute_force_best_fold() as a Scientific World Schema Result."""
+    import sys
+    sys.path.insert(0, "/mnt/skills/user/qfoldit-qfold/scripts")
+    import hp_lattice_folder as hp
+
+    op = Operation(
+        operation_name="brute_force_best_fold",
+        mcp_source="qfoldit-qfold",
+        inputs={"sequence": sequence},
+    )
+    fold = hp.brute_force_best_fold(sequence)
+    out_obj = ScientificObject(
+        object_type="hp_lattice_fold",
+        object_id=f"fold_{sequence}",
+        state={"contacts": fold["best_fold"]["contacts"], "bitstring": fold["best_fold"]["bitstring"]},
+    )
+    return Result(operation=op, output_object=out_obj, raw_output=fold)
+
+
+def wrap_scene_export(result: Result) -> Result:
+    """
+    Takes a PREVIOUS Result's output_object and feeds it into
+    qfoldit-scene-export -- this is the actual cross-MCP interoperability
+    test: does one domain's Object cleanly become another domain's input?
+    """
+    import sys
+    sys.path.insert(0, "/mnt/skills/user/qfoldit-scene-export/scripts")
+    from scene_plan import ScenePlan, Node, Material
+    from export_usd import export_usd
+
+    # Turn the HP-lattice fold's 2D coordinates into a trivial 3D scene
+    coords = result.raw_output["best_fold"]["coordinates"]
+    nodes = [
+        Node(id=f"res_{i}", primitive="sphere", position=(x * 2.0, y * 2.0, 0.0),
+             scale=(0.3, 0.3, 0.3), material=Material(color_rgba=(0.3, 0.5, 0.9, 1.0)))
+        for i, (x, y) in enumerate(coords)
+    ]
+    plan = ScenePlan(name="hp_fold_visualization", nodes=nodes)
+    plan.validate()
+
+    op = Operation(
+        operation_name="export_usd",
+        mcp_source="qfoldit-scene-export",
+        inputs={"source_object_id": result.output_object.object_id},
+    )
+    export_result = export_usd(plan, "/tmp/schema_test_fold.usda")
+    out_obj = ScientificObject(
+        object_type="usd_scene_file",
+        object_id=export_result["path"],
+        state={"backend": export_result["backend"], "num_nodes": len(nodes)},
+    )
+    return Result(operation=op, output_object=out_obj, raw_output=export_result)
+
+```
+
+
+```
 Overall Technology Readiness Level (TRL): 6/9
 
 Current State:
