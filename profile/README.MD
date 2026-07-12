@@ -4,12 +4,11 @@
 """
 Minimal, tested proof-of-concept for the Object -> Operation -> Result
 pattern from Scientific World Schema, grounded in THREE real, already-
-working qFoldIT functions (not hypothetical "planet"/"robot" objects).
+working qFoldIT functions.
 
 Goal: find out empirically whether the abstract pattern actually holds
 as a useful data contract across genuinely different domains (bio-
-oxidation kinetics, quantum protein folding, scene export) -- not just
-assert that it does.
+oxidation kinetics, quantum protein folding, scene export).
 """
 
 from dataclasses import dataclass, field, asdict
