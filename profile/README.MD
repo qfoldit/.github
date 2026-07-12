@@ -453,5 +453,5 @@ Our mission:
 
 GitHub Organization:
 
-qFoldIT@gmail.com
+qFoldIT@gmail.com <br>
 https://github.com/qfoldit
