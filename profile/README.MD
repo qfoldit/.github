@@ -27,7 +27,7 @@ class ScientificObject:
 @dataclass
 class Operation:
     """The 'Operation' node -- what was actually run, and with what."""
-    operation_name: str       # match a real, callable function name
+    operation_name: str       # must match a real, callable function name
     mcp_source: str           # which real skill/MCP this came from
     inputs: dict[str, Any]
     started_at: float = field(default_factory=time.time)
@@ -158,6 +158,8 @@ TOTAL PLATFORM              ███████░░░ 73%
 
 
 Anthropic - [qFoldIT is "Claude Science" Ready](https://claude.com/product/claude-science)
+
+Ericsson - [Immersive Future of Gaming](https://www.ericsson.com/en/about-us/new-world-of-possibilities/imagine-possible-perspectives/future-of-gaming)
 
 David Baker - [Protein Folding Code: Won a Nobel Prize](https://youtu.be/cx7l9ZGFZkw)
 
@@ -542,23 +544,6 @@ qFoldIT/
 └── examples/
 
 ```
-
-
----
-
-# Organization Members
-
-
-| GitHub | Organization |
-|-|-|
-| Jianmin Wang | AspirinCode |
-| George Kwa | CEPBEP |
-| e-CEDI | DIGITALCEDI |
-| Kelly Chibale | h3dchibale |
-| Mao Jiashun | shunsunsun |
-| Silvia Holler | SilviaHoller |
-| Dr. Neil Voss | vosslab |
-
 
 ---
 
