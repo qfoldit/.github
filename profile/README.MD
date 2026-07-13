@@ -27,7 +27,7 @@ class ScientificObject:
 @dataclass
 class Operation:
     """The 'Operation' node -- what was actually run, and with what."""
-    operation_name: str       # must match a real, callable function name
+    operation_name: str       # match a real, callable function name
     mcp_source: str           # which real skill/MCP this came from
     inputs: dict[str, Any]
     started_at: float = field(default_factory=time.time)
