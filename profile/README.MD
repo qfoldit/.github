@@ -1,5 +1,7 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
+![](https://qfoldit.github.io/img/qfoldit_arch.png)
+
 ```
 Overall Technology Readiness Level (TRL): 6/9
 
