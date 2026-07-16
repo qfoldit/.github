@@ -1,6 +1,57 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
 ![](https://qfoldit.github.io/img/qfoldit_arch.png)
+<!--
+# Components
+
+| Component | Purpose | Status |
+| :--- | :--- | :--- |
+| **Scientific Object Schema (SOS)** | Canonical model of scientific objects | Data Specification |
+| **Scientific Knowledge Graph (SKG)** | Relations between objects, experiments, and knowledge | Semantic Graph |
+| **Scientific Execution Model (SEM)** | Protocols, workflows, constraints, and experiment telemetry | Executable Model |
+| **Universal Assembly Graph (UAG)** | Graph for assembling digital scenes and worlds (existing format) | Runtime DSL |
+| **Universal World Interface (UWI)** | Unified abstract API for interaction with game engines, simulators, and labs | Target Specification |
+| **Model Context Protocol (MCP)** | Protocol for AI interaction with tools | Existing Anthropic Standard |
+
+---
+
+# Runtime Mapping
+
+| Runtime | SOS | SKG | SEM | UAG | UWI | MCP |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Unity** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **Unreal Engine** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **UNIGINE** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **NVIDIA Omniverse** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **Blender** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **Labster** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **Fortnite (UEFN)** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **LabVIEW** | ✔ | ✔ | ✔ | — | ✔ | ✔ |
+| **ROS2** | ✔ | ✔ | ✔ | — | ✔ | ✔ |
+| **NI DAQ** | ✔ | ✔ | ✔ | — | ✔ | ✔ |
+| **Physical Sensors** | ✔ | ✔ | ✔ | — | ✔ | ✔ |
+
+``` text
+                                   Humans
+                                      │
+                           Citizen Scientists
+                                      │
+                               AI Scientists
+                                      │
+                     qFoldIT Reality Interface
+          Scientific Object Schema (SOS) • Universal World Interface (UWI)
+          Universal Assembly Graph (UAG) • Model Context Protocol (MCP)
+                                      │
+ ─────────────────────────────────────────────────────────────────────────────
+ Virtual Worlds      Digital Twins      Physical Laboratories
+ Unreal Engine       NVIDIA Omniverse   LabVIEW
+ Unity               OpenUSD            NI DAQ
+ UNIGINE             CAD                Robotics
+ Blender             Simulation         Sensors
+ Labster             Synthetic Data     Scientific Instruments
+ ─────────────────────────────────────────────────────────────────────────────
+                         Knowledge • Continuous Learning
+```
 
 ```
 Overall Technology Readiness Level (TRL): 6/9
@@ -49,8 +100,7 @@ Alexei Lapkin - [iDMT: Innovation Centre in Digital Molecular Technologies](http
 Scientific Publications - [Playing Dice with the Universe: Programming Quantum Computers to Play Traditional Games](https://arxiv.org/abs/2604.23819)
 
 Realtime Statistics - [CAMEO: automated benchmarking of structure prediction servers, complementing CASP](https://robetta.bakerlab.org/)
-
-
+-->
 <a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
  <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
 </a>
@@ -62,11 +112,8 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
 </a>
 
 ![](https://qfoldit.github.io/video/CGS_LOGO.png)
-
 ![](https://qfoldit.github.io/video/CGS_CENTER_WHITE.png)
-
 ![](https://qfoldit.github.io/video/GSRC.png)
-
 ![](https://qfoldit.github.io/video/RF3_hero_image.png)
 
 <a href="https://www.bakerlab.org/">
@@ -74,33 +121,20 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
 </a>
 
 ![](https://qfoldit.github.io/video/Nvidia_evo2.jpg)
-
 ![](https://qfoldit.github.io/assets/evo2.jpg)
-
 ![](https://qfoldit.github.io/video/NVidia_ISING.png)
-
 ![](https://qfoldit.github.io/video/ISS_CAL_MR.png)
-
 ![](https://qfoldit.github.io/video/Artemis_VR.png)
-
 ![](https://qfoldit.github.io/video/space_qfold.png)
-
 ![](https://qfoldit.github.io/video/qfolditdna.png)
-
 ![](https://qfoldit.github.io/video/Drew_Berry.png)
-
 ![](https://qfoldit.github.io/img/posters/iDMT_Molecular.png)
-
+![](https://qfoldit.github.io/img/labster-virtual-labs.png)
 ![](https://qfoldit.github.io/img/Westminster_Labster.png)
-
 ![](https://joyenergy.github.io/img/Professor_Chibale.png)
-
 ![](https://qfoldit.github.io/img/1/logo/syntech.png)
-
 ![](https://qfoldit.github.io/img/1/logo/idmt.png)
-
 ![](https://qfoldit.github.io/img/1/logo/idmt_partners.png)
-
 
 *An open-science partner of the [Ersilia Open Source Initiative](https://github.com/ersilia-os/) and [Visualizing biological data](https://vizbi.org/)*
 
@@ -112,8 +146,7 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-1.28%2B-blue)](https://kubernetes.io/)
 
 [![Ersilia](https://img.shields.io/badge/Ersilia-Integrated-purple)](https://ersilia.io)
-
-
+<!--
 ---
 
 # qFoldIT
@@ -435,7 +468,7 @@ into one universal assembly framework.
 Our mission:
 
 > Build an open ecosystem where humans and AI agents can design, simulate and deploy complex digital systems across scientific, industrial, gaming and spatial computing platforms.
-
+-->
 ---
 
 # Contact
