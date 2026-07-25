@@ -1,5 +1,96 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
+
+<!-- # qFoldIT -- Multiplayer Gamification of Science -->
+
+**github.com/qfoldit**
+
+qFoldIT builds the connective tissue between real scientific computation and shared, playable, multiplayer worlds. Its mission is straightforward: take genuine science -- protein folding, quantum simulation, drug screening, industrial process modeling -- and give it a form people can walk through, compete over, and build together, starting with Fortnite and extending across the major game and simulation engines used in research and industry today.
+
+This document covers the full qFoldIT ecosystem: its architecture, its shipped capabilities, and the vision it's built toward.
+
+---
+
+## The Architecture
+
+qFoldIT organizes its whole stack into six named layers, each with a clear job:
+
+| Layer | Purpose |
+|---|---|
+| **Scientific Object Schema (SOS)** | The canonical data model for scientific objects -- proteins, molecules, materials, reactors, quantum circuits, and more -- shared across every qFoldIT tool and skill. |
+| **Scientific Knowledge Graph (SKG)** | Captures the relationships between objects, experiments, and the knowledge they produce -- the living map of what's been discovered and how it connects. |
+| **Scientific Execution Model (SEM)** | Describes protocols, workflows, constraints, and experiment telemetry -- the executable side of the science, covering who does what and how a run unfolds. |
+| **Universal Assembly Graph (UAG)** | A real, working, engine-neutral scene-graph format already used to describe 3D worlds -- nodes, connections, constraints, and interactions that any supported engine can render. |
+| **Universal World Interface (UWI)** | A translation layer connecting the abstract SOS/SKG/SEM/UAG model to the concrete tool calls of each real game engine's own live bridge -- with working implementations shipping today for Unity, Unreal, UNIGINE, and all three UEFN backends. |
+| **Model Context Protocol (MCP)** | The transport layer, built on Anthropic's open MCP standard, that lets AI agents drive every tool in the stack. |
+
+Alongside these six, **UEFN-TOOLBELT** (undergroundrap/UEFN-TOOLBELT, AGPL-3.0) is a powerful external toolkit qFoldIT integrates directly for Fortnite: 358 tools for autonomous level assembly, full world-state export, and -- uniquely -- real Verse gameplay-code generation, complementing qFoldIT's own MCP servers.
+
+This layered design is what lets a single scientific result -- a folded protein, a converged quantum simulation, a cleared drug-safety screen -- flow all the way from raw computation to a shared, walkable, competitive experience, on whichever engine a community wants to build in.
+
+---
+
+## What's Shipping Today
+
+### 30 MCP tools, spanning the full scientific pipeline
+
+qFoldIT's `Protein-Design-MCP` server puts real computational biology, chemistry, and physics directly in the hands of an AI agent:
+
+- **Generative protein design**: binder design, fold generation, sequence design and optimization, backbone generation, structure and complex prediction, interface analysis, energy minimization, stability scoring, hotspot suggestion -- built on RFdiffusion, ProteinMPNN, ESMFold, and AlphaFold2.
+- **Physics-grade refinement**: PyRosetta scoring, relaxation, interface scoring, and design, plus Boltz-2 structure and affinity prediction.
+- **Bioactivity and drug screening**: ZairaChem-powered QSAR training and bioactivity prediction, plus a multi-endpoint ADMET profiler covering solubility, toxicity, and the H3D Centre's malaria/tuberculosis screening cascades.
+- **Quantum-computing-assisted folding**: a CVaR-optimized Variational Quantum Eigensolver (via QuPepFold) for peptide ground-state energies, and a quantum-walk-inspired Metropolis simulation (inspired by the QFold algorithm) that produces full 3D backbone trajectories -- runnable with zero extra dependencies.
+- **Spatial digital twins**: direct export of any structure to OpenUSD, ready for NVIDIA Omniverse, NanoVer VR, Unreal, Unity, UNIGINE, or UEFN.
+- **Gamification tools**: `generate_game_design` turns any scientific result into a deterministic set of levels, par scores, and achievements; `generate_multiplayer_challenge` turns one into a round-based competitive structure with a real-metric objective and team roles -- ready to drop into a live arena.
+- **Digital twins of real facilities**: `generate_facility_twin` builds walkable, instrumented digital twins of a biomining reactor, a MEOR oil-recovery reservoir, a pipeline corrosion-monitoring rig, a quantum lab station, or an ADMET screening lab -- with every gauge and indicator light driven by the actual computed output of the corresponding science tool.
+- **UWI translation**: `uwi_spawn_object` and `uwi_apply_graph` translate a scene description into the exact tool calls needed on Unity, Unreal, UNIGINE, or any of the three UEFN backends.
+
+### 23 Claude Skills, covering the full breadth of scientific gamification
+
+The `claude-skills` plugin packages qFoldIT's domain expertise as modular, reusable Agent Skills:
+
+- **Scientific simulation**: quantum molecular folding, NVIDIA BioNeMo-powered structure prediction, a validated VQE simulator, bio-mining and ore-prospecting kinetics, microbial enhanced oil recovery, pipeline corrosion modeling, plant growth and L-system procedural botany, and plastic pyrolysis characterization.
+- **VR science**: a NanoVer bridge for collaborative, interactive molecular dynamics in virtual reality.
+- **Digital twin and engine skills**: a shared UAG pipeline feeding dedicated adapters for Unreal Engine, Unity, UNIGINE, OpenUSD/NVIDIA Omniverse, Apple RealityKit/visionOS, Three.js/WebXR, and -- the flagship multiplayer connector -- **UEFN/Fortnite**, with a facility-twin builder purpose-built for turning labs and industrial sites into playable spaces.
+- **Molecular Tetris**: a genuinely playable, browser-based science game already shipping today.
+
+### Three real, independently-integrated UEFN backends for Fortnite
+
+qFoldIT connects to Fortnite through three distinct, community-built MCP bridges, each opening different capabilities:
+
+- **KirChuvakov/uefn-mcp-server** (MIT) -- a lightweight 28-tool bridge for fast, permissively-licensed scene control.
+- **undergroundrap/UEFN-TOOLBELT** (AGPL-3.0) -- 358 tools across 55 categories, complete with its own native MCP bridge, a scan of the full 4,698-device Fortnite Creative palette, and the ecosystem's most powerful capability: generating and deploying real Verse gameplay code directly from a placed scene.
+- **quangdang46/uefn-verse-mcp** (AGPL-3.0, building on both of the above) -- an MCP-first architecture with a broad registered-action surface.
+
+Fortnite's own official **Industrial Galleries** and **Industrial Prefabs** content categories -- Factory, Power Plant, The Rig, Junk Junction, Steel Bridge, and more -- give qFoldIT's facility twins real, ready-to-use architectural building blocks, and Verse's own `creative_prop`/`creative_device` classes give every generated instrument a real, confirmed mechanism for coming alive in a live session.
+
+### A canonical, shared schema
+
+`scientific-world-schema` is qFoldIT's standalone specification repository -- the single source of truth for SOS, SKG, SEM, UAG, and UWI, so every domain-specific MCP and every engine skill in the ecosystem speaks the same language.
+
+---
+
+## The Vision Ahead
+
+qFoldIT's roadmap is built directly on top of what's already working:
+
+- **A fully realized UWI**, extending today's translation layer into deep, native integrations across every major engine and lab-hardware platform -- Blender, LabVIEW, ROS2, NI DAQ, and physical sensor networks -- so any scientific object can be spawned, measured, and streamed live, anywhere.
+- **Persistent, community-driven seasons**: since every qFoldIT game-design document carries a deterministic seed tied to its source result, a growing Scientific Knowledge Graph of community-contributed discoveries can unlock new zones, challenges, and content over time -- turning ongoing scientific work into an ongoing, shared world.
+- **Boss fights as real optimization problems**: live quantum simulations and folding trajectories driving actual in-game encounters, where beating the boss means genuinely converging the computation.
+- **AI Scientist NPCs**: agents that hand out quest chains mirroring the real scientific method -- hypothesis, experiment, measurement, knowledge -- turning good research practice into core gameplay.
+- **Secondary-structure-driven procedural architecture**: real protein secondary-structure classifications (alpha helices, beta sheets, turns) generating level geometry directly, so a folded protein's own shape becomes a piece of playable space.
+- **A complete, end-to-end multiplayer proof point**: taking a live scientific result all the way from computation to a published, multiplayer-tested Fortnite experience -- the natural next milestone for a platform built on the idea that science is better, and reaches further, when it's shared.
+
+qFoldIT's layered architecture -- SOS, SKG, SEM, UAG, UWI, and MCP, now joined by a direct UEFN-TOOLBELT integration -- means every one of these next steps builds on infrastructure that already exists and already works. The foundation is real; the destination is a genuinely multiplayer, genuinely scientific, genuinely playable universe.
+
+---
+
+## Explore the Ecosystem
+
+- **[qfoldit/Protein-Design-MCP](https://github.com/qfoldit)** -- the MCP server: 30 tools spanning generative design, physics-grade scoring, quantum folding, gamification, digital twins, and engine control.
+- **[qfoldit/skills](https://github.com/qfoldit)** -- 23 Claude Skills covering scientific simulation, VR science, and digital-twin engine adapters for every major platform.
+- **[qfoldit/scientific-world-schema](https://github.com/qfoldit)** -- the canonical SOS/SKG/SEM/UAG/UWI specification tying the whole ecosystem together.
+
 ![](https://qfoldit.github.io/img/qfoldit_arch.png)
 <!--
 # Components
