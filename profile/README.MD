@@ -1,5 +1,8 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
+<a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
+ <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
+</a>
 
 <!-- # qFoldIT -- Multiplayer Gamification of Science -->
 
