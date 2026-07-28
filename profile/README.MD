@@ -9,8 +9,7 @@
 </a>
 
 <!-- # qFoldIT -- Multiplayer Gamification of Science -->
-
-**github.com/qfoldit**
+<!-- **github.com/qfoldit** -->
 
 qFoldIT builds the connective tissue between real scientific computation and shared, playable, multiplayer worlds. Its mission is straightforward: take genuine science -- protein folding, quantum simulation, drug screening, industrial process modeling -- and give it a form people can walk through, compete over, and build together, starting with Fortnite and extending across the major game and simulation engines used in research and industry today.
 
