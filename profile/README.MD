@@ -1,4 +1,4 @@
-# **qFoldIT** is a ‭«***Universal Builder & Gamifier of Scientific***».   <!-- **Gamified Quantum Molecular Drug Design for Global Science** -->
+<!-- # **qFoldIT** is a ‭«***Universal Builder & Gamifier of Scientific***». -->  <!-- **Gamified Quantum Molecular Drug Design for Global Science** -->
 
 <!-- ****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***». -->
 
