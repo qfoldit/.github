@@ -18,6 +18,13 @@ players solve it → results flow back into the scientific graph.
 <a href="https://www.bakerlab.org/">
  <img src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
 </a>
+
+![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
+
+<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
+ <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
+</a>
+
 <!-- # qFoldIT -- Multiplayer Gamification of Science -->
 <!-- **github.com/qfoldit** -->
 <br> <br>
@@ -252,12 +259,6 @@ Alongside these six, **UEFN-TOOLBELT** (undergroundrap/UEFN-TOOLBELT, AGPL-3.0) 
 <a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
  <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
 </a> -->
-
-![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
-
-<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
- <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
-</a>
 
 *qFoldIT — Universal Builder & Gamifier of Scientific*  
 *MPNC synced with UEFN-TOOLBELT*  
