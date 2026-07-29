@@ -218,8 +218,8 @@ All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo
 
 ---
 
-*qFoldIT — Universal Builder & Gamifier of Scientific Problems*  
-*MPNC v1.1 synced with UEFN-TOOLBELT theme.py*  
+*qFoldIT — Universal Builder & Gamifier of Scientific*  
+*MPNC synced with UEFN-TOOLBELT*  
 *© qFoldIT Core Team, 2026*
 
 ![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
