@@ -1,6 +1,7 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
-****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***».
+****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***»
+
 Any researcher describes a scientific problem once → the system turns it into a game of any genre →
 players solve it → results flow back into the scientific graph.
 
