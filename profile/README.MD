@@ -27,7 +27,7 @@ This document covers the full qFoldIT ecosystem: its architecture, its shipped c
 
 ---
 
-![](https://qfoldit.github.io/img/qfoldit_arch.png)
+![](https://qfoldit.github.io/assets/lego-standarts_1.png)
 ![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
 
 ## The Architecture
