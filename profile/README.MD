@@ -1,11 +1,16 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
+****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***».
+Any researcher describes a scientific problem once → the system turns it into a game of any genre →
+players solve it → results flow back into the scientific graph.
+
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
 
-<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
- <img src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
+![](https://qfoldit.github.io/assets/lego_qfoldit_hero.png)
+<a href="https://www.bakerlab.org/">
+ <img src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
 </a>
 
 <!-- # qFoldIT -- Multiplayer Gamification of Science -->
@@ -31,6 +36,18 @@ qFoldIT organizes its whole stack into six named layers, each with a clear job:
 | **Model Context Protocol (MCP)** | The transport layer, built on Anthropic's open MCP standard, that lets AI agents drive every tool in the stack. |
 
 Alongside these six, **UEFN-TOOLBELT** (undergroundrap/UEFN-TOOLBELT, AGPL-3.0) is a powerful external toolkit qFoldIT integrates directly for Fortnite: 358 tools for autonomous level assembly, full world-state export, and -- uniquely -- real Verse gameplay-code generation, complementing qFoldIT's own MCP servers.
+
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img src="https://qfoldit.github.io/assets/lego_l-protein.png"/>
+</a>
+
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img src="https://qfoldit.github.io/assets/lego_fortnite_Genesis_Garden.jpg"/>
+</a>
+
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
+</a>
 
 This layered design is what lets a single scientific result -- a folded protein, a converged quantum simulation, a cleared drug-safety screen -- flow all the way from raw computation to a shared, walkable, competitive experience, on whichever engine a community wants to build in.
 
@@ -90,6 +107,10 @@ qFoldIT's roadmap is built directly on top of what's already working:
 qFoldIT's layered architecture -- SOS, SKG, SEM, UAG, UWI, and MCP, now joined by a direct UEFN-TOOLBELT integration -- means every one of these next steps builds on infrastructure that already exists and already works. The foundation is real; the destination is a genuinely multiplayer, genuinely scientific, genuinely playable universe.
 
 ---
+
+## Already Inside UEFN
+
+qFoldIT's presence in UEFN isn't only architectural -- the organization holds a live **UEFN Team account**, "qFoldIT," tagged with its own mission statement, "Scientific Gamification," ready to develop and publish island projects, share them via Unreal Revision Control, and grow its contributor roster (up to 30 team members) as the ecosystem's Fortnite work moves from integration to publication.
 
 ## Explore the Ecosystem
 
@@ -212,11 +233,6 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
 ![](https://qfoldit.github.io/video/CGS_CENTER_WHITE.png)
 ![](https://qfoldit.github.io/video/GSRC.png)
 ![](https://qfoldit.github.io/video/RF3_hero_image.png)
-
-<a href="https://www.bakerlab.org/">
- <img src="https://qfoldit.github.io/img/posters/David_Baker_AT_FoldIT_LAB_OFFICE.png"/>
-</a>
-
 ![](https://qfoldit.github.io/video/Nvidia_evo2.jpg)
 ![](https://qfoldit.github.io/assets/evo2.jpg)
 ![](https://qfoldit.github.io/video/NVidia_ISING.png)
