@@ -25,7 +25,7 @@ players solve it → results flow back into the scientific graph.
 
 <!-- <a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
  <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
-</a>
+</a> 009900-->
 
 <a href="https://www.bakerlab.org/">
  <img src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
