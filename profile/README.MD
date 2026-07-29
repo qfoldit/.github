@@ -238,6 +238,10 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
 </a> -->
 
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
+
+<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
+ <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
+</a>
 <!--
 ![](https://qfoldit.github.io/video/CGS_LOGO.png)
 ![](https://qfoldit.github.io/video/CGS_CENTER_WHITE.png)
