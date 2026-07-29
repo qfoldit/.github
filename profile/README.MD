@@ -2,7 +2,7 @@
 
 <!-- ****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***». -->
 
-a scientific problem describes → the system turns it into a game of any genre →
+Scientific problem describes → the system turns it into a game of any genre →
 players solve it → results flow back into the scientific graph.
 
 [LEGO® Fortnite Cinematic Trailer](https://www.youtube.com/watch?v=GeKTrjGdJ2E)
