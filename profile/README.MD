@@ -1,6 +1,6 @@
 # **Gamified Quantum Molecular Drug Design for Global Science**
 
-****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***»
+****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***».
 
 Any researcher describes a scientific problem once → the system turns it into a game of any genre →
 players solve it → results flow back into the scientific graph.
@@ -9,7 +9,10 @@ players solve it → results flow back into the scientific graph.
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
 
-![](https://qfoldit.github.io/assets/lego_qfoldit_hero.png)
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img src="https://qfoldit.github.io/assets/lego_qfoldit_hero.png"/>
+</a>
+
 <a href="https://www.bakerlab.org/">
  <img src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
 </a>
