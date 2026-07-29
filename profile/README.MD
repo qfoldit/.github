@@ -27,9 +27,201 @@ This document covers the full qFoldIT ecosystem: its architecture, its shipped c
 
 ---
 
-![](https://qfoldit.github.io/assets/lego-standarts_1.png)
+<!--![](https://qfoldit.github.io/assets/lego-standarts_1.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_2.png)
-![](https://qfoldit.github.io/assets/lego-standarts_3.png)
+![](https://qfoldit.github.io/assets/lego-standarts_3.png)==>
+
+# Standards
+
+**Minimalist Presentation of Scientific Content**  
+*Synced with UEFN-TOOLBELT*
+
+---
+
+## 1. Mission and Definition
+
+**MPNC** — a system of rules for visualization, sound design, and interactive presentation of scientific objects inside qFoldIT.
+
+> **Minimalist Presentation of Scientific Content (MPNC)** is a set of guidelines for visualization, sound, and interaction of scientific assets within qFoldIT, where every element serves a functional purpose, and the *absence* of an element is as meaningful as its presence.
+
+MPNC applies to all qFoldIT output artifacts:  
+`UEFN islands` · `LEGO visualizations` · `MCP agent scenarios` · `SKG infographics` · `Atomic Gameplay Engine`
+
+---
+
+## 2. MPNC Principles
+
+Six axioms defining visual minimalism in qFoldIT's scientific communication.
+
+### 01. One object – one function
+Every LEGO brick, Niagara particle, or UI element fulfills exactly one semantic role. Combining functions into a single visual object is prohibited.
+
+### 02. Color as data, not decoration
+Color palette is strictly tied to physicochemical properties (CPK/LEGO hybrid). Changing hue without changing the object's property is not allowed.
+
+### 03. Emptiness as a focusing tool
+Absence of objects in the visual field is an active element of presentation. Scene "silence" is equivalent to "accent".
+
+### 04. Animation only for operations
+Any motion of particles, bricks, or camera must reflect a specific atomic operation (Construct, Connect, Transform, etc.). Decorative animation is prohibited.
+
+### 05. Text as a last resort
+Text annotations are allowed only as 3D‑labels when meaning cannot be conveyed through form, color, or sound. Limit: 3 words per element.
+
+### 06. Unified scale law
+All objects within one UAG scene obey a single scale ratio: 1 Å = N UEFN units. Scaling for "clarity" is prohibited.
+
+---
+
+## 3. LEGO‑CPK: Visual Alphabet
+
+The basic unit of visualization is the LEGO brick, parameterized according to the CPK model. Brick geometry encodes chemical type; UEFN physical properties encode atomic mass.
+
+| Element | Color | Brick type | Mass |
+|---------|-------|------------|------|
+| Carbon (C) | Black | 2×2 | 12.01 |
+| Oxygen (O) | Red | Round | 16.00 |
+| Nitrogen (N) | Blue | 2×2 | 14.01 |
+| Hydrogen (H) | White | 1×1 | 1.008 |
+| Sulfur (S) | Yellow | 2×2 | 32.06 |
+| Phosphorus (P) | Green | 2×2 | 30.97 |
+| Iron (Fe) | Purple | 2×2 | 55.85 |
+| Error / Clash | Orange pulse | – | Collision |
+
+---
+
+## 4. UEFN Visualization Rules
+
+Runtime constraints and requirements for Fortnite (UEFN) under MPNC.
+
+- **R‑01. HUD Zero:** In an ideal scene, there are no 2D panels. All information is conveyed through brick glow, LEGO snap sounds, and Niagara particle physics.
+
+- **R‑02. LOD as a scientific tool:** Distant atoms are grouped into "clouds" (aggregate particles); close‑up atoms reveal full LEGO geometry. LOD transition should match the shift in focus scale.
+
+- **R‑03. Niagara only for emphasis:** Particles are used exclusively to mark energy transitions (formation glow, clash spark, minimization trail). Limit: at most one emitter per 10 atoms.
+
+- **R‑04. Camera as MCP director:** Camera movement is initiated only by the MCP agent or player. Automatic cutscenes are allowed only when switching Atomic Cycles.
+
+- **R‑05. Sound as tactile feedback:** Every LEGO snap on bond formation, every "hum" during simulation is a semantic signal. The audio layer must be recognisable without visuals.
+
+- **R‑06. Decals as annotations:** Text labels are allowed only as Decal projections onto surfaces. Font: Inter/Segoe UI, white, outline #181818.
+
+- **R‑07. Physics not decorative:** Ragdoll and impulses are applied only upon bond breakage or collision. "Pretty chaos" without scientific justification is prohibited.
+
+---
+
+## 5. MCP Protocol for Minimalist Presentation
+
+The MCP agent acts as the director of visual storytelling. Instructions are decomposed into a UAG scene through a strict protocol.
+
+| MCP Intent | Visual Scenario | UEFN Execution | MPNC Constraint |
+|------------|-----------------|----------------|-----------------|
+| `spawn_atom` | Atom appears in the scene | SpawnEmitter + brick fade‑in in 0.3s | opacity ramp only |
+| `form_bond` | Chemical bond creation | MoveTo + snap sound + glow Decal | glow ≤ 0.5s |
+| `mutate` | Side‑chain replacement | Disassemble (ragdoll out) → assemble (snap in) | static context |
+| `minimize` | Energy optimization | Smooth drift to new coordinates + trail | trail opacity ≤ 30% |
+| `validate` | Result verification | Split‑screen: target vs candidate; RMSD as 3D‑text | 2 objects max |
+| `annotate` | Add metadata | Decal projection or agent voice (TTS) | text ≤ 3 words |
+
+---
+
+## 6. Atomic Cycles — Visual Signatures
+
+Each of the 10 base cycles has a fixed combination of color, sound, and camera behavior.
+
+| Cycle | Visual Signature | Sound | Camera |
+|-------|------------------|-------|--------|
+| **Construct** | Fade‑in white/gray brick from void | Low “thud” | Static; focus on spawn |
+| **Connect** | Snap + beam between bricks; glow 0.3s | LEGO click | Micro‑zoom on bond |
+| **Transform** | Rotation of brick around axis; dim trail | Mechanical “click” | Orbit 15° |
+| **Optimize** | Drift to target position; plate turns green | Hum, descending pitch | Smooth pull‑back |
+| **Simulate** | Vibrate all bricks; Niagara “sand” | White noise, fading out | Free fly‑around |
+| **Validate** | Checkmark (green) / Cross (orange) | Positive chime / Negative buzz | Split‑screen or freeze |
+| **Discover** | Burst of gold particles; brick pulses | Exalted “ding” | Slow‑motion zoom |
+| **Persist** | Compress into SKG icon; fade to void | Digital “shutter” | Zoom‑out to orbital view |
+| **Share** | Ghost copy flies toward player avatar | Whistle + echo | Pan across participants |
+| **Iterate** | Rewind → new branch; old branch fades | Reverse whoosh + reset click | Pull‑back → reset → zoom‑in |
+
+---
+
+## 7. Integration with qFoldIT Architecture
+
+MPNC intersects with all layers of qFoldIT architecture. Each component imposes constraints that become rules of presentation.
+
+### qFoldIT Components — Runtime Mapping
+
+| Layer | Component | Role in MPNC | Constraint |
+|-------|-----------|--------------|------------|
+| Science | SOS | Defines LEGO geometry and CPK color of each scientific object | `1 object = 1 brick` |
+| Science | SKG | Stores visual artifacts as graph nodes; ensures 1:1 fidelity | `SKGF = 1.0` |
+| Science | SEM | Decomposes scientific operations into sequences of Atomic Cycles | `only 10 cycles` |
+| World | UAG | Assembles the scene from LEGO nodes with unified scale | `1 Å = N UU` |
+| Interface | UWI | Translates MCP commands into UEFN calls without loss of semantics | `no magic bridge` |
+| AI | MCP | Director: chooses camera, sound, presentation tempo | `text ≤ 3 words` |
+| Runtime | UEFN-TOOLBELT | Generates Verse code and checks MPNC lint rules before publishing | `lint pre‑commit` |
+
+---
+
+## 8. Genre Adapters and Minimalism
+
+Genre Adapters interpret Atomic Cycles into genre rules, but are not allowed to add elements outside MPNC.
+
+| Adapter | Minimalist Interpretation | Prohibited |
+|---------|---------------------------|------------|
+| **Tetris** | Amino acids = tetrominoes; folding = layer stacking. Only CPK colors. | combo flashes, score pop‑ups |
+| **Tower Defense** | Ligands = “enemies”, protein = “tower”. Bonds = damage zones. | health bars, damage numbers |
+| **Roguelike** | Each run = a new polypeptide chain. Permadeath = unstable conformation. | skeletal animations, loot items |
+| **Factory** | Metabolic pathway = conveyor. Substrates = resources, enzymes = assemblers. | smoke, sparks, extra UI icons |
+| **Sandbox** | Pure LEGO playground with a limited set of bricks (SOS objects). | custom textures, free scaling |
+
+---
+
+## 9. Presentation Quality Metrics
+
+Quantitative criteria for automated compliance checking against MPNC.
+
+| Metric | Name | Description | Target |
+|--------|------|-------------|--------|
+| D1 | VNR (Visual Noise Ratio) | Ratio of pixels changed without scientific reason to total pixels | < 5% |
+| D2 | SPD (Semantic Pixel Density) | Number of scientific parameters encoded by one visual element | ≥ 3 |
+| D3 | TDI (Text Dependency Index) | % of players completing a cycle without reading a text prompt | > 85% |
+| D4 | FRT (Focus Retention Time) | Continuous focus time on target object before switch | > 12 s |
+| D5 | SKGF (SKG Fidelity) | Correspondence of UEFN artifact to record in Scientific Knowledge Graph | 1:1 (zero loss) |
+| D6 | LAU (LEGO Authenticity) | Conformance to LEGO System standards. Reviewer: Dr. Voss. | 100% |
+
+---
+
+## 10. Appendices
+
+### Appendix A. UEFN-TOOLBELT Integration
+
+All MPNC rules are implemented as UEFN-TOOLBELT modules:  
+`qfoldit.particles.minimal` · `qfoldit.camera.focus` · `qfoldit.audio.semantic`  
+
+Each module contains lint rules that check the scene for compliance before publishing.
+
+The MPNC color system is synchronised with `theme.py` (Ocean Bennett, UEFN-TOOLBELT). Active theme: `toolbelt_dark` — the base palette for all qFoldIT UI elements.
+
+### Appendix B. MCP Prompt Template
+
+Standard prompt for MCP agent:
+
+```
+Generate visual scenario for [operation] following MPNC‑v1.1.
+Theme: toolbelt_dark · Max particles: [N/10] · Text: none
+Sound: semantic · Camera: operation‑linked · HUD: zero
+```
+
+### Appendix C. LEGO Ideas Compliance
+
+All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — official LEGO Artist, creator of Tetrisphere.
+
+---
+
+*qFoldIT — Universal Builder & Gamifier of Scientific Problems*  
+*MPNC v1.1 synced with UEFN-TOOLBELT theme.py*  
+*© qFoldIT Core Team, 2026*
+
 ![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
 
 ## The Architecture
