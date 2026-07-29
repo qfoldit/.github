@@ -126,7 +126,6 @@ qFoldIT's presence in UEFN isn't only architectural -- the organization holds a 
 - **[qfoldit/skills](https://github.com/qfoldit)** -- 23 Claude Skills covering scientific simulation, VR science, and digital-twin engine adapters for every major platform.
 - **[qfoldit/scientific-world-schema](https://github.com/qfoldit)** -- the canonical SOS/SKG/SEM/UAG/UWI specification tying the whole ecosystem together.
 
-![](https://qfoldit.github.io/img/qfoldit_arch.png)
 <!--
 # Components
 
