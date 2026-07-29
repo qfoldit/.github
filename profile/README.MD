@@ -37,7 +37,7 @@ players solve it → results flow back into the scientific graph.
 
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_1.png)
-![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
+![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
 
 <!-- # qFoldIT -- Multiplayer Gamification of Science -->
 <!-- **github.com/qfoldit** -->
