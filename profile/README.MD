@@ -236,6 +236,7 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
  <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
 </a>
 
+<!--
 ![](https://qfoldit.github.io/video/CGS_LOGO.png)
 ![](https://qfoldit.github.io/video/CGS_CENTER_WHITE.png)
 ![](https://qfoldit.github.io/video/GSRC.png)
@@ -255,6 +256,7 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
 ![](https://qfoldit.github.io/img/1/logo/syntech.png)
 ![](https://qfoldit.github.io/img/1/logo/idmt.png)
 ![](https://qfoldit.github.io/img/1/logo/idmt_partners.png)
+-->
 
 *An open-science partner of the [Ersilia Open Source Initiative](https://github.com/ersilia-os/) and [Visualizing biological data](https://vizbi.org/)*
 
