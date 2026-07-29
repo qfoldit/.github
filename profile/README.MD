@@ -59,7 +59,7 @@ Alongside these six, **UEFN-TOOLBELT** (undergroundrap/UEFN-TOOLBELT, AGPL-3.0) 
 
 This layered design is what lets a single scientific result -- a folded protein, a converged quantum simulation, a cleared drug-safety screen -- flow all the way from raw computation to a shared, walkable, competitive experience, on whichever engine a community wants to build in.
 
----
+<!-- ---
 
 ## What's Shipping Today
 
@@ -120,11 +120,11 @@ qFoldIT's layered architecture -- SOS, SKG, SEM, UAG, UWI, and MCP, now joined b
 
 qFoldIT's presence in UEFN isn't only architectural -- the organization holds a live **UEFN Team account**, "qFoldIT," tagged with its own mission statement, "Scientific Gamification," ready to develop and publish island projects, share them via Unreal Revision Control, and grow its contributor roster (up to 30 team members) as the ecosystem's Fortnite work moves from integration to publication.
 
-## Explore the Ecosystem
+<!-- ## Explore the Ecosystem
 
 - **[qfoldit/Protein-Design-MCP](https://github.com/qfoldit)** -- the MCP server: 30 tools spanning generative design, physics-grade scoring, quantum folding, gamification, digital twins, and engine control.
 - **[qfoldit/skills](https://github.com/qfoldit)** -- 23 Claude Skills covering scientific simulation, VR science, and digital-twin engine adapters for every major platform.
-- **[qfoldit/scientific-world-schema](https://github.com/qfoldit)** -- the canonical SOS/SKG/SEM/UAG/UWI specification tying the whole ecosystem together.
+- **[qfoldit/scientific-world-schema](https://github.com/qfoldit)** -- the canonical SOS/SKG/SEM/UAG/UWI specification tying the whole ecosystem together. -->
 
 <!--
 # Components
