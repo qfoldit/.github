@@ -57,9 +57,11 @@ Alongside these six, **UEFN-TOOLBELT** (undergroundrap/UEFN-TOOLBELT, AGPL-3.0) 
  <img src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
 </a>
 
+<!--
+
 This layered design is what lets a single scientific result -- a folded protein, a converged quantum simulation, a cleared drug-safety screen -- flow all the way from raw computation to a shared, walkable, competitive experience, on whichever engine a community wants to build in.
 
-<!-- ---
+---
 
 ## What's Shipping Today
 
