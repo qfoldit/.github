@@ -15,12 +15,15 @@ players solve it → results flow back into the scientific graph.
  <img src="https://qfoldit.github.io/assets/lego_qfoldit_hero.png"/>
 </a>
 
+![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
+![](https://qfoldit.github.io/img/qfoldit_arch.png)
+
 <a href="https://www.bakerlab.org/">
  <img src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
 </a>
 <!-- # qFoldIT -- Multiplayer Gamification of Science -->
 <!-- **github.com/qfoldit** -->
-<br><br>
+<br> <br>
 qFoldIT builds the connective tissue between real scientific computation and shared, playable, multiplayer worlds. Its mission is straightforward: take genuine science -- protein folding, quantum simulation, drug screening, industrial process modeling -- and give it a form people can walk through, compete over, and build together, starting with Fortnite and extending across the major game and simulation engines used in research and industry today.
 
 This document covers the full qFoldIT ecosystem: its architecture, its shipped capabilities, and the vision it's built toward.
@@ -42,9 +45,9 @@ qFoldIT organizes its whole stack into six named layers, each with a clear job:
 
 Alongside these six, **UEFN-TOOLBELT** (undergroundrap/UEFN-TOOLBELT, AGPL-3.0) is a powerful external toolkit qFoldIT integrates directly for Fortnite: 358 tools for autonomous level assembly, full world-state export, and -- uniquely -- real Verse gameplay-code generation, complementing qFoldIT's own MCP servers.
 
-<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+><!-- <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img src="https://qfoldit.github.io/assets/lego_l-protein.png"/>
-</a>
+</a> -->
 
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img src="https://qfoldit.github.io/assets/lego_fortnite_Genesis_Garden.jpg"/>
@@ -53,7 +56,7 @@ Alongside these six, **UEFN-TOOLBELT** (undergroundrap/UEFN-TOOLBELT, AGPL-3.0) 
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
 </a>
-<br><br>
+
 This layered design is what lets a single scientific result -- a folded protein, a converged quantum simulation, a cleared drug-safety screen -- flow all the way from raw computation to a shared, walkable, competitive experience, on whichever engine a community wants to build in.
 
 ---
