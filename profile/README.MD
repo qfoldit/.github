@@ -232,9 +232,9 @@ Realtime Statistics - [CAMEO: automated benchmarking of structure prediction ser
  <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
 </a>
 
-<a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
+<!-- <a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
  <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
-</a>
+</a> -->
 
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
 <!--
