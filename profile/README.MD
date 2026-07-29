@@ -245,11 +245,23 @@ Alongside these six, **UEFN-TOOLBELT** (undergroundrap/UEFN-TOOLBELT, AGPL-3.0) 
  <img src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
 </a>
 
+<!-- <a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
+ <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
+</a>
+
+<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
+ <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
+</a> -->
+
+![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
+
+<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
+ <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
+</a>
+
 *qFoldIT — Universal Builder & Gamifier of Scientific*  
 *MPNC synced with UEFN-TOOLBELT*  
 *© qFoldIT Core Team, 2026*
-
--->
 
 <!--
 
@@ -423,19 +435,6 @@ Scientific Publications - [Playing Dice with the Universe: Programming Quantum C
 Realtime Statistics - [CAMEO: automated benchmarking of structure prediction servers, complementing CASP](https://robetta.bakerlab.org/)
 -->
 
-<!-- <a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
- <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
-</a>
-
-<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
- <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
-</a> -->
-
-![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
-
-<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
- <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
-</a>
 <!--
 ![](https://qfoldit.github.io/video/CGS_LOGO.png)
 ![](https://qfoldit.github.io/video/CGS_CENTER_WHITE.png)
