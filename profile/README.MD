@@ -1,5 +1,3 @@
-# **Gamified Quantum Molecular Drug Design for Global Science**
-
 # **qFoldIT** is a ‭«***Universal Builder & Gamifier of Scientific***».   <!-- **Gamified Quantum Molecular Drug Design for Global Science** -->
 
 <!-- ****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***». -->
@@ -17,9 +15,6 @@ players solve it → results flow back into the scientific graph.
  <img src="https://qfoldit.github.io/assets/lego_qfoldit_hero.png"/>
 </a>
 
-![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
-![](https://qfoldit.github.io/img/qfoldit_arch.png)
-
 <a href="https://www.bakerlab.org/">
  <img src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
 </a>
@@ -31,6 +26,9 @@ qFoldIT builds the connective tissue between real scientific computation and sha
 This document covers the full qFoldIT ecosystem: its architecture, its shipped capabilities, and the vision it's built toward.
 
 ---
+
+![](https://qfoldit.github.io/img/qfoldit_arch.png)
+![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
 
 ## The Architecture
 
