@@ -216,14 +216,8 @@ Sound: semantic · Camera: operation‑linked · HUD: zero
 
 All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — official LEGO Artist, creator of Tetrisphere.
 
----
-
-*qFoldIT — Universal Builder & Gamifier of Scientific*  
-*MPNC synced with UEFN-TOOLBELT*  
-*© qFoldIT Core Team, 2026*
-
 ![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
-
+<!--
 ## The Architecture
 
 qFoldIT organizes its whole stack into six named layers, each with a clear job:
@@ -250,6 +244,12 @@ Alongside these six, **UEFN-TOOLBELT** (undergroundrap/UEFN-TOOLBELT, AGPL-3.0) 
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
 </a>
+
+*qFoldIT — Universal Builder & Gamifier of Scientific*  
+*MPNC synced with UEFN-TOOLBELT*  
+*© qFoldIT Core Team, 2026*
+
+-->
 
 <!--
 
