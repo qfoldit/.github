@@ -36,7 +36,7 @@ players solve it → results flow back into the scientific graph.
 </a>
 
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
-
+![](https://qfoldit.github.io/assets/lego-standarts_3.png)
 ![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
 
 <!-- # qFoldIT -- Multiplayer Gamification of Science -->
@@ -51,8 +51,8 @@ This document covers the full qFoldIT ecosystem: its architecture, its shipped c
 ---
 
 <!--![](https://qfoldit.github.io/assets/lego-standarts_1.png)
-![](https://qfoldit.github.io/assets/lego-standarts_2.png)
-![](https://qfoldit.github.io/assets/lego-standarts_3.png)-->
+![](https://qfoldit.github.io/assets/lego-standarts_2.png) -->
+
 
 # Standards
 
