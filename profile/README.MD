@@ -33,6 +33,8 @@ players solve it → results flow back into the scientific graph.
 
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
 
+![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
+
 <a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
  <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
 </a>
@@ -235,7 +237,7 @@ Sound: semantic · Camera: operation‑linked · HUD: zero
 
 All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — official LEGO Artist, creator of Tetrisphere.
 
-![](https://raw.githubusercontent.com/qfoldit/UEFN-TOOLBELT/main/docs/dashboard_hero.png)
+
 <!--
 ## The Architecture
 
@@ -251,16 +253,6 @@ qFoldIT organizes its whole stack into six named layers, each with a clear job:
 | **Model Context Protocol (MCP)** | The transport layer, built on Anthropic's open MCP standard, that lets AI agents drive every tool in the stack. |
 
 Alongside these six, **UEFN-TOOLBELT** (undergroundrap/UEFN-TOOLBELT, AGPL-3.0) is a powerful external toolkit qFoldIT integrates directly for Fortnite: 358 tools for autonomous level assembly, full world-state export, and -- uniquely -- real Verse gameplay-code generation, complementing qFoldIT's own MCP servers.
-
-><!-- <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
- <img src="https://qfoldit.github.io/assets/lego_l-protein.png"/>
-</a> -->
-
-
-
-<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
- <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
-</a> -->
 
 *qFoldIT — Universal Builder & Gamifier of Scientific*  
 *MPNC synced with UEFN-TOOLBELT*  
