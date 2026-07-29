@@ -29,7 +29,7 @@ This document covers the full qFoldIT ecosystem: its architecture, its shipped c
 
 <!--![](https://qfoldit.github.io/assets/lego-standarts_1.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_2.png)
-![](https://qfoldit.github.io/assets/lego-standarts_3.png)==>
+![](https://qfoldit.github.io/assets/lego-standarts_3.png)-->
 
 # Standards
 
