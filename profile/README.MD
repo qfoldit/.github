@@ -230,7 +230,7 @@ Sound: semantic · Camera: operation‑linked · HUD: zero
 
 ### Appendix C. LEGO Ideas Compliance
 
-All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — official LEGO Artist, creator of Tetrisphere.
+All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — LEGO Artist, creator of Tetrisphere.
 
 
 <!--
