@@ -224,11 +224,13 @@ Sound: semantic · Camera: operation‑linked · HUD: zero
  <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
 </a>
 
+-->
+
 ![](https://qfoldit.github.io/assets/lego-standarts.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_1.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
 
-### Appendix C. LEGO Ideas Compliance -->
+<!-- ### Appendix C. LEGO Ideas Compliance -->
 
 All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — LEGO Artist, creator of Tetrisphere.
 
