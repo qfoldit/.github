@@ -13,7 +13,7 @@ players solve it → results flow back into the scientific graph.
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
 
-![](https://qfoldit.github.io/assets/lego_rick.png)
+![](https://qfoldit.github.io/assets/lego_morty.png)
 
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img src="https://qfoldit.github.io/assets/lego_fortnite_Genesis_Garden.jpg"/>
