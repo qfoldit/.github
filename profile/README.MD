@@ -208,7 +208,7 @@ Each module contains lint rules that check the scene for compliance before publi
 
 The MPNC color system is synchronised with `theme.py` (Ocean Bennett, UEFN-TOOLBELT). Active theme: `toolbelt_dark` — the base palette for all qFoldIT UI elements.
 
-### Appendix B. MCP Prompt Template -->
+### Appendix B. MCP Prompt Template
 
 Standard prompt for MCP agent:
 
@@ -228,7 +228,7 @@ Sound: semantic · Camera: operation‑linked · HUD: zero
 ![](https://qfoldit.github.io/assets/lego-standarts_1.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
 
-### Appendix C. LEGO Ideas Compliance
+### Appendix C. LEGO Ideas Compliance -->
 
 All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — LEGO Artist, creator of Tetrisphere.
 
