@@ -36,6 +36,7 @@ players solve it → results flow back into the scientific graph.
 </a>
 
 ![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
+![](https://qfoldit.github.io/assets/lego-standarts.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_1.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
 
