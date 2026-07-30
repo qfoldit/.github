@@ -35,7 +35,7 @@ players solve it → results flow back into the scientific graph.
 qFoldIT builds the connective tissue between real scientific computation and shared, playable, multiplayer worlds. Its mission is straightforward: take genuine science -- protein folding, quantum simulation, drug screening, industrial process modeling -- and give it a form people can walk through, compete over, and build together, starting with Fortnite and extending across the major game and simulation engines used in research and industry today.
 
 This document covers the full qFoldIT ecosystem: its architecture, its shipped capabilities, and the vision it's built toward.
--->
+
 
 # Standards
 
@@ -208,7 +208,7 @@ Each module contains lint rules that check the scene for compliance before publi
 
 The MPNC color system is synchronised with `theme.py` (Ocean Bennett, UEFN-TOOLBELT). Active theme: `toolbelt_dark` — the base palette for all qFoldIT UI elements.
 
-### Appendix B. MCP Prompt Template
+### Appendix B. MCP Prompt Template -->
 
 Standard prompt for MCP agent:
 
