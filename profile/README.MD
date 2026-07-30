@@ -28,7 +28,10 @@ players solve it → results flow back into the scientific graph.
 </a>
 <a href="https://youtu.be/cUbe2nmJNCI?si=8DYWOGewKnE4LdbO">
  <img src="https://qfoldit.github.io/assets/lego_uefn_scene_graph.jpg"/>
-</a>
+</a>       
+<a href="https://www.youtube.com/watch?v=Ei88G2Txiug">
+ <img src="https://qfoldit.github.io/assets/lego_template_uefn.png"/>
+</a> 
 ![](https://qfoldit.github.io/assets/lego-standarts.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_1.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
