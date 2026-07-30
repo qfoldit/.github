@@ -33,6 +33,8 @@ players solve it → results flow back into the scientific graph.
  <img src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
 </a>
 
+![](https://qfoldit.github.io/assets/lego_uefn_scene_graph.jpg)
+
 <!-- <br> <br>
 qFoldIT builds the connective tissue between real scientific computation and shared, playable, multiplayer worlds. Its mission is straightforward: take genuine science -- protein folding, quantum simulation, drug screening, industrial process modeling -- and give it a form people can walk through, compete over, and build together, starting with Fortnite and extending across the major game and simulation engines used in research and industry today.
 
