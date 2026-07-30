@@ -31,19 +31,6 @@ players solve it → results flow back into the scientific graph.
  <img src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
 </a>
 
-![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
-
-<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
- <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
-</a>
-
-![](https://qfoldit.github.io/assets/lego-standarts.png)
-![](https://qfoldit.github.io/assets/lego-standarts_1.png)
-![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
-
-<!-- # qFoldIT -- Multiplayer Gamification of Science -->
-<!-- **github.com/qfoldit** -->
-
 <!-- <br> <br>
 qFoldIT builds the connective tissue between real scientific computation and shared, playable, multiplayer worlds. Its mission is straightforward: take genuine science -- protein folding, quantum simulation, drug screening, industrial process modeling -- and give it a form people can walk through, compete over, and build together, starting with Fortnite and extending across the major game and simulation engines used in research and industry today.
 
@@ -231,6 +218,16 @@ Theme: toolbelt_dark · Max particles: [N/10] · Text: none
 Sound: semantic · Camera: operation‑linked · HUD: zero
 ```
 
+![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
+
+<a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
+ <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
+</a>
+
+![](https://qfoldit.github.io/assets/lego-standarts.png)
+![](https://qfoldit.github.io/assets/lego-standarts_1.png)
+![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
+
 ### Appendix C. LEGO Ideas Compliance
 
 All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — official LEGO Artist, creator of Tetrisphere.
@@ -323,7 +320,6 @@ qFoldIT's presence in UEFN isn't only architectural -- the organization holds a 
 
 
 *An open-science partner of the [Ersilia Open Source Initiative](https://github.com/ersilia-os/) and [Visualizing biological data](https://vizbi.org/)*
-
 
 [![License](https://img.shields.io/badge/License-Proprietary%20with%20Open%20Components-blue)](#)
 
