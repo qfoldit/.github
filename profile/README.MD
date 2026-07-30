@@ -29,6 +29,9 @@ players solve it → results flow back into the scientific graph.
 <a href="https://youtu.be/cUbe2nmJNCI?si=8DYWOGewKnE4LdbO">
  <img src="https://qfoldit.github.io/assets/lego_uefn_scene_graph.jpg"/>
 </a>
+![](https://qfoldit.github.io/assets/lego-standarts.png)
+![](https://qfoldit.github.io/assets/lego-standarts_1.png)
+![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
 
 <!-- <a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
  <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
@@ -228,10 +231,6 @@ Sound: semantic · Camera: operation‑linked · HUD: zero
 </a>
 
 -->
-
-![](https://qfoldit.github.io/assets/lego-standarts.png)
-![](https://qfoldit.github.io/assets/lego-standarts_1.png)
-![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
 
 <!-- ### Appendix C. LEGO Ideas Compliance -->
 
