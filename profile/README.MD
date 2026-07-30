@@ -31,11 +31,12 @@ players solve it → results flow back into the scientific graph.
  <img src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
 </a>
 
+![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
+
 <a href="https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/">
  <img src="https://qfoldit.github.io/video/anthropic-nvidia.png"/>
 </a>
 
-![](https://qfoldit.github.io/img/1/logo/Dell_Nvidia_Factory.png)
 ![](https://qfoldit.github.io/assets/lego-standarts.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_1.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
