@@ -7,11 +7,11 @@ players solve it → results flow back into the scientific graph.
 
 [LEGO® Fortnite Cinematic Trailer](https://www.youtube.com/watch?v=GeKTrjGdJ2E)
 
-![](https://qfoldit.github.io/assets/lego_portal_gun.png)
-
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
+
+![](https://qfoldit.github.io/assets/lego_portal_gun.png)
 
 ![](https://qfoldit.github.io/assets/lego-uefn.jpg)
 
