@@ -14,6 +14,12 @@ players solve it → results flow back into the scientific graph.
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
+<a href="https://youtu.be/1JeDko5jflY?si=BhuiCp_qxjg6JPzp">
+ <img alt="WALT DISNEY IN FORTNITE" src="https://qfoldit.github.io/assets/WALT_DISNEY_FORTNITE.jpg"/>
+</a>
+<a href="https://youtu.be/1JeDko5jflY?si=BhuiCp_qxjg6JPzp">
+ <img alt="WBD IN FORTNITE" src="https://qfoldit.github.io/assets/WBD_FORTNITE.png"/>
+</a>
 <a href="https://www.youtube.com/watch?v=NP6BfKT1VAQ">
  <img alt="Rick And Morty in UEFN Fortnite" src="https://qfoldit.github.io/assets/lego_morty.png"/>
 </a>
