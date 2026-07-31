@@ -46,6 +46,14 @@ players solve it → results flow back into the scientific graph.
 
 ---
 
+### 🌐 Unified Metaverse Runtime (Unreal Engine 6 Architecture)
+
+Under the upcoming **Unreal Engine 6 (UE6)** framework, Epic Games unifies licensing conditions and developer terms across all deployment tracks, blending the boundaries between standalone application development (UE) and meta-environments (UEFN). 
+
+For **qFoldIT**, this architecture provides complete deployment flexibility: the exact same **Universal Assembly Graph (UAG)** and **Verse / Scene Graph** configurations can run as an isolated, standalone scientific simulator with custom assets locally, or deploy seamlessly as a fully compliant, pre-validated interactive world inside the **LEGO Fortnite** ecosystem using native asset referencing—adapting to target compliance rules on-the-fly without codebase refactoring.
+
+---
+
 ℹ️ IP Compliance Notice: The Rick and Morty franchise in the LEGO style within Fortnite is governed by a private tripartite B2B intellectual property (IP) sublicensing agreement between Warner Bros. Discovery (WBD / Licensor), Epic Games (Licensee), and LEGO System A/S (Brand Owner and Co-creator of the mode). Within this pre-validated ecosystem, qFoldIT operates strictly as a structural automation layer—translating scientific datasets into platform-native Verse code via autonomous MCP servers and the Universal Assembly Graph (UAG) without importing or modifying proprietary assets.
 
 [LEGO® Rules](https://dev.epicgames.com/documentation/fortnite/lego-brand-rules-in-fortnite)
