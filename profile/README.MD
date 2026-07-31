@@ -5,11 +5,11 @@
 Scientific describes → turns into a game of any genre →
 players solve it → results flow back into the scientific graph.
 
-[LEGO® Fortnite Cinematic Trailer](https://www.youtube.com/watch?v=GeKTrjGdJ2E)
+[LEGO® / FORTNITE® Cinematic Trailer](https://www.youtube.com/watch?v=GeKTrjGdJ2E)
 
-[LEGO® Elements and LEGO Styles come to Fortnite Creative and UEFN](https://youtu.be/OHZwIdmgoCI?si=0EGJzrKTFhrxnGJc)
+[LEGO® ELEMENTS and LEGO® STYLES come to  FORTNITE® Creative and UEFN](https://youtu.be/OHZwIdmgoCI?si=0EGJzrKTFhrxnGJc)
 
-[LEGO® Rick And Morty in UEFN Fortnite](https://www.youtube.com/watch?v=NP6BfKT1VAQ)
+[EPIC GAMES® / FORTNITE® | Rick And Morty in UEFN Fortnite](https://www.youtube.com/watch?v=NP6BfKT1VAQ)
 
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
@@ -49,7 +49,7 @@ players solve it → results flow back into the scientific graph.
 
 [LEGO® Rules](https://dev.epicgames.com/documentation/fortnite/lego-brand-rules-in-fortnite)
 
-[EPIC GAMES® / FORTNITE ® Rules](https://dev.epicgames.com/documentation/fortnite/lego-brand-rules-in-fortnite)
+[EPIC GAMES® / FORTNITE® Rules](https://dev.epicgames.com/documentation/fortnite/lego-brand-rules-in-fortnite)
 
 All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — LEGO Artist, creator of Tetrisphere.
 
