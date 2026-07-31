@@ -34,7 +34,8 @@ players solve it → results flow back into the scientific graph.
 </a>       
 <a href="https://www.youtube.com/watch?v=Ei88G2Txiug">
  <img src="https://qfoldit.github.io/assets/lego_template_uefn.png"/>
-</a> 
+</a>
+
 ![](https://qfoldit.github.io/assets/lego-standarts.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_1.png)
 ![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
