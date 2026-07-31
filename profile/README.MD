@@ -46,7 +46,7 @@ players solve it → results flow back into the scientific graph.
 
 ---
 
-### 🌐 Unified Metaverse Runtime (Unreal Engine 6 Architecture)
+### 🌐 Unified Metaverse Runtime (UE6 Architecture)
 
 Under **Unreal Engine 6 (UE6)** framework, Epic Games unifies licensing conditions and developer terms across all deployment tracks, blending the boundaries between standalone application development (UE) and meta-environments (UEFN). 
 
