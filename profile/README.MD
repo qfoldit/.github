@@ -68,7 +68,7 @@ Architecture provides complete deployment flexibility: the exact same **Universa
 
 [EPIC GAMES® / FORTNITE® Rules](https://dev.epicgames.com/documentation/fortnite/lego-brand-rules-in-fortnite)
 
-All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — LEGO Artist, creator of Tetrisphere.
+All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — qFoldIT Owner; scientific-computing contributor; Tetrisphere creator; LEGO Ideas member/LEGO artist.
 
 
 # Contact
