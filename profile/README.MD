@@ -5,6 +5,8 @@
 Scientific describes → turns into a game of any genre →
 players solve it → results flow back into the scientific graph.
 
+[Fortnite Kombat](https://youtu.be/ckHzHy-c42E?si=V7O9u8G1rUn1NxDu)
+
 [LEGO® / FORTNITE® Cinematic Trailer](https://www.youtube.com/watch?v=GeKTrjGdJ2E)
 
 [LEGO® ELEMENTS and LEGO® STYLES come to  FORTNITE® Creative and UEFN](https://youtu.be/OHZwIdmgoCI?si=0EGJzrKTFhrxnGJc)
