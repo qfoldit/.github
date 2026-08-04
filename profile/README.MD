@@ -74,14 +74,14 @@ https://github.com/qfoldit/UEFN-TOOLBELT/qfoldit/science/presets.py
 Structural Automation Layer -- abstract-token scientific presets.
 
 Full preset list (10 presets, aligned with the gamiﬁcation plan):
-  1. l_systems_rhythm        – Snoop Dogg
-  2. admet_toxicology        – Lil Peep (tribute)
+  1. l_systems               – Snoop Dogg
+  2. drug_design             – Lil Peep (tribute)
   3. genetic_patterns        – MrBeast
   4. kinetics_resistance     – Lewis Hamilton
   5. protein_engineering     – Keanu Reeves
   6. astro_membrane          – Travis Scott
   7. quantum_docking         – Rick and Morty
-  8. sequence_assembly       – Eminem
+  8. sequencing              – Eminem
   9. computer_vision         – Scarlett Johansson
  10. dopamine_receptor       – Lil Tecca
 """
