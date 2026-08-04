@@ -70,6 +70,9 @@ Architecture provides complete deployment flexibility: the exact same **Universa
 
 ℹ️ IP Compliance Notice: The Rick and Morty franchise in the LEGO style within Fortnite is governed by a private tripartite B2B intellectual property (IP) sublicensing agreement between Warner Bros. Discovery (WBD / Licensor), Epic Games (Licensee), and LEGO System A/S (Brand Owner and Co-creator of the mode). Within this pre-validated ecosystem, qFoldIT operates strictly as a structural automation layer—translating scientific datasets into platform-native Verse code via autonomous MCP servers and the Universal Assembly Graph (UAG) without importing or modifying proprietary assets.
 
+
+<!--
+
 ```python
 """
 https://github.com/qfoldit/UEFN-TOOLBELT/qfoldit/science/presets.py
@@ -99,6 +102,8 @@ from typing import Any
 from qfoldit.science.gamedesign import TeamRole
 from qfoldit.science.mcp_registry import ScienceMCPRegistry
 ```
+
+-->
 
 [WARNER BROTHERS® Rules](https://legal.wbgames.com/wbgames-legal/epic/eula/eula_epic_en_NZ.html)
 
