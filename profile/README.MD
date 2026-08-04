@@ -23,8 +23,11 @@ players solve it → results flow back into the scientific graph.
  <img alt="WBD IN FORTNITE" src="https://qfoldit.github.io/assets/WBD_FORTNITE.png"/>
 </a>
 <a href="https://www.youtube.com/watch?v=CcJsHlwFWYE">
- <img alt="WBD IN FORTNITE" src="assets/img/fortnite-lil-tecca-social.jpeg"/>
+ <img alt="LIL TECCA IN FORTNITE" src="assets/img/fortnite-lil-tecca-social.jpeg"/>
 </a> 
+<a href="https://youtu.be/13QoRmIFK0c?si=KSJkl-zToafwGt7D">
+ <img alt="SOUTH PARK IN FORTNITE" src="assets/img/fortnite_southpark.jpg"/>
+</a>
 <a href="https://www.youtube.com/watch?v=NP6BfKT1VAQ">
  <img alt="Rick And Morty in UEFN Fortnite" src="https://qfoldit.github.io/assets/lego_morty.png"/>
 </a>
