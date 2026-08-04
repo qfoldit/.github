@@ -67,6 +67,36 @@ Architecture provides complete deployment flexibility: the exact same **Universa
 
 ℹ️ IP Compliance Notice: The Rick and Morty franchise in the LEGO style within Fortnite is governed by a private tripartite B2B intellectual property (IP) sublicensing agreement between Warner Bros. Discovery (WBD / Licensor), Epic Games (Licensee), and LEGO System A/S (Brand Owner and Co-creator of the mode). Within this pre-validated ecosystem, qFoldIT operates strictly as a structural automation layer—translating scientific datasets into platform-native Verse code via autonomous MCP servers and the Universal Assembly Graph (UAG) without importing or modifying proprietary assets.
 
+```python
+"""
+https://github.com/qfoldit/UEFN-TOOLBELT/qfoldit/science/presets.py
+============================
+Structural Automation Layer -- abstract-token scientific presets.
+
+Full preset list (10 presets, aligned with the gamiﬁcation plan):
+  1. l_systems_rhythm        – Snoop Dogg
+  2. admet_toxicology        – Lil Peep (tribute)
+  3. genetic_patterns        – MrBeast
+  4. kinetics_resistance     – Lewis Hamilton
+  5. protein_engineering     – Keanu Reeves
+  6. astro_membrane          – Travis Scott
+  7. quantum_docking         – Rick and Morty
+  8. sequence_assembly       – Eminem
+  9. computer_vision         – Scarlett Johansson
+ 10. dopamine_receptor       – Lil Tecca
+"""
+
+from __future__ import annotations
+
+import hashlib
+import math
+from dataclasses import asdict, dataclass
+from typing import Any
+
+from qfoldit.science.gamedesign import TeamRole
+from qfoldit.science.mcp_registry import ScienceMCPRegistry
+```
+
 [WARNER BROTHERS® Rules](https://legal.wbgames.com/wbgames-legal/epic/eula/eula_epic_en_NZ.html)
 
 [LEGO® Rules](https://dev.epicgames.com/documentation/fortnite/lego-brand-rules-in-fortnite)
