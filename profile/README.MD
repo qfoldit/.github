@@ -111,6 +111,11 @@ from qfoldit.science.mcp_registry import ScienceMCPRegistry
 
 [EPIC GAMES® / FORTNITE® Rules](https://dev.epicgames.com/documentation/fortnite/lego-brand-rules-in-fortnite)
 
+---
+
+*Built by Ocean Bennett — [@undergroundrap](https://github.com/undergroundrap) — for the 2026 UEFN Python wave.*
+*qFoldIT extension merged from the qFoldIT team — see [qFoldIT Trust & Compliance Layer](https://github.com/qfoldit/UEFN-TOOLBELT/blob/main/README.md#qfoldit-trust--compliance-layer).*
+
 All LEGO visualisations published on ideas.lego.com on behalf of qFoldIT undergo review for MPNC and LEGO Authenticity before upload. Reviewer profile: **Vosslab** (Dr. Neil Voss) — qFoldIT Owner; scientific-computing contributor; Tetrisphere creator; LEGO Ideas member/LEGO artist.
 
 
