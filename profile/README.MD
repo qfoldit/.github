@@ -10,11 +10,11 @@ players solve it → results flow back into the scientific graph.
                             │
         ┌───────────────────┼───────────────────┐
         │                   │                   │
-      SCIENCE           GAME DESIGN         TRUST
+      SCIENCE           GAME DESIGN           TRUST
         │                   │                   │
         ▼                   ▼                   ▼
- Scientific MCP       Deterministic       Provenance /
- Registry             Game Design          Compliance
+ Scientific MCP       Deterministic        Provenance /
+   Registry             Game Design        Compliance
         │                   │                   │
         └───────────────────┼───────────────────┘
                             │
