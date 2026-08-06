@@ -11,8 +11,6 @@
 Scientific describes → turns into a game of any genre →
 players solve it → results flow back into the scientific graph.
 
----
-
 ```
                          qFoldIT
                             │
