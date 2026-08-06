@@ -31,29 +31,27 @@ players solve it → results flow back into the scientific graph.
                     Human + AI Discovery
 ```
 ```
-                         qFoldIT
-                            │
-        ┌───────────────────┼───────────────────┐
-        │                   │                   │
-      SCIENCE           GAME DESIGN           TRUST
-        │                   │                   │
-        ▼                   ▼                   ▼
-  Scientific MCP       Deterministic        Provenance /
-   Registry             Game Design          Compliance
-        │                   │                   │
-        └───────────────────┼───────────────────┘
-                            │
-                            ▼
-                       UAG / OpenUSD
-                            │
-                            ▼
-                     UEFN-TOOLBELT
-                            │
-                            ▼
-                    Interactive Science
-                            │
-                            ▼
-                    Human + AI Discovery
+                       qFoldIT
+               SCIENTIFIC RUNTIME
+                         │
+       ┌─────────────────┼──────────────────┐
+       │                 │                  │
+ SCIENCE CONTROL    EXPERIENCE        TRUST / IP
+       │                 │                  │
+ MCP Registry      Canonical State     Provenance
+       │                 │                  │
+       └─────────────────┼──────────────────┘
+                         │
+                ENGINE ADAPTER API
+                         │
+       ┌─────────────────┼──────────────────┐
+       │                 │                  │
+       ▼                 ▼                  ▼
+     UEFN              UNITY             UNIGINE
+   TOOLBELT           TOOLBELT           TOOLBELT
+       │                 │                  │
+       ▼                 ▼                  ▼
+    Fortnite           Unity             UNIGINE
 ```
 
 
