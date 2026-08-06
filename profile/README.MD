@@ -29,7 +29,8 @@ players solve it → results flow back into the scientific graph.
                             │
                             ▼
                     Human + AI Discovery
-``````
+```
+```
                          qFoldIT
                             │
         ┌───────────────────┼───────────────────┐
@@ -55,29 +56,6 @@ players solve it → results flow back into the scientific graph.
                     Human + AI Discovery
 ```
 
-```
-                      qFoldIT
-               SCIENTIFIC RUNTIME
-                         │
-       ┌─────────────────┼──────────────────┐
-       │                 │                  │
- SCIENCE CONTROL    EXPERIENCE        TRUST / IP
-       │                 │                  │
- MCP Registry      Canonical State     Provenance
-       │                 │                  │
-       └─────────────────┼──────────────────┘
-                         │
-                ENGINE ADAPTER API
-                         │
-       ┌─────────────────┼──────────────────┐
-       │                 │                  │
-       ▼                 ▼                  ▼
-     UEFN              UNITY             UNIGINE
-   TOOLBELT           TOOLBELT           TOOLBELT
-       │                 │                  │
-       ▼                 ▼                  ▼
-    Fortnite           Unity             UNIGINE
-```
 
 [JOIN qFoldIT AT FORTNITE](https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3)
 
