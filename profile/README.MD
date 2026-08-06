@@ -7,6 +7,8 @@ players solve it → results flow back into the scientific graph.
 
 [JOIN qFoldIT AT FORTNITE](https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3)
 
+[PLAY FoldIT](https://play.fold.it/)
+
 [Fortnite Kombat](https://youtu.be/ckHzHy-c42E?si=V7O9u8G1rUn1NxDu)
 
 [LEGO® / FORTNITE® Cinematic Trailer](https://www.youtube.com/watch?v=GeKTrjGdJ2E)
