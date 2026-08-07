@@ -6,14 +6,6 @@
 
 [PLAY FoldIT](https://play.fold.it/)
 
-[Fortnite Kombat](https://youtu.be/ckHzHy-c42E?si=V7O9u8G1rUn1NxDu)
-
-[LEGO® / FORTNITE® Cinematic Trailer](https://www.youtube.com/watch?v=GeKTrjGdJ2E)
-
-[LEGO® ELEMENTS and LEGO® STYLES come to  FORTNITE® Creative and UEFN](https://youtu.be/OHZwIdmgoCI?si=0EGJzrKTFhrxnGJc)
-
-[EPIC GAMES® / FORTNITE® | Rick And Morty in UEFN Fortnite](https://www.youtube.com/watch?v=NP6BfKT1VAQ)
-
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
@@ -149,6 +141,14 @@ Architecture provides complete deployment flexibility: the exact same **Universa
 ---
 
 ℹ️ IP Compliance Notice: The Rick and Morty franchise in the LEGO style within Fortnite is governed by a private tripartite B2B intellectual property (IP) sublicensing agreement between Warner Bros. Discovery (WBD / Licensor), Epic Games (Licensee), and LEGO System A/S (Brand Owner and Co-creator of the mode). Within this pre-validated ecosystem, qFoldIT operates strictly as a structural automation layer—translating scientific datasets into platform-native Verse code via autonomous MCP servers and the Universal Assembly Graph (UAG) without importing or modifying proprietary assets.
+
+[Fortnite Kombat](https://youtu.be/ckHzHy-c42E?si=V7O9u8G1rUn1NxDu)
+
+[LEGO® / FORTNITE® Cinematic Trailer](https://www.youtube.com/watch?v=GeKTrjGdJ2E)
+
+[LEGO® ELEMENTS and LEGO® STYLES come to  FORTNITE® Creative and UEFN](https://youtu.be/OHZwIdmgoCI?si=0EGJzrKTFhrxnGJc)
+
+[EPIC GAMES® / FORTNITE® | Rick And Morty in UEFN Fortnite](https://www.youtube.com/watch?v=NP6BfKT1VAQ)
 
 
 <!--
