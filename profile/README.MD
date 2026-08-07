@@ -25,10 +25,10 @@
                                   |
              +--------------------+--------------------+
              |                    |                    |
-      Canonical Actions     Capability Registry   Universal Assembly
-      (semantic verbs)      (native/adapter/       Graph (UAG)
-                             composed/emulated/     (portable scene +
-                             unsupported)            interaction state)
+      Canonical Actions    Capability Registry   Universal Assembly
+      (semantic verbs)      (native/adapter/        Graph (UAG)
+                           composed/emulated/     (portable scene +
+                             unsupported)         interaction state)
              |                    |                    |
              +--------------------+--------------------+
                                   |
