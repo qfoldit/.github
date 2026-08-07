@@ -11,6 +11,38 @@
 
 # qFoldIT
 
+```
+                       qFoldIT CONTROL PLANE
+                                  |
+          +-----------------------+-----------------------+
+          |                       |                       |
+   Scientific Registry     Experience Compiler      Trust / Provenance
+   (verified MCP servers)  (pattern -> UAG)          (IP + source gating)
+          |                       |                       |
+          +-----------------------+-----------------------+
+                                  |
+                         Canonical Contracts
+                                  |
+             +--------------------+--------------------+
+             |                    |                    |
+      Canonical Actions     Capability Registry   Universal Assembly
+      (semantic verbs)      (native/adapter/       Graph (UAG)
+                             composed/emulated/     (portable scene +
+                             unsupported)            interaction state)
+             |                    |                    |
+             +--------------------+--------------------+
+                                  |
+                            Routing Policy
+                                  |
+             +--------------------+--------------------+
+             |                    |                    |
+          UEFN Adapter        Unity Adapter       UNIGINE Adapter
+             |                    |                    |
+          UEFN Toolbelt        Unity Toolbelt      UNIGINE Toolbelt
+             |                    |                    |
+           UEFN/UE               Unity               UNIGINE
+```
+
 ### Real science. Real play.
 
 qFoldIT turns real scientific discovery into playable experiences. Fold a protein. Search for a quantum ground state. Grow a plant from first principles of light and nutrients. Screen a molecule for safety before it ever reaches a lab bench.
