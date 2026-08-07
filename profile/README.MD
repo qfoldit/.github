@@ -8,8 +8,27 @@
 | **UNITY**| 105          | 24           | 4.25                    |
 | **UNIGINE**| 84         | 23           | ~3.64                   |
 
+```
+                     qFoldIT
+                        │
+                   Universal UAG
+                        │
+        ┌───────────────┼────────────────┐
+        │               │                │
+        ▼               ▼                ▼
+      UEFN            UNITY           UNIGINE
+   358+ / 55+       105 / 24        84 / 23
+        │               │                │
+        └───────────────┼────────────────┘
+                        │
+             547+ TOOLS / 102+ CATEGORIES
+```
+
+
 Scientific describes → turns into a game of any genre →
 players solve it → results flow back into the scientific graph.
+
+
 
 ```
                          qFoldIT
