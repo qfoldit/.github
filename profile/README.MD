@@ -9,7 +9,7 @@
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
 
-# qFoldIT
+<h1><div align="center">qFoldIT</div></h1>
 
 ```
                             CONTROL PLANE
