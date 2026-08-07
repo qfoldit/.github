@@ -5,8 +5,8 @@
 | Engine   | Tools        | Categories   | Avg. Tools per Category |
 |----------|--------------|--------------|-------------------------|
 | **UEFN** | 358+         | 55+          | ~6.5                    |
-| **UNITY**| 102          | 24           | 4.25                    |
-| **UNIGINE**| 80         | 22           | ~3.64                   |
+| **UNITY**| 105          | 24           | 4.25                    |
+| **UNIGINE**| 84         | 23           | ~3.64                   |
 
 Scientific describes → turns into a game of any genre →
 players solve it → results flow back into the scientific graph.
