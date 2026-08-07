@@ -25,9 +25,12 @@
 </a>
 <a href="https://www.youtube.com/watch?v=CcJsHlwFWYE">
  <img alt="LIL TECCA IN FORTNITE" src="assets/img/fortnite-lil-tecca-social.jpeg"/>
-</a> 
+</a>
 <a href="https://youtu.be/13QoRmIFK0c?si=KSJkl-zToafwGt7D">
  <img alt="SOUTH PARK IN FORTNITE" src="assets/img/fortnite_southpark.jpg"/>
+</a>
+<a href="https://youtu.be/mqQDlH9ztL4?si=AT5_dv2jmVcYns67">
+ <img alt="THE SIMPSONS IN FORTNITE" src="assets/img/fortnite_the_simpsons.jpg"/>
 </a>
 <a href="https://www.youtube.com/watch?v=NP6BfKT1VAQ">
  <img alt="Rick And Morty in UEFN Fortnite" src="https://qfoldit.github.io/assets/lego_morty.png"/>
