@@ -8,6 +8,9 @@
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img src="https://qfoldit.github.io/assets/lego_qfoldit_hero.png"/>
+</a>
 <a href="https://youtu.be/1JeDko5jflY?si=BhuiCp_qxjg6JPzp">
  <img alt="WALT DISNEY IN FORTNITE" src="https://qfoldit.github.io/assets/WALT_DISNEY_FORTNITE.jpg"/>
 </a>
@@ -31,9 +34,6 @@
 </a>
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img src="https://qfoldit.github.io/assets/lego_fortnite_Genesis_Garden.jpg"/>
-</a>
-<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
- <img src="https://qfoldit.github.io/assets/lego_qfoldit_hero.png"/>
 </a>
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
