@@ -8,6 +8,45 @@
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
+
+# qFoldIT
+
+### Real science. Real play.
+
+qFoldIT turns real scientific discovery into playable experiences. Fold a protein. Search for a quantum ground state. Grow a plant from first principles of light and nutrients. Screen a molecule for safety before it ever reaches a lab bench.
+
+Every level you play is generated from an actual scientific computation — not a script, not a guess. If the science isn't real, the level doesn't ship.
+
+---
+
+## Play it where you already play
+
+qFoldIT experiences run inside the game engines millions of players already use:
+
+- **Fortnite / UEFN**
+- **Unity**
+- **UNIGINE**
+
+One scientific idea, built once, playable everywhere.
+
+## What's live today
+
+- 🧬 **Protein Folding Construction** — fold real proteins, level by level
+- ⚛️ **Quantum Ground-State Portal** — explore energy landscapes through a quantum search
+- 🧩 **HP-Lattice Spatial Puzzle** — a spatial puzzle built on real lattice-protein folding
+- 🛡️ **ADMET Safety Strategy** — screen molecules for safety the way real researchers do
+- 🌱 **Procedural Growth (L-Systems)** — grow a plant shaped by real light and nutrient rules
+
+More scientific domains are on the way — each one only goes live once it's backed by a verified scientific engine.
+
+## Our promise
+
+We don't fake the science. A qFoldIT level is only themed, titled, and released once it's connected to a real, working scientific result. If we don't have that yet, we don't ship the skin — we keep building instead.
+
+## Get involved
+
+qFoldIT is open source and built engine by engine. Check out the individual toolbelt repositories to see how each engine brings the science to life, or follow the roadmap to see what's unlocking next.
+
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img src="https://qfoldit.github.io/assets/lego_qfoldit_hero.png"/>
 </a>
