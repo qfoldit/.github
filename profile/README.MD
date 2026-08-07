@@ -1,5 +1,4 @@
 <!-- # **qFoldIT** is a ‭«***Universal Builder & Gamifier of Scientific***». -->  <!-- **Gamified Quantum Molecular Drug Design for Global Science** -->
-
 <!-- ****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***». -->
 
 [JOIN qFoldIT AT FORTNITE](https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3)
@@ -17,6 +16,9 @@
 </a>
 <a href="https://www.youtube.com/watch?v=CcJsHlwFWYE">
  <img alt="LIL TECCA IN FORTNITE" src="assets/img/fortnite-lil-tecca-social.jpeg"/>
+</a>
+<a href="https://youtu.be/3S2pokF2xz4?si=DbMGsx7qGTUwUsAw">
+ <img alt="FUTURAMA IN FORTNITE" src="assets/img/fortnite_futurama.jpg"/>
 </a>
 <a href="https://youtu.be/13QoRmIFK0c?si=KSJkl-zToafwGt7D">
  <img alt="SOUTH PARK IN FORTNITE" src="assets/img/fortnite_southpark.jpg"/>
