@@ -9,7 +9,7 @@
  <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
 
-<h1><div align="center">qFoldIT</div></h1>
+<h1> <div align="center">qFoldIT</div> </h1>
 
 ```
                             CONTROL PLANE
@@ -43,7 +43,7 @@
            UEFN/UE               Unity               UNIGINE
 ```
 
-### Real science. Real play.
+<h1> <div align="center">Real science. Real play.</div> </h1>
 
 qFoldIT turns real scientific discovery into playable experiences. Fold a protein. Search for a quantum ground state. Grow a plant from first principles of light and nutrients. Screen a molecule for safety before it ever reaches a lab bench.
 
