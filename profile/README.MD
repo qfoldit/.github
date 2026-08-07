@@ -2,84 +2,6 @@
 
 <!-- ****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***». -->
 
-| Engine   | Tools        | Categories   | Avg. Tools per Category |
-|----------|--------------|--------------|-------------------------|
-| **UEFN** | 358+         | 55+          | ~6.5                    |
-| **UNITY**| 105          | 24           | 4.25                    |
-| **UNIGINE**| 84         | 23           | ~3.64                   |
-
-```
-                     qFoldIT
-                        │
-                   Universal UAG
-                        │
-        ┌───────────────┼────────────────┐
-        │               │                │
-        ▼               ▼                ▼
-      UEFN            UNITY           UNIGINE
-   358+ / 55+       105 / 24        84 / 23
-        │               │                │
-        └───────────────┼────────────────┘
-                        │
-             547+ TOOLS / 102+ CATEGORIES
-```
-
-
-Scientific describes → turns into a game of any genre →
-players solve it → results flow back into the scientific graph.
-
-
-
-```
-                         qFoldIT
-                            │
-        ┌───────────────────┼───────────────────┐
-        │                   │                   │
-      SCIENCE           GAME DESIGN           TRUST
-        │                   │                   │
-        ▼                   ▼                   ▼
- Scientific MCP       Deterministic        Provenance /
-   Registry             Game Design        Compliance
-        │                   │                   │
-        └───────────────────┼───────────────────┘
-                            │
-                            ▼
-                       UAG / OpenUSD
-                            │
-                            ▼
-                     UEFN-TOOLBELT
-                            │
-                            ▼
-                    Interactive Science
-                            │
-                            ▼
-                    Human + AI Discovery
-```
-```
-                       qFoldIT
-               SCIENTIFIC RUNTIME
-                         │
-       ┌─────────────────┼──────────────────┐
-       │                 │                  │
- SCIENCE CONTROL    EXPERIENCE        TRUST / IP
-       │                 │                  │
- MCP Registry      Canonical State     Provenance
-       │                 │                  │
-       └─────────────────┼──────────────────┘
-                         │
-                ENGINE ADAPTER API
-                         │
-       ┌─────────────────┼──────────────────┐
-       │                 │                  │
-       ▼                 ▼                  ▼
-     UEFN              UNITY             UNIGINE
-   TOOLBELT           TOOLBELT           TOOLBELT
-       │                 │                  │
-       ▼                 ▼                  ▼
-    Fortnite           Unity             UNIGINE
-```
-
-
 [JOIN qFoldIT AT FORTNITE](https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3)
 
 [PLAY FoldIT](https://play.fold.it/)
@@ -136,6 +58,82 @@ players solve it → results flow back into the scientific graph.
 <!-- <a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
  <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
 </a> 009900-->
+
+Scientific describes → turns into a game of any genre →
+players solve it → results flow back into the scientific graph.
+
+| Engine   | Tools        | Categories   | Avg. Tools per Category |
+|----------|--------------|--------------|-------------------------|
+| **UEFN** | 358+         | 55+          | ~6.5                    |
+| **UNITY**| 105          | 24           | 4.25                    |
+| **UNIGINE**| 84         | 23           | ~3.64                   |
+
+```
+                     qFoldIT
+                        │
+                   Universal UAG
+                        │
+        ┌───────────────┼────────────────┐
+        │               │                │
+        ▼               ▼                ▼
+      UEFN            UNITY           UNIGINE
+   358+ / 55+       105 / 24        84 / 23
+        │               │                │
+        └───────────────┼────────────────┘
+                        │
+             547+ TOOLS / 102+ CATEGORIES
+```
+
+```
+                         qFoldIT
+                            │
+        ┌───────────────────┼───────────────────┐
+        │                   │                   │
+      SCIENCE           GAME DESIGN           TRUST
+        │                   │                   │
+        ▼                   ▼                   ▼
+ Scientific MCP       Deterministic        Provenance /
+   Registry             Game Design        Compliance
+        │                   │                   │
+        └───────────────────┼───────────────────┘
+                            │
+                            ▼
+                       UAG / OpenUSD
+                            │
+                            ▼
+                     UEFN-TOOLBELT
+                            │
+                            ▼
+                    Interactive Science
+                            │
+                            ▼
+                    Human + AI Discovery
+```
+```
+                       qFoldIT
+               SCIENTIFIC RUNTIME
+                         │
+       ┌─────────────────┼──────────────────┐
+       │                 │                  │
+ SCIENCE CONTROL    EXPERIENCE        TRUST / IP
+       │                 │                  │
+ MCP Registry      Canonical State     Provenance
+       │                 │                  │
+       └─────────────────┼──────────────────┘
+                         │
+                ENGINE ADAPTER API
+                         │
+       ┌─────────────────┼──────────────────┐
+       │                 │                  │
+       ▼                 ▼                  ▼
+     UEFN              UNITY             UNIGINE
+   TOOLBELT           TOOLBELT           TOOLBELT
+       │                 │                  │
+       ▼                 ▼                  ▼
+    Fortnite           Unity             UNIGINE
+```
+
+
 
 ---
 
