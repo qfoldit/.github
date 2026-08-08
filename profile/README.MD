@@ -51,7 +51,7 @@ Every level you play is generated from an actual scientific computation — not 
 
 ---
 
-<h1> <div align="center"> Play it where you already play </div> </h1>
+<h1> <div align="center"> Play it where you already play</div> </h1>
 
 qFoldIT experiences run inside the game engines millions of players already use – and now also in your browser:
 
@@ -89,7 +89,9 @@ Each platform gets its own adapter (toolbelt) that translates the canonical Univ
 | **UNIGINE**| 84         | 23           | ~3.64                   |
 | **Web**  | N/A (runtime)| N/A          | —                       |
 
-> The **WEB-TOOLBELT** is a browser-native runtime that uses Three.js for 3D rendering, Rapier.js for physics, and a WebMCP bridge to communicate with the same MCP servers as the other adapters. It deliberately does not vendor any scientific solver – it consumes canonical scientific state identically to the engine toolbelts, ensuring full parity across all platforms.
+> The **WEB-TOOLBELT** is a browser-native runtime that uses Three.js for 3D rendering, Rapier.js for physics, and a **WebMCP bridge** to communicate with the same MCP servers as the other adapters. It deliberately does not vendor any scientific solver – it consumes canonical scientific state identically to the engine toolbelts, ensuring full parity across all platforms. WEB-TOOLBELT is architected to integrate with external scientific and educational work, acknowledging:
+> - **Neil Voss / VossLab** and the **Virtual-Lab-Simulation** project as an upstream reference for browser-based laboratory simulation and scientific 3D interaction.
+> - **Silvia Holler** and the **DropleX** work as the reference observation/tracking pipeline for video analysis and active-matter experiments.
 
 The combined tool count across the three editor‑side toolbelts is **547+ tools / 102+ categories**; the web runtime adds a separate, lightweight implementation focused on high‑performance rendering and interaction in the browser.
 
@@ -157,8 +159,6 @@ The combined tool count across the three editor‑side toolbelts is **547+ tools
        ▼                 ▼                  ▼             ▼
     Fortnite           Unity             UNIGINE      Browser
 ```
-
-
 
 ---
 
