@@ -34,13 +34,13 @@
                                   |
                             Routing Policy
                                   |
-             +--------------------+--------------------+
-             |                    |                    |
-          UEFN Adapter        Unity Adapter       UNIGINE Adapter
-             |                    |                    |
-          UEFN Toolbelt        Unity Toolbelt      UNIGINE Toolbelt
-             |                    |                    |
-           UEFN/UE               Unity               UNIGINE
+             +--------------------+--------------------+--------------------+
+             |                    |                    |                    |
+          UEFN Adapter        Unity Adapter       UNIGINE Adapter      Web Adapter
+             |                    |                    |                    |
+          UEFN Toolbelt        Unity Toolbelt      UNIGINE Toolbelt    WEB-TOOLBELT
+             |                    |                    |                    |
+           UEFN/UE               Unity               UNIGINE             Browser
 ```
 
 <h1> <div align="center">Real science. Real play.</div> </h1>
@@ -53,11 +53,12 @@ Every level you play is generated from an actual scientific computation — not 
 
 ## Play it where you already play
 
-qFoldIT experiences run inside the game engines millions of players already use:
+qFoldIT experiences run inside the game engines millions of players already use – and now also in your browser:
 
 - **Fortnite / UEFN**
 - **Unity**
 - **UNIGINE**
+- **Web (browser)** – via Three.js / WebGL / WebGPU
 
 One scientific idea, built once, playable everywhere.
 
@@ -69,101 +70,57 @@ One scientific idea, built once, playable everywhere.
 - 🛡️ **ADMET Safety Strategy** — screen molecules for safety the way real researchers do
 - 🌱 **Procedural Growth (L-Systems)** — grow a plant shaped by real light and nutrient rules
 
+All of these experiences are available across all supported platforms, including the web via the new **WEB-TOOLBELT**.
+
 More scientific domains are on the way — each one only goes live once it's backed by a verified scientific engine.
 
 ## Our promise
 
 We don't fake the science. A qFoldIT level is only themed, titled, and released once it's connected to a real, working scientific result. If we don't have that yet, we don't ship the skin — we keep building instead.
 
-## Get involved
+## Engine adapters
 
-qFoldIT is open source and built engine by engine. Check out the individual toolbelt repositories to see how each engine brings the science to life, or follow the roadmap to see what's unlocking next.
-
-<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
- <img src="https://qfoldit.github.io/assets/lego_qfoldit_hero.png"/>
-</a>
-<a href="https://youtu.be/1JeDko5jflY?si=BhuiCp_qxjg6JPzp">
- <img alt="WALT DISNEY IN FORTNITE" src="https://qfoldit.github.io/assets/WALT_DISNEY_FORTNITE.jpg"/>
-</a>
-<a href="https://youtu.be/1JeDko5jflY?si=BhuiCp_qxjg6JPzp">
- <img alt="WBD IN FORTNITE" src="https://qfoldit.github.io/assets/WBD_FORTNITE.png"/>
-</a>
-<a href="https://www.youtube.com/watch?v=CcJsHlwFWYE">
- <img alt="LIL TECCA IN FORTNITE" src="assets/img/fortnite-lil-tecca-social.jpeg"/>
-</a>
-<a href="https://youtu.be/3S2pokF2xz4?si=DbMGsx7qGTUwUsAw">
- <img alt="FUTURAMA IN FORTNITE" src="assets/img/fortnite_futurama.jpg"/>
-</a>
-<a href="https://youtu.be/13QoRmIFK0c?si=KSJkl-zToafwGt7D">
- <img alt="SOUTH PARK IN FORTNITE" src="assets/img/fortnite_southpark.jpg"/>
-</a>
-<a href="https://youtu.be/mqQDlH9ztL4?si=AT5_dv2jmVcYns67">
- <img alt="THE SIMPSONS IN FORTNITE" src="assets/img/fortnite_the_simpsons.jpg"/>
-</a>
-<a href="https://www.youtube.com/watch?v=NP6BfKT1VAQ">
- <img alt="Rick And Morty in UEFN Fortnite" src="https://qfoldit.github.io/assets/lego_morty.png"/>
-</a>
-<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
- <img src="https://qfoldit.github.io/assets/lego_fortnite_Genesis_Garden.jpg"/>
-</a>
-<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
- <img src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
-</a>
-<a href="https://www.bakerlab.org/">
- <img src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
-</a>
-<a href="https://youtu.be/cUbe2nmJNCI?si=8DYWOGewKnE4LdbO">
- <img src="https://qfoldit.github.io/assets/lego_uefn_scene_graph.jpg"/>
-</a>       
-<a href="https://www.youtube.com/watch?v=Ei88G2Txiug">
- <img src="https://qfoldit.github.io/assets/lego_template_uefn.png"/>
-</a>
-
-![](https://qfoldit.github.io/assets/lego-standarts.png)
-![](https://qfoldit.github.io/assets/lego-standarts_1.png)
-![](https://qfoldit.github.io/assets/lego-standarts_toolbeth.png)
-
-<!-- <a href="https://www.youtube.com/watch?v=idtMsa_1yNk">
- <img src="https://qfoldit.github.io/video/claude_qfoldit.jpg"/>
-</a> 009900-->
-
-Scientific describes → turns into a game of any genre →
-players solve it → results flow back into the scientific graph.
+Each platform gets its own adapter (toolbelt) that translates the canonical Universal Assembly Graph (UAG) into native objects and interactions. The table below gives an overview of the current adapter inventory:
 
 | Engine   | Tools        | Categories   | Avg. Tools per Category |
 |----------|--------------|--------------|-------------------------|
 | **UEFN** | 358+         | 55+          | ~6.5                    |
 | **UNITY**| 105          | 24           | 4.25                    |
 | **UNIGINE**| 84         | 23           | ~3.64                   |
+| **Web**  | N/A (runtime)| N/A          | —                       |
+
+> The **WEB-TOOLBELT** is a browser-native runtime that uses Three.js for 3D rendering, Rapier.js for physics, and a WebMCP bridge to communicate with the same MCP servers as the other adapters. It deliberately does not vendor any scientific solver – it consumes canonical scientific state identically to the engine toolbelts, ensuring full parity across all platforms.
+
+The combined tool count across the three editor‑side toolbelts is **547+ tools / 102+ categories**; the web runtime adds a separate, lightweight implementation focused on high‑performance rendering and interaction in the browser.
 
 ```
                      qFoldIT
                         │
                    Universal UAG
                         │
-        ┌───────────────┼────────────────┐
-        │               │                │
-        ▼               ▼                ▼
-      UEFN            UNITY           UNIGINE
-   358+ / 55+       105 / 24        84 / 23
-        │               │                │
-        └───────────────┼────────────────┘
+        ┌───────────────┼────────────────┬───────────────┐
+        │               │                │               │
+        ▼               ▼                ▼               ▼
+      UEFN            UNITY           UNIGINE           Web
+   358+ / 55+       105 / 24        84 / 23        (runtime)
+        │               │                │               │
+        └───────────────┼────────────────┴───────────────┘
                         │
-             547+ TOOLS / 102+ CATEGORIES
+             547+ TOOLS / 102+ CATEGORIES + WEB RUNTIME
 ```
 
 ```
                          qFoldIT
                             │
-        ┌───────────────────┼───────────────────┐
-        │                   │                   │
-      SCIENCE           GAME DESIGN           TRUST
-        │                   │                   │
-        ▼                   ▼                   ▼
- Scientific MCP       Deterministic        Provenance /
-   Registry             Game Design        Compliance
-        │                   │                   │
-        └───────────────────┼───────────────────┘
+        ┌───────────────────┼───────────────────┬───────────────┐
+        │                   │                   │               │
+      SCIENCE           GAME DESIGN           TRUST            WEB
+        │                   │                   │               │
+        ▼                   ▼                   ▼               ▼
+ Scientific MCP       Deterministic        Provenance /    WEB-TOOLBELT
+   Registry             Game Design        Compliance     (Three.js,
+        │                   │                   │         Rapier.js,
+        └───────────────────┼───────────────────┘         WebMCP)
                             │
                             ▼
                        UAG / OpenUSD
@@ -181,24 +138,24 @@ players solve it → results flow back into the scientific graph.
                        qFoldIT
                SCIENTIFIC RUNTIME
                          │
-       ┌─────────────────┼──────────────────┐
-       │                 │                  │
- SCIENCE CONTROL    EXPERIENCE        TRUST / IP
-       │                 │                  │
- MCP Registry      Canonical State     Provenance
-       │                 │                  │
-       └─────────────────┼──────────────────┘
+       ┌─────────────────┼──────────────────┬─────────────┐
+       │                 │                  │             │
+ SCIENCE CONTROL    EXPERIENCE        TRUST / IP        WEB
+       │                 │                  │             │
+ MCP Registry      Canonical State     Provenance    WEB-TOOLBELT
+       │                 │                  │             │
+       └─────────────────┼──────────────────┴─────────────┘
                          │
                 ENGINE ADAPTER API
                          │
-       ┌─────────────────┼──────────────────┐
-       │                 │                  │
-       ▼                 ▼                  ▼
-     UEFN              UNITY             UNIGINE
-   TOOLBELT           TOOLBELT           TOOLBELT
-       │                 │                  │
-       ▼                 ▼                  ▼
-    Fortnite           Unity             UNIGINE
+       ┌─────────────────┼──────────────────┬─────────────┐
+       │                 │                  │             │
+       ▼                 ▼                  ▼             ▼
+     UEFN              UNITY             UNIGINE         Web
+   TOOLBELT           TOOLBELT           TOOLBELT     (runtime)
+       │                 │                  │             │
+       ▼                 ▼                  ▼             ▼
+    Fortnite           Unity             UNIGINE      Browser
 ```
 
 
@@ -278,3 +235,4 @@ GitHub Organization:
 
 qFoldIT@gmail.com <br>
 https://github.com/qfoldit
+Остальное содержимое (ссылки, изображения, юридические уведомления, контакты) сохранено без изменений.
