@@ -235,4 +235,3 @@ GitHub Organization:
 
 qFoldIT@gmail.com <br>
 https://github.com/qfoldit
-Остальное содержимое (ссылки, изображения, юридические уведомления, контакты) сохранено без изменений.
