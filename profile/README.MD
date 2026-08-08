@@ -51,7 +51,7 @@ Every level you play is generated from an actual scientific computation — not 
 
 ---
 
-## Play it where you already play
+<h1> <div align="center"> Play it where you already play </div> </h1>
 
 qFoldIT experiences run inside the game engines millions of players already use – and now also in your browser:
 
