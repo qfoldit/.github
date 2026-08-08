@@ -62,7 +62,7 @@ qFoldIT experiences run inside the game engines millions of players already use 
 
 One scientific idea, built once, playable everywhere.
 
-## What's live today
+<h1> <div align="center"> What's live today </div> </h1>
 
 - 🧬 **Protein Folding Construction** — fold real proteins, level by level
 - ⚛️ **Quantum Ground-State Portal** — explore energy landscapes through a quantum search
@@ -74,11 +74,11 @@ All of these experiences are available across all supported platforms, including
 
 More scientific domains are on the way — each one only goes live once it's backed by a verified scientific engine.
 
-## Our promise
+<h1> <div align="center"> Our promise </div> </h1>
 
 We don't fake the science. A qFoldIT level is only themed, titled, and released once it's connected to a real, working scientific result. If we don't have that yet, we don't ship the skin — we keep building instead.
 
-## Engine adapters
+<h1> <div align="center"> Engine adapters </div> </h1>
 
 Each platform gets its own adapter (toolbelt) that translates the canonical Universal Assembly Graph (UAG) into native objects and interactions. The table below gives an overview of the current adapter inventory:
 
