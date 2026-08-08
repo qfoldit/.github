@@ -60,7 +60,7 @@ qFoldIT experiences run inside the game engines millions of players already use 
 - **UNIGINE**
 - **Web (browser)** – via Three.js / WebGL / WebGPU
 
-One scientific idea, built once, playable everywhere.
+<h1> <div align="center"> One scientific idea, built once, playable everywhere. </div> </h1>
 
 <h1> <div align="center"> What's live today </div> </h1>
 
