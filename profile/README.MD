@@ -1,6 +1,9 @@
 <!-- # **qFoldIT** is a ‭«***Universal Builder & Gamifier of Scientific***». -->  <!-- **Gamified Quantum Molecular Drug Design for Global Science** -->
 <!-- ****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***». -->
 
+
+<h1> <div align="center">qFoldIT</div> </h1>
+
 [JOIN qFoldIT AT FORTNITE](https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3)
 
 [PLAY FoldIT](https://play.fold.it/)
@@ -9,7 +12,9 @@
  <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
 
-<h1> <div align="center">qFoldIT</div> </h1>
+<a href="https://www.bakerlab.org/">
+ <img  alt="BAKER LAB QFOLDIT UEFN" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
+</a>
 
 ```
                             CONTROL PLANE
@@ -38,10 +43,47 @@
              |                    |                    |                    |
           UEFN Adapter        Unity Adapter       UNIGINE Adapter      Web Adapter
              |                    |                    |                    |
-          UEFN Toolbelt        Unity Toolbelt      UNIGINE Toolbelt    WEB-TOOLBELT
+          UEFN-TOOLBELT        UNITY-TOOLBELT      UNIGINE-TOOLBELT    WEB-TOOLBELT
              |                    |                    |                    |
-           UEFN/UE               Unity               UNIGINE             Browser
+           UEFN/UE               UNITY               UNIGINE             Browser
 ```
+
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img alt="LEGO FORTNITE BIOTECH LABORATORY" src="https://qfoldit.github.io/assets/lego_qfoldit_hero.png"/>
+</a>
+<a href="https://youtu.be/1JeDko5jflY?si=BhuiCp_qxjg6JPzp">
+ <img alt="WALT DISNEY IN FORTNITE" src="https://qfoldit.github.io/assets/WALT_DISNEY_FORTNITE.jpg"/>
+</a>
+<a href="https://youtu.be/1JeDko5jflY?si=BhuiCp_qxjg6JPzp">
+ <img alt="WBD IN FORTNITE" src="https://qfoldit.github.io/assets/WBD_FORTNITE.png"/>
+</a>
+<a href="https://www.youtube.com/watch?v=CcJsHlwFWYE">
+ <img alt="LIL TECCA IN FORTNITE" src="assets/img/fortnite-lil-tecca-social.jpeg"/>
+</a>
+<a href="https://youtu.be/3S2pokF2xz4?si=DbMGsx7qGTUwUsAw">
+ <img alt="FUTURAMA IN FORTNITE" src="assets/img/fortnite_futurama.jpg"/>
+</a>
+<a href="https://youtu.be/13QoRmIFK0c?si=KSJkl-zToafwGt7D">
+ <img alt="SOUTH PARK IN FORTNITE" src="assets/img/fortnite_southpark.jpg"/>
+</a>
+<a href="https://youtu.be/mqQDlH9ztL4?si=AT5_dv2jmVcYns67">
+ <img alt="THE SIMPSONS IN FORTNITE" src="assets/img/fortnite_the_simpsons.jpg"/>
+</a>
+<a href="https://www.youtube.com/watch?v=NP6BfKT1VAQ">
+ <img alt="Rick&Morty in UEFN Fortnite" src="https://qfoldit.github.io/assets/lego_morty.png"/>
+</a>
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img alt="LEGO FORTNITE L-SYSTEMS" src="https://qfoldit.github.io/assets/lego_fortnite_Genesis_Garden.jpg"/>
+</a>
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img alt="LEGO FORTNITE BIOTECH LABORATORY 2" src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
+</a>
+<a href="https://youtu.be/cUbe2nmJNCI?si=8DYWOGewKnE4LdbO">
+ <img alt="UEFN SCENE GRAPH" src="https://qfoldit.github.io/assets/lego_uefn_scene_graph.jpg"/>
+</a>       
+<a href="https://www.youtube.com/watch?v=Ei88G2Txiug">
+ <img alt="UEFN LEGO TEMPLATE" src="https://qfoldit.github.io/assets/lego_template_uefn.png"/>
+</a>
 
 <h1> <div align="center">Real science. Real play.</div> </h1>
 
