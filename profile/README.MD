@@ -8,6 +8,16 @@
  <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
 
+| Component | Purpose | Status |
+|---|---|---|
+| **Scientific Object Schema (SOS)** | Canonical model of scientific objects | Data Specification |
+| **Scientific Knowledge Graph (SKG)** | Relations between objects, experiments, and knowledge | Semantic Graph |
+| **Scientific Execution Model (SEM)** | Protocols, workflows, constraints, and experiment telemetry | Executable Model |
+| **Universal Assembly Graph (UAG)** | Graph for assembling digital scenes and worlds | Runtime DSL |
+| **Universal World Interface (UWI)** | Unified abstract API for interaction with game engines, simulators, and labs | Target Specification |
+| **Model Context Protocol (MCP)** | Protocol for AI interaction with tools | Existing Anthropic Standard |
+| **UEFN-TOOLBELT** | External toolkit for autonomous level assembly, Verse code generation, and full world-state export for Fortnite (UEFN), complementing MCP servers — 358 tools | External Integration |
+
 <h2 align="center"> Runtime Mapping </h2>
 
 | Layer | Component | Role in MPNC | Constraint |
