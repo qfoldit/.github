@@ -6,7 +6,7 @@
 [PLAY FoldIT](https://play.fold.it/)
 
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
- <img src="https://qfoldit.github.io/assets/lego_biotech.png"/>
+ <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
 
 <h1> <div align="center">qFoldIT</div> </h1>
