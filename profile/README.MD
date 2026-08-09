@@ -4,6 +4,10 @@
 
 <h1> <div align="center">qFoldIT</div> </h1>
 
+<h1 align="center">
+  <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">JOIN qFoldIT AT FORTNITE</a>
+</h1>
+
 ```
                             CONTROL PLANE
                                   |
@@ -35,10 +39,6 @@
              |                    |                    |                    |
            UEFN/UE               UNITY               UNIGINE             Browser
 ```
-
-<h1 align="center">
-  <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">JOIN qFoldIT AT FORTNITE</a>
-</h1>
 <h1 align="center">
   <a href="https://play.fold.it/">PLAY FoldIT</a>
 </h1>
@@ -49,7 +49,16 @@
 
 <a href="https://www.bakerlab.org/">
  <img  alt="BAKER LAB QFOLDIT UEFN" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
+</a> 
+
+<a href="https://github.com/qfoldit/UEFN-TOOLBELT">
+ <img alt="LEGO STANDARTS" src="https://qfoldit.github.io/assets/lego-standarts.png"/>
 </a>
+
+<a href="https://github.com/qfoldit/UEFN-TOOLBELT">
+ <img alt="QFOLDIT/UEFN TOOLBELT" src="https://qfoldit.github.io/assets/lego-standarts_toolbeth.png"/>
+</a>
+
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img alt="LEGO FORTNITE BIOTECH LABORATORY" src="https://qfoldit.github.io/assets/lego_qfoldit_hero.png"/>
 </a>
