@@ -75,8 +75,7 @@
 </a>
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img alt="LEGO FORTNITE BIOTECH LABORATORY 2" src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
-</a>   assets/img/UEFN-FALL-GUYS.jpg
-
+</a>
 <a href="https://forums.unrealengine.com/t/uefn-build-along-fall-guys-tools-dropper-game-mechanics/2024944">
  <img alt="UEFN FALL GUYS RALPH" src="assets/img/UEFN-FALL-GUYS.jpg"/>
 </a>
