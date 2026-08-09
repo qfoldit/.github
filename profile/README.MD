@@ -52,13 +52,11 @@
 </h1>
 
 <a href="https://github.com/qfoldit/UEFN-TOOLBELT">
- <img alt="LEGO STANDARTS" src="https://qfoldit.github.io/assets/lego-standarts.png"/>
+ <img alt="Visual Alphabet of LEGO bricks representing chemical elements (C, O, N, H, S, P, Fe) with CPK-inspired colors and shapes, and atomic mass encoded in UEFN physical properties." src="https://qfoldit.github.io/assets/lego-standarts.png"/>
 </a>
-
 <a href="https://github.com/qfoldit/UEFN-TOOLBELT">
  <img alt="QFOLDIT/UEFN TOOLBELT" src="https://qfoldit.github.io/assets/lego-standarts_toolbeth.png"/>
 </a>
-
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img alt="LEGO FORTNITE BIOTECH LABORATORY" src="https://qfoldit.github.io/assets/lego_qfoldit_hero.png"/>
 </a>
