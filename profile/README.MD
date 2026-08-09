@@ -63,6 +63,19 @@
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img alt="LEGO FORTNITE BIOTECH LABORATORY 2" src="https://qfoldit.github.io/assets/lego_qfoldit.png"/>
 </a>
+
+<h1 align="center"> qFoldIT Components — Runtime Mapping </h1>
+
+| Layer | Component | Role in MPNC | Constraint |
+|-------|-----------|--------------|------------|
+| Science | SOS | Defines LEGO geometry and CPK color of each scientific object | `1 object = 1 brick` |
+| Science | SKG | Stores visual artifacts as graph nodes; ensures 1:1 fidelity | `SKGF = 1.0` |
+| Science | SEM | Decomposes scientific operations into sequences of Atomic Cycles | `only 10 cycles` |
+| World | UAG | Assembles the scene from LEGO nodes with unified scale | `1 Å = N UU` |
+| Interface | UWI | Translates MCP commands into UEFN calls without loss of semantics | `no magic bridge` |
+| AI | MCP | Director: chooses camera, sound, presentation tempo | `text ≤ 3 words` |
+| Runtime | UEFN-TOOLBELT | Generates Verse code and checks MPNC lint rules before publishing | `lint pre‑commit` |
+
 <a href="https://youtu.be/1JeDko5jflY?si=BhuiCp_qxjg6JPzp">
  <img alt="WALT DISNEY IN FORTNITE" src="https://qfoldit.github.io/assets/WALT_DISNEY_FORTNITE.jpg"/>
 </a>
