@@ -4,6 +4,10 @@
 
 <h1> <div align="center">qFoldIT</div> </h1>
 
+<a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
+ <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
+</a>
+
 <h2 align="center"> Runtime Mapping </h2>
 
 | Layer | Component | Role in MPNC | Constraint |
@@ -16,9 +20,6 @@
 | AI | MCP | Director: chooses camera, sound, presentation tempo | `text ≤ 3 words` |
 | Runtime | UEFN-TOOLBELT | Generates Verse code and checks MPNC lint rules before publishing | `lint pre‑commit` |
 
-<a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
- <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
-</a>
 <a href="https://www.bakerlab.org/">
  <img  alt="BAKER LAB QFOLDIT UEFN" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
 </a>
