@@ -4,9 +4,12 @@
 
 <h1> <div align="center">qFoldIT</div> </h1>
 
-<h1 align="center">
-  <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">JOIN qFoldIT AT FORTNITE</a>
-</h1>
+<a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
+ <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
+</a>
+<a href="https://www.bakerlab.org/">
+ <img  alt="BAKER LAB QFOLDIT UEFN" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
+</a> 
 
 ```
                             CONTROL PLANE
@@ -39,17 +42,14 @@
              |                    |                    |                    |
            UEFN/UE               UNITY               UNIGINE             Browser
 ```
+
+<h1 align="center">
+  <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">JOIN qFoldIT AT FORTNITE</a>
+</h1>
+
 <h1 align="center">
   <a href="https://play.fold.it/">PLAY FoldIT</a>
 </h1>
-
-<a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
- <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
-</a>
-
-<a href="https://www.bakerlab.org/">
- <img  alt="BAKER LAB QFOLDIT UEFN" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
-</a> 
 
 <a href="https://github.com/qfoldit/UEFN-TOOLBELT">
  <img alt="LEGO STANDARTS" src="https://qfoldit.github.io/assets/lego-standarts.png"/>
