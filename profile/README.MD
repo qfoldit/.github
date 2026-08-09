@@ -9,7 +9,7 @@
 </a>
 <a href="https://www.bakerlab.org/">
  <img  alt="BAKER LAB QFOLDIT UEFN" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
-</a> 
+</a>
 
 ```
                             CONTROL PLANE
@@ -240,18 +240,21 @@ https://github.com/qfoldit/UEFN-TOOLBELT/qfoldit/science/presets.py
 ============================
 Structural Automation Layer -- abstract-token scientific presets.
 
-Full preset list (10 presets, aligned with the gamiﬁcation plan):
+Full preset list (12 presets, aligned with the gamiﬁcation plan):
   1. l_systems               – Snoop Dogg
   2. drug_design             – Lil Peep (tribute)
   3. genetic_patterns        – MrBeast
   4. kinetics_resistance     – Lewis Hamilton
   5. protein_engineering     – Keanu Reeves
-  6. astro_membrane          – Travis Scott
+  6. astronomy               – Travis Scott
   7. quantum_docking         – Rick and Morty
   8. sequencing              – Eminem
   9. computer_vision         – Scarlett Johansson
  10. dopamine_receptor       – Lil Tecca
+ 11. upside_down_data        – Eleven / Stranger Things
+ 12. simple_science          – Khaby Lame
 """
+```
 
 from __future__ import annotations
 
