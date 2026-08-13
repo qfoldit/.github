@@ -7,6 +7,10 @@
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img alt="GAMEPLAY - LEGO FORTNITE SCIENCE" src="https://qfoldit.github.io/assets/LEGO_HERO_POST.png"/>
+</a>
+
 
 | Layer | Component | Role in MPNC | Constraint |
 |-------|-----------|--------------|------------|
