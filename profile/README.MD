@@ -87,6 +87,9 @@
  <img alt="QFOLDIT/UEFN TOOLBELT" src="https://qfoldit.github.io/assets/lego-standarts_toolbeth.png"/>
 </a>
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img alt="GAMEPLAY - LEGO FORTNITE SCIENCE" src="assets/img/LEGO_L-SYSTEMS.png"/>
+</a>
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img alt="LEGO FORTNITE L-SYSTEMS" src="https://qfoldit.github.io/assets/lego_fortnite_Genesis_Garden.jpg"/>
 </a>
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
