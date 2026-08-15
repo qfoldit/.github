@@ -1,9 +1,9 @@
 <!-- # **qFoldIT** is a ‭«***Universal Builder & Gamifier of Scientific***». -->  <!-- **Gamified Quantum Molecular Drug Design for Global Science** -->
 <!-- ****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***». -->
 
-![CONTROL CENTER](assets/img/CONTROL_CENTER.png)
-
 <h1> <div align="center">qFoldIT</div> </h1>
+
+![CONTROL CENTER](assets/img/CONTROL_CENTER.png)
 
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
