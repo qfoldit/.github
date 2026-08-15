@@ -1,6 +1,7 @@
 <!-- # **qFoldIT** is a ‭«***Universal Builder & Gamifier of Scientific***». -->  <!-- **Gamified Quantum Molecular Drug Design for Global Science** -->
 <!-- ****qFoldIT**** is a ‭«***Universal Builder & Gamifier of Scientific Problems***». -->
 
+![CONTROL CENTER](assets/img/CONTROL_CENTER.png)
 
 <h1> <div align="center">qFoldIT</div> </h1>
 
