@@ -112,9 +112,6 @@
 <a href="https://forums.unrealengine.com/t/uefn-build-along-fall-guys-tools-dropper-game-mechanics/2024944">
  <img alt="UEFN FALL GUYS RALPH" src="assets/img/UEFN-FALL-GUYS.jpg"/>
 </a>
-<a href="https://forums.unrealengine.com/t/uefn-build-along-fall-guys-tools-dropper-game-mechanics/2024944">
- <img alt="UEFN FALL GUYS TOOLS" src="assets/img/UEFN_FALL_GUYS.jpg"/>
-</a>
 
 <a href="https://youtu.be/1JeDko5jflY?si=BhuiCp_qxjg6JPzp">
  <img alt="WALT DISNEY IN FORTNITE" src="https://qfoldit.github.io/assets/WALT_DISNEY_FORTNITE.jpg"/>
@@ -137,9 +134,12 @@
 <a href="https://www.youtube.com/watch?v=NP6BfKT1VAQ">
  <img alt="Rick&Morty in UEFN Fortnite" src="https://qfoldit.github.io/assets/lego_morty.png"/>
 </a>
+<a href="https://forums.unrealengine.com/t/uefn-build-along-fall-guys-tools-dropper-game-mechanics/2024944">
+ <img alt="UEFN FALL GUYS TOOLS" src="assets/img/UEFN_FALL_GUYS.jpg"/>
+</a>
 <a href="https://youtu.be/cUbe2nmJNCI?si=8DYWOGewKnE4LdbO">
  <img alt="UEFN SCENE GRAPH" src="https://qfoldit.github.io/assets/lego_uefn_scene_graph.jpg"/>
-</a>       
+</a>    
 <a href="https://www.youtube.com/watch?v=Ei88G2Txiug">
  <img alt="UEFN LEGO TEMPLATE" src="https://qfoldit.github.io/assets/lego_template_uefn.png"/>
 </a>
