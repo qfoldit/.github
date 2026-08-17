@@ -336,3 +336,5 @@ GitHub Organization:
 
 qFoldIT@gmail.com <br>
 https://github.com/qfoldit
+
+<h1> <div align="center">«Powered by ANTHROPIC»</div> </h1>
