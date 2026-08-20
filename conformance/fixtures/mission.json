@@ -1,0 +1,15 @@
+{
+  "schema": "qfoldit.mission/1.0",
+  "mission_id": "mission-conformance-001",
+  "version": "1.0.0",
+  "status": "published",
+  "title": "qFoldIT Conformance Mission",
+  "domain": "structural_biology",
+  "target": {
+    "type": "reference_structure",
+    "reference_id": "protected://reference/demo-001"
+  },
+  "runtime_requirements": {
+    "capabilities": ["scene.graph", "uag.validate", "uag.apply"]
+  }
+}
