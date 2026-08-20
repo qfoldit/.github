@@ -1,0 +1,17 @@
+{
+  "schema": "qfoldit.submission/1.0",
+  "submission_id": "submission-conformance-001",
+  "mission_id": "mission-conformance-001",
+  "mission_version": "1.0.0",
+  "runtime": {
+    "engine": "conformance-runtime",
+    "adapter_id": "qfoldit-conformance-adapter",
+    "adapter_version": "1.0.0"
+  },
+  "artifacts": [
+    {
+      "uri": "artifact://demo/placement.json",
+      "sha256": "demo-sha256"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "qfoldit.evidence/1.0",
+  "evidence_id": "evidence-conformance-001",
+  "submission_id": "submission-conformance-001",
+  "authority": {
+    "type": "scientific_validator",
+    "id": "qfoldit-openstructure"
+  },
+  "method": "conformance-fixture",
+  "status": "verified",
+  "result": {
+    "score": 0.95,
+    "unit": "normalized"
+  },
+  "provenance": {
+    "engine": "qfoldit-conformance",
+    "reference_uri": "protected://reference/demo-001"
+  }
+}

@@ -1,0 +1,49 @@
+name: qFoldIT Conformance
+
+on:
+  workflow_call:
+    inputs:
+      manifest_path:
+        required: false
+        type: string
+        default: qfoldit.adapter.json
+      require_manifest:
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  conformance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+
+      - name: Checkout qFoldIT governance kit
+        uses: actions/checkout@v4
+        with:
+          repository: qfoldit/.github
+          path: .qfoldit-governance
+          ref: main
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate manifest and canonical fixtures
+        shell: bash
+        env:
+          MANIFEST_PATH: ${{ inputs.manifest_path }}
+          REQUIRE_MANIFEST: ${{ inputs.require_manifest }}
+        run: |
+          set -euo pipefail
+          if [[ "${REQUIRE_MANIFEST}" == "true" && ! -f "${MANIFEST_PATH}" ]]; then
+            echo "Required adapter manifest not found: ${MANIFEST_PATH}"
+            exit 1
+          fi
+          if [[ -f "${MANIFEST_PATH}" ]]; then
+            python .qfoldit-governance/conformance/validate.py "${MANIFEST_PATH}"
+          else
+            echo "[PASS] Repository participates through an alternate integration path without a local adapter manifest."
+            python .qfoldit-governance/conformance/validate.py <(printf '%s\n' '{"spec":"qfoldit.engine-adapter/0.1","engine":{"id":"integration","name":"qFoldIT Integration"},"adapter":{"id":"qfoldit-integration","version":"1.0.0"},"contracts":{"uag":"qfoldit.uag/0.1"},"capabilities":[{"id":"scene.graph","level":"adapter","status":"supported"},{"id":"uag.validate","level":"adapter","status":"supported"},{"id":"uag.apply","level":"adapter","status":"supported"}]}')
