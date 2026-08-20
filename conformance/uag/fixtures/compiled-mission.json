@@ -1,0 +1,48 @@
+{
+  "schema": "qfoldit.mission-compiled/1.0",
+  "contracts": {
+    "mission": "qfoldit.mission/1.0",
+    "routing": "qfoldit.mission-routing/1.0",
+    "uag": "qfoldit.uag/0.1"
+  },
+  "mission": {
+    "mission_id": "mission-conformance-compiled-001",
+    "version": "1.0.0"
+  },
+  "routing": {
+    "schema": "qfoldit.mission-routing/1.0",
+    "mission_id": "mission-conformance-compiled-001",
+    "mission_version": "1.0.0",
+    "compatible": true,
+    "selected_adapter": "qfoldit-unity-toolbelt",
+    "selected_engine": "unity",
+    "missing_capabilities": [],
+    "candidates": ["qfoldit-unity-toolbelt", "qfoldit-web-toolbelt"],
+    "routing_authority": "qfoldit-mission-router",
+    "routing_policy_ref": "qfoldit.routing-policy/default/1.0"
+  },
+  "world": {
+    "schema": "qfoldit.uag/0.1",
+    "nodes": [
+      {
+        "id": "mission-root",
+        "type": "scene.graph",
+        "components": {
+          "required_capabilities": ["scene.graph", "uag.validate", "uag.apply"]
+        }
+      },
+      {
+        "id": "scientific-object-001",
+        "type": "scientific_subject/structural_biology",
+        "components": {
+          "scientific_state": "scientific-state://mission-conformance-compiled-001"
+        }
+      }
+    ]
+  },
+  "provenance": {
+    "compiler": "qfoldit-mission-compiler/1.0",
+    "mission_id": "mission-conformance-compiled-001",
+    "routing_policy_ref": "qfoldit.routing-policy/default/1.0"
+  }
+}
