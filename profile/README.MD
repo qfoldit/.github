@@ -342,4 +342,5 @@ GitHub Organization:
 qFoldIT@gmail.com <br>
 https://github.com/qfoldit
 
+<h2> <div align="center">«built on the open Model Context Protocol (MCP) standard»</div> </h2>
 <h1> <div align="center">«Powered by ANTHROPIC»</div> </h1>
