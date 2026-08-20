@@ -3,7 +3,7 @@
 
 <h1> <div align="center">qFoldIT</div> </h1>
 
-![ANTHROPIC](assets/video_cover.png)](assets/ANTHROPIC_v4_max_1920x1080.mp4)
+[![ANTHROPIC](assets/video_cover.png)](assets/ANTHROPIC_v4_max_1920x1080.mp4)
 
 ![CONTROL CENTER](assets/img/CONTROL_CENTER.png)
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
