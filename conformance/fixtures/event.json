@@ -1,0 +1,18 @@
+{
+  "schema": "qfoldit.event/1.0",
+  "event_id": "event-conformance-001",
+  "event_type": "validation.completed",
+  "occurred_at": "2026-08-20T00:00:00Z",
+  "source": "qfoldit-conformance",
+  "mission_id": "mission-conformance-001",
+  "mission_version": "1.0.0",
+  "correlation_id": "mission-conformance-001",
+  "payload": {
+    "submission_id": "submission-conformance-001",
+    "evidence_id": "evidence-conformance-001",
+    "result_hash": "demo-result-hash"
+  },
+  "provenance": {
+    "schema_version": "1.0"
+  }
+}
