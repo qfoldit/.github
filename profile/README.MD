@@ -4,6 +4,16 @@
   <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="https://qfoldit.github.io/assets/LEGO_HERO_POST.png"/>
 </p>
 
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img alt="GAMEPLAY - LEGO FORTNITE SCIENCE/TSMC" src="assets/img/TSMC_qFoldIT.png"/>
+</a>
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img alt="GAMEPLAY - LEGO FORTNITE SCIENCE" src="assets/img/LEGO_DNA_IN_LAB_1.png"/>
+</a>
+<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
+ <img alt="GAMEPLAY - LEGO FORTNITE SCIENCE" src="assets/img/LEGO_ADMET.png"/>
+</a>
+
 <h1 align="center">qFoldIT — Science, Compiled into Missions</h1>
 
 <p align="center"><strong>Contract-first scientific computing and human-in-the-loop discovery across MCP, UAG, simulation and interactive runtimes.</strong></p>
