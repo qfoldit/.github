@@ -3,6 +3,12 @@
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
+
+<h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/uefn-mcp">UEFN MCP</a> </h2>
+<a href="https://www.youtube.com/watch?v=hZHjZVVjEsE">
+ <img alt="UEFN MCP" src="assets/img/unreal_mcp.png">
+</a>
+
 [![unreal_mcp](assets/img/unreal_mcp.png)](https://www.youtube.com/watch?v=hZHjZVVjEsE)
 [![ANTHROPIC](assets/video_cover.png)](assets/ANTHROPIC_v4_max_1920x1080.mp4)
 <p align="center">
