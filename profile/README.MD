@@ -10,7 +10,6 @@
  <img alt="UEFN MCP" src="assets/img/unreal_mcp.png">
 </a>
 
-[![unreal_mcp](assets/img/unreal_mcp.png)](https://www.youtube.com/watch?v=hZHjZVVjEsE)
 [![ANTHROPIC](assets/video_cover.png)](assets/ANTHROPIC_v4_max_1920x1080.mp4)
 <p align="center">
   <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="https://qfoldit.github.io/assets/LEGO_HERO_POST.png"/>
