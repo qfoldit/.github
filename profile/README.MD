@@ -1,7 +1,6 @@
 # qFoldIT
 
 [![unreal_mcp](assets/img/unreal_mcp.png)](https://www.youtube.com/watch?v=hZHjZVVjEsE)
-
 <p align="center">
   <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="https://qfoldit.github.io/assets/LEGO_HERO_POST.png"/>
 </p>
