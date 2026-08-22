@@ -9,7 +9,7 @@
  <img alt="UEFN MCP" src="assets/img/unreal_mcp.png">
 </a> 
 
-<h2 align="center"> <a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">Anthropic protein design</a> </h2>
+<h2 align="center"><a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">Anthropic protein design</a></h2>
 
 [![ANTHROPIC](assets/video_cover.png)](assets/ANTHROPIC_v4_max_1920x1080.mp4)
 
