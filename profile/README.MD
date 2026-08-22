@@ -4,11 +4,13 @@
  <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
 
+<img alt="qFoldIT Pipeline" src="assets/img/qpipeline.png"/>
+
 <h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/uefn-mcp">UEFN MCP</a> </h2>
 
 <a href="https://www.youtube.com/watch?v=hZHjZVVjEsE">
  <img alt="UEFN MCP" src="assets/img/unreal_mcp.png">
-</a>
+</a> 
 
 <h2 align="center"> <a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">Anthropic protein design</a> </h2>
 
