@@ -12,6 +12,8 @@
 <h2 align="center"> <a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">Anthropic protein design</a> </h2>
 
 [![ANTHROPIC](assets/video_cover.png)](assets/ANTHROPIC_v4_max_1920x1080.mp4)
+
+<h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/lego-templates-in-fortnite">UEFN LEGO</a> </h2>
 <p align="center">
   <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="https://qfoldit.github.io/assets/LEGO_HERO_POST.png"/>
 </p>
