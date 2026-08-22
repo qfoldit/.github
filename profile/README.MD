@@ -4,7 +4,7 @@
  <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
 
-<img alt="qFoldIT Pipeline" src="assets/img/qpipeline.png"/>
+<img alt="qFoldIT Pipeline" src="assets/img/qpipeline_1.png"/>
 
 <h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/uefn-mcp">UEFN MCP</a> </h2>
 
