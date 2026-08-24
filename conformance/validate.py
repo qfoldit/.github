@@ -14,7 +14,10 @@ CANONICAL_CAPABILITIES = {
     "lighting", "physics", "physics.joints", "interaction", "uag.validate",
     "uag.apply", "scientific.visualization",
 }
-SUPPORTED_ADAPTER_SPECS = {"qfoldit.engine-adapter/0.1"}
+SUPPORTED_ADAPTER_SPECS = {
+    "qfoldit.engine-adapter/0.1",
+    "qfoldit.scientific-adapter/1.0",
+}
 SUPPORTED_UAG_SPECS = {"qfoldit.uag/0.1"}
 
 
@@ -31,47 +34,90 @@ def load_json(path: pathlib.Path) -> Any:
 
 
 def validate_manifest(manifest: dict[str, Any]) -> set[str]:
-    if manifest.get("spec") not in SUPPORTED_ADAPTER_SPECS:
-        fail(f"Unsupported adapter spec: {manifest.get('spec')}")
-    engine = manifest.get("engine")
+    spec = manifest.get("spec")
+    if spec not in SUPPORTED_ADAPTER_SPECS:
+        fail(f"Unsupported adapter spec: {spec}")
+
     adapter = manifest.get("adapter")
-    contracts = manifest.get("contracts")
     capabilities = manifest.get("capabilities")
-    if not isinstance(engine, dict) or not engine.get("id"):
-        fail("Manifest must declare engine.id")
     if not isinstance(adapter, dict) or not adapter.get("id") or not adapter.get("version"):
         fail("Manifest must declare adapter.id and adapter.version")
-    if not isinstance(contracts, dict) or contracts.get("uag") not in SUPPORTED_UAG_SPECS:
-        fail("Manifest must declare a supported qFoldIT UAG contract")
     if not isinstance(capabilities, list):
         fail("Manifest capabilities must be an array")
+
+    if spec == "qfoldit.engine-adapter/0.1":
+        engine = manifest.get("engine")
+        contracts = manifest.get("contracts")
+        if not isinstance(engine, dict) or not engine.get("id"):
+            fail("Legacy manifest must declare engine.id")
+        if not isinstance(contracts, dict) or contracts.get("uag") not in SUPPORTED_UAG_SPECS:
+            fail("Legacy manifest must declare a supported qFoldIT UAG contract")
+        engine_label = str(engine["id"])
+    else:
+        scientific_engine = manifest.get("scientific_engine")
+        if not isinstance(scientific_engine, str) or not scientific_engine.strip():
+            fail("Scientific manifest must declare scientific_engine")
+        domain = adapter.get("domain")
+        if not isinstance(domain, str) or not domain.strip():
+            fail("Scientific manifest must declare adapter.domain")
+        provenance = manifest.get("provenance_uri")
+        if not isinstance(provenance, str) or not provenance.strip():
+            fail("Scientific manifest must declare provenance_uri")
+        engine_label = scientific_engine
+
     seen: set[str] = set()
     for entry in capabilities:
         if not isinstance(entry, dict):
             fail("Each capability entry must be an object")
         capability_id = entry.get("id")
-        status = entry.get("status")
-        level = entry.get("level")
         if not isinstance(capability_id, str) or not capability_id:
             fail("Each capability requires a non-empty id")
         if capability_id in seen:
             fail(f"Duplicate capability: {capability_id}")
         seen.add(capability_id)
-        if status not in {"supported", "partial", "planned"}:
-            fail(f"Unsupported capability status for {capability_id}: {status}")
-        if level not in {"native", "adapter", "external"}:
-            fail(f"Unsupported capability level for {capability_id}: {level}")
+
+        if spec == "qfoldit.engine-adapter/0.1":
+            status = entry.get("status")
+            level = entry.get("level")
+            if status not in {"supported", "partial", "planned"}:
+                fail(f"Unsupported capability status for {capability_id}: {status}")
+            if level not in {"native", "adapter", "external"}:
+                fail(f"Unsupported capability level for {capability_id}: {level}")
+        else:
+            domain = entry.get("domain")
+            description = entry.get("description")
+            inputs = entry.get("input_schemas")
+            outputs = entry.get("output_schemas")
+            validators = entry.get("validator_requirements")
+            consequential = entry.get("consequential")
+            if not isinstance(domain, str) or not domain.strip():
+                fail(f"Scientific capability domain missing: {capability_id}")
+            if not isinstance(description, str) or not description.strip():
+                fail(f"Scientific capability description missing: {capability_id}")
+            if not isinstance(inputs, list) or not inputs:
+                fail(f"Scientific capability input_schemas missing: {capability_id}")
+            if not isinstance(outputs, list) or not outputs:
+                fail(f"Scientific capability output_schemas missing: {capability_id}")
+            if not isinstance(validators, list):
+                fail(f"Scientific capability validator_requirements missing: {capability_id}")
+            if not isinstance(consequential, bool):
+                fail(f"Scientific capability consequential flag missing: {capability_id}")
+            if consequential and not validators:
+                fail(f"Consequential capability must declare validator_requirements: {capability_id}")
+
     missing = sorted({"scene.graph", "uag.validate", "uag.apply"} - seen)
     if missing:
         fail(f"Required capabilities missing: {', '.join(missing)}")
     unknown = sorted(seen - CANONICAL_CAPABILITIES)
     if unknown:
         print(f"[INFO] Repository-specific capabilities: {', '.join(unknown)}")
+
     lowered = str(manifest.get("notes", "")).lower()
     for phrase in ("scientific authority", "authoritative scientific score"):
         if phrase in lowered:
             fail("Adapter notes must not claim scientific authority")
-    print(f"[PASS] Adapter manifest: {engine.get('id')} / {adapter.get('id')} {adapter.get('version')}")
+
+    print(f"[PASS] Adapter manifest: {engine_label} / {adapter.get('id')} {adapter.get('version')} [{spec}]")
     return seen
 
 
