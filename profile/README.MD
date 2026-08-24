@@ -3,6 +3,9 @@
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
+<h2 align="center"><a href="https://www.bakerlab.org/">Baker Lab
+<img alt="Baker Lab / qFoldIT visualisation" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
+</a></h2>
 <h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/uefn-mcp">UEFN MCP</a> </h2>
 <img alt="qFoldIT Pipeline" src="assets/img/qpipeline_1.png"/>
 <a href="https://www.youtube.com/watch?v=hZHjZVVjEsE">
@@ -263,10 +266,6 @@ qFoldIT distinguishes:
 Repository size, external ecosystem reach, prospect lists, TAM, gameplay hypotheses and third-party scientific achievements are not automatically qFoldIT-owned value or revenue evidence.
 
 ## Visual and interaction heritage
-
-<a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8"><img alt="LEGO brick road to open science" src="https://qfoldit.github.io/assets/lego_biotech.png"/></a>
-
-<a href="https://www.bakerlab.org/"><img alt="Baker Lab / qFoldIT visualisation" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/></a>
 
 <a href="https://github.com/qfoldit/UEFN-TOOLBELT"><img alt="qFoldIT UEFN Toolbelt" src="https://qfoldit.github.io/assets/lego-standarts_toolbeth.png"/></a>
 
