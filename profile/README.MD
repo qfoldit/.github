@@ -269,8 +269,6 @@ Repository size, external ecosystem reach, prospect lists, TAM, gameplay hypothe
 
 <a href="https://github.com/qfoldit/UEFN-TOOLBELT"><img alt="qFoldIT UEFN Toolbelt" src="https://qfoldit.github.io/assets/lego-standarts_toolbeth.png"/></a>
 
-<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3"><img alt="LEGO Fortnite Science" src="https://qfoldit.github.io/assets/LEGO_HERO_POST.png"/></a>
-
 ## Explore
 
 - [qFoldIT GitHub organization](https://github.com/qfoldit)
