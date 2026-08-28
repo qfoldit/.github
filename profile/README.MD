@@ -18,6 +18,7 @@
 
 <h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/lego-templates-in-fortnite">UEFN LEGO</a> </h2>
 <p align="center"> <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="https://qfoldit.github.io/assets/LEGO_HERO_POST.png"/> </p>
+<p align="center"> <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="assets/img/qFoldit_ide.png"/> </p>
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img alt="GAMEPLAY - LEGO FORTNITE SCIENCE/TSMC" src="assets/img/TSMC_qFoldIT.png"/>
 </a>
