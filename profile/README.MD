@@ -46,6 +46,17 @@
 
 ---
 
+## Organization Identity
+
+**Foldnite / qFoldIT** is a scientific mission infrastructure organization turning scientific and industrial objectives into governed, executable and auditable human/AI missions.
+
+**Global Headquarters:** **Elkridge, Maryland, USA**  
+**CEO:** [qFoldIT CEO](https://x.com/qFoldIT_CEO)  
+**Email:** **qFoldIT@gmail.com**
+
+**Current strategic valuation:** **US$900M**  
+This is an internal evidence-weighted strategic platform valuation. It is not an audited fairness opinion, financing price, securities valuation, or completed market transaction.
+
 ## What qFoldIT is
 
 qFoldIT is a **scientific mission platform** that converts research and industrial objectives into governed, executable and auditable human/AI missions.
@@ -108,8 +119,6 @@ Scientific Validator
 
 Claude is an orchestration and reasoning interface. **Scientific truth remains external to the conversational layer and is established by the configured scientific validators and customer-authorized reference boundaries.**
 
-qFoldIT therefore does not claim that an LLM response is itself a scientific result, nor that an interactive runtime can redefine scientific authority.
-
 ## Core architecture
 
 | Layer | Function | Representative qFoldIT surfaces |
@@ -118,31 +127,14 @@ qFoldIT therefore does not claim that an LLM response is itself a scientific res
 | Enterprise Control Plane | Customer objectives and mission lifecycle | `CORPORATE_APP` |
 | Compilation | Routing and deterministic mission compilation | `CORPORATE_APP`, conformance fixtures |
 | Scientific Object Model | Canonical scientific/world representation | `Scientific-Object-Schema`, UAG |
-| Scientific MCP Mesh | Machine-readable tools and agents | `qFold-MCP`, `Protein-MCP`, `Protein-Design-MCP`, `Atomic-MCP`, scientific skills |
+| Scientific MCP Mesh | Machine-readable tools and agents | `Protein-MCP`, `Protein-Design-MCP`, `Atomic-MCP`, scientific skills |
 | Validation Fabric | Authoritative scientific scoring | `OPENSTRUCTURE`, domain validators, quantum services |
 | Reconciliation | Runtime submission → scientific evidence | `CAMEO-REALTIME-VALIDATION`, `INDUSTRIAL-CAMEO` |
 | Runtime Mesh | Engine/browser/desktop execution | UEFN, Unity, UNIGINE, Web, Standalone |
-| Learning | Strategy/coaching/compute optimization | `learning-policy`, gameplay optimization, QOS |
-| Attention / Presentation | Participation and distribution | original/licensed narrative and game layers |
+| Learning | Strategy/coaching/compute optimization | learning-policy and mission optimization |
+| Attention / Presentation | Participation and distribution | narrative and interactive game layers |
 | Commercial Policy | Eligibility, rights, rewards and customer policy | enterprise policy layer |
 | STATE | Safe public/organizational projection | `qfoldit.github.io` |
-
-## Canonical contracts
-
-The organization is moving toward explicit, versioned boundaries rather than direct application-to-engine coupling.
-
-```text
-qfoldit.mission/1.0
-qfoldit.mission-routing/1.0
-qfoldit.mission-compiled/1.0
-qfoldit.uag/0.1
-qfoldit.event/1.0
-qfoldit.submission/1.0
-qfoldit.evidence/1.0
-qfoldit.learning-policy/1.0
-```
-
-These contracts let scientific services, enterprise applications, game engines, simulation environments and future runtimes evolve independently.
 
 ## Runtime adapters
 
@@ -164,7 +156,7 @@ One scientific representation can be delivered through multiple interaction surf
                          STANDALONE APP
 ```
 
-Runtime adapters are **execution surfaces, not scientific authorities**. The Web runtime intentionally consumes canonical state rather than embedding heavyweight scientific solvers; the Standalone runtime provides an offline-first desktop experience with local interaction and MCP bridging. Existing adapter work explicitly tracks third-party licenses and attribution.
+Runtime adapters are **execution surfaces, not scientific authorities**.
 
 ## Scientific validation
 
@@ -221,27 +213,7 @@ Policy Update
 
 The target metric is **validated scientific contribution density**, not raw playtime.
 
-## Attention Capture
-
-Game design, narrative, cultural presentation and interactive distribution are first-class platform capabilities, but they remain downstream of mission and scientific authority:
-
-```text
-Original / Licensed Presentation
-        ↓
-Quest Object
-        ↓
-Scientific Mission
-        ↓
-Human Search
-        ↓
-Validation
-        ↓
-Contribution
-```
-
-Third-party brands, entertainment franchises and external ecosystems remain governed by their own licenses and contracts. qFoldIT does not claim ownership of upstream or partner IP merely by integrating with it.
-
-## Current scientific mission domains
+## Scientific mission domains
 
 qFoldIT's mission architecture is designed for:
 
@@ -286,8 +258,10 @@ Repository size, external ecosystem reach, prospect lists, TAM, gameplay hypothe
 
 ## Contact
 
-**qFoldIT**  
-qFoldIT@gmail.com  
+**qFoldIT / Foldnite**  
+**Headquarters:** Elkridge, Maryland, USA  
+**Email:** qFoldIT@gmail.com  
+**CEO:** [qFoldIT CEO](https://x.com/qFoldIT_CEO)  
 https://github.com/qfoldit
 
 > Built on the open Model Context Protocol (MCP) standard.
