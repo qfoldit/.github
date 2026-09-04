@@ -1,4 +1,4 @@
-<h1 align="center"> qFoldIT </h1>
+<h1 align="center"> qFoldit </h1>
 
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
