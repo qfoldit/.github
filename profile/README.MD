@@ -3,6 +3,10 @@
 <a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
  <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
 </a>
+<a href="https://www.nature.com/articles/s42256-022-00501-8">
+ <img alt="An adaptive graph learning method for automated molecular interactions and properties predictions, June 2022." src="assets/nature_virtual_lab.png"/>
+</a>
+
 <h1 align="center"><a href="https://www.bakerlab.org/">Baker Lab</a></h1>
 <h1 align="center"><a href="https://www.bakerlab.org/">
 <img alt="Baker Lab / qFoldIT visualisation" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
