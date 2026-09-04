@@ -7,6 +7,9 @@
  <img alt="An adaptive graph learning method for automated molecular interactions and properties predictions, June 2022." src="assets/img/nature_virtual_lab.png"/>
 </a>
 
+<h2 align="center"><a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">Anthropic protein design</a></h2>
+
+[![ANTHROPIC](assets/video_cover.png)](assets/ANTHROPIC_v4_max_1920x1080.mp4)
 
 <h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/uefn-mcp">UEFN MCP</a> </h2>
 <img alt="qFoldIT Pipeline" src="assets/img/qpipeline_1.png"/>
@@ -18,12 +21,6 @@
 <h1 align="center"><a href="https://www.bakerlab.org/">
 <img alt="Baker Lab / qFoldIT visualisation" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
 </a></h1>
-
-
-
-<h2 align="center"><a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">Anthropic protein design</a></h2>
-
-[![ANTHROPIC](assets/video_cover.png)](assets/ANTHROPIC_v4_max_1920x1080.mp4)
 
 <h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/lego-templates-in-fortnite">UEFN LEGO</a> </h2>
 <p align="center"> <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="https://qfoldit.github.io/assets/LEGO_HERO_POST.png"/> </p>
