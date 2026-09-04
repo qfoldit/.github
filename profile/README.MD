@@ -7,15 +7,18 @@
  <img alt="An adaptive graph learning method for automated molecular interactions and properties predictions, June 2022." src="assets/img/nature_virtual_lab.png"/>
 </a>
 
-<h1 align="center"><a href="https://www.bakerlab.org/">Baker Lab</a></h1>
-<h1 align="center"><a href="https://www.bakerlab.org/">
-<img alt="Baker Lab / qFoldIT visualisation" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
-</a></h1>
+
 <h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/uefn-mcp">UEFN MCP</a> </h2>
 <img alt="qFoldIT Pipeline" src="assets/img/qpipeline_1.png"/>
 <a href="https://www.youtube.com/watch?v=hZHjZVVjEsE">
  <img alt="UEFN MCP" src="assets/img/unreal_mcp.png">
 </a> 
+
+<h1 align="center"><a href="https://www.bakerlab.org/">Baker Lab</a></h1>
+<h1 align="center"><a href="https://www.bakerlab.org/">
+<img alt="Baker Lab / qFoldIT visualisation" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
+</a></h1>
+
 <a href=" ">
  <img alt="NARRATIVE CONTROL CENTER" src="assets/img/narrative_control_concept.png">
 </a>
