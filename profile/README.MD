@@ -251,6 +251,28 @@ Repository size, external ecosystem reach, prospect lists, TAM, gameplay hypothe
 
 <a href="https://github.com/qfoldit/UEFN-TOOLBELT"><img alt="qFoldIT UEFN Toolbelt" src="https://qfoldit.github.io/assets/lego-standarts_toolbeth.png"/></a>
 
+![](assets/clientapp/01-missions.png)
+
+![](assets/clientapp/02-mission-designer.png)
+
+![](assets/clientapp/03-dispatch-preflight.png)
+
+![](assets/clientapp/04-live-runs.png)
+
+![](assets/clientapp/05-sync-center.png)
+
+![](assets/clientapp/06-validation.png)
+
+![](assets/clientapp/07-evidence.png)
+
+![](assets/clientapp/08-collaboration.png)
+
+![](assets/clientapp/09-knowledge.png)
+
+![](assets/clientapp/10-audit.png)
+
+![](assets/clientapp/11-settings.png)
+
 ## Explore
 
 - [qFoldIT GitHub organization](https://github.com/qfoldit)
