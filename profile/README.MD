@@ -24,10 +24,6 @@
 
 <h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/lego-templates-in-fortnite">UEFN LEGO</a> </h2>
 <p align="center"> <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="https://qfoldit.github.io/assets/LEGO_HERO_POST.png"/> </p>
-<a href=" ">
- <img alt="NARRATIVE CONTROL CENTER" src="assets/img/narrative_control_concept.png">
-</a>
-<p align="center"> <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="assets/img/qFoldit_ide.jpg"/> </p>
 <a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
  <img alt="GAMEPLAY - LEGO FORTNITE SCIENCE/TSMC" src="assets/img/TSMC_qFoldIT.png"/>
 </a>
@@ -247,6 +243,11 @@ Repository size, external ecosystem reach, prospect lists, TAM, gameplay hypothe
 ## Visual and interaction heritage
 
 <a href="https://github.com/qfoldit/UEFN-TOOLBELT"><img alt="qFoldIT UEFN Toolbelt" src="https://qfoldit.github.io/assets/lego-standarts_toolbeth.png"/></a>
+
+<a href=" ">
+ <img alt="NARRATIVE CONTROL CENTER" src="assets/img/narrative_control_concept.png">
+</a>
+<p align="center"> <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="assets/img/qFoldit_ide.jpg"/> </p>
 
 ![](assets/clientapp/01-missions.png)
 ![](assets/clientapp/02-mission-designer.png)
