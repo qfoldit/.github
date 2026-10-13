@@ -59,9 +59,6 @@
 **CEO:** [qFoldIT CEO](https://x.com/qFoldIT_CEO)  
 **Email:** **qFoldIT@gmail.com**
 
-**Current strategic valuation:** **US$900M**  
-This is an internal evidence-weighted strategic platform valuation. It is not an audited fairness opinion, financing price, securities valuation, or completed market transaction.
-
 ## What qFoldIT is
 
 qFoldIT is a **scientific mission platform** that converts research and industrial objectives into governed, executable and auditable human/AI missions.
