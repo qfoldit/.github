@@ -273,14 +273,6 @@ Repository size, external ecosystem reach, prospect lists, TAM, gameplay hypothe
 - [FoldIT](https://play.fold.it/)
 - [MCP standard](https://modelcontextprotocol.io/)
 
-## Contact
-
-**qFoldIT / Foldnite**  
-**Headquarters:** Elkridge, Maryland, USA  
-**Email:** qFoldIT@gmail.com  
-**CEO:** [qFoldIT CEO](https://x.com/qFoldIT_CEO)  
-https://github.com/qfoldit
-
 > Built on the open Model Context Protocol (MCP) standard.
 > 
 > Scientific authority remains with validated scientific services and authorized reference boundaries.
