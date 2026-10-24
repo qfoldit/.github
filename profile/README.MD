@@ -53,10 +53,6 @@
 
 **Foldnite / qFoldIT** is a scientific mission infrastructure organization turning scientific and industrial objectives into governed, executable and auditable human/AI missions.
 
-**Global Headquarters:** **Elkridge, Maryland, USA**  
-**CEO:** [qFoldIT CEO](https://x.com/qFoldIT_CEO)  
-**Email:** **qFoldIT@gmail.com**
-
 ## What qFoldIT is
 
 qFoldIT is a **scientific mission platform** that converts research and industrial objectives into governed, executable and auditable human/AI missions.
@@ -277,6 +273,6 @@ Repository size, external ecosystem reach, prospect lists, TAM, gameplay hypothe
 > 
 > Scientific authority remains with validated scientific services and authorized reference boundaries.
 
-## Historical profile material
-
-The previous organization profile, including its complete historical image set, contact information, links, MPNC material and presentation examples, is retained verbatim in [`profile/README-LEGACY-2026-08-21.MD`](./README-LEGACY-2026-08-21.MD).
+**Global Headquarters:** **Elkridge, Maryland, USA**  
+**CEO:** [qFoldIT CEO](https://x.com/qFoldIT_CEO)  
+**Email:** **qFoldIT@gmail.com**
