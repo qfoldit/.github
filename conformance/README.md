@@ -71,3 +71,18 @@ Canonical capabilities currently include:
 - `scientific.visualization`
 
 Repositories may expose additional capabilities, but canonical identifiers must remain stable.
+
+
+## QSIS 0.1 provider capability gate
+
+The legacy `validate.py` remains the compatibility gate for adapter manifest 0.1/1.0 and its legacy fixtures. It does not prove QSIS 0.1 conformance.
+
+The reusable workflow now also runs `validate_qsis.py` when the target repository includes `qsis/capabilities/*.json`. The QSIS validator:
+- validates each manifest against the pinned Draft 2020-12 QSIS Capability Manifest schema;
+- rejects duplicate capability IDs;
+- requires input/output schema URIs to resolve to schema files under the target repository's `qsis/schemas/` directory;
+- prints a SHA-256 digest for each validated manifest.
+
+Repositories without QSIS manifests continue to receive only the legacy compatibility check; absence of a QSIS manifest is not reported as QSIS PASS. The governance-kit schema is a mirror of UAG-SOS and its source blob SHA is recorded in `conformance/qsis/0.1/SCHEMA-SOURCE.md`.
+
+A successful schema check is static contract validation only. It does not prove that an MCP endpoint is live, that mission authorization works, or that a scientific claim has been independently validated.
