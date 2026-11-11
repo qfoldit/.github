@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qfoldit.github.io/contracts/qfoldit.evidence-record.schema.json",
+  "title": "qFoldIT Canonical EvidenceRecord",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "evidenceId",
+    "evidenceContract",
+    "missionId",
+    "missionVersion",
+    "missionInceptionSha256",
+    "submissionId",
+    "actionEnvelopeHash",
+    "runtimeId",
+    "runtimeAdapterVersion",
+    "validatorId",
+    "validatorVersion",
+    "engine",
+    "engineVersion",
+    "jobId",
+    "referenceId",
+    "referenceSha256",
+    "modelSha256",
+    "artifactReferences",
+    "validationStatus",
+    "validationVersion",
+    "createdAt",
+    "completedAt",
+    "contentHash"
+  ],
+  "properties": {
+    "evidenceId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "evidenceContract": {
+      "const": "qfoldit.evidence/1.2"
+    },
+    "missionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "missionVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "submissionId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "actionEnvelopeHash": {
+      "type": "string",
+      "pattern": "^sha256:[A-Fa-f0-9]{64}$"
+    },
+    "runtimeId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "runtimeAdapterVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validatorId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validatorVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "engine": {
+      "type": "string",
+      "minLength": 1
+    },
+    "engineVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "jobId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "referenceId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "referenceSha256": {
+      "type": "string",
+      "pattern": "^[A-Fa-f0-9]{64}$"
+    },
+    "modelSha256": {
+      "type": "string",
+      "pattern": "^[A-Fa-f0-9]{64}$"
+    },
+    "inputSha256": {
+      "type": "string",
+      "pattern": "^[A-Fa-f0-9]{64}$"
+    },
+    "outputSha256": {
+      "type": "string",
+      "pattern": "^[A-Fa-f0-9]{64}$"
+    },
+    "validationStatus": {
+      "type": "string",
+      "enum": [
+        "accepted",
+        "rejected",
+        "failed"
+      ]
+    },
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "validationVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "contentHash": {
+      "type": "string",
+      "pattern": "^sha256:[A-Fa-f0-9]{64}$"
+    },
+    "missionInceptionSha256": {
+      "type": "string",
+      "pattern": "^sha256:[A-Fa-f0-9]{64}$"
+    },
+    "artifactReferences": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "validationStatus": {
+            "const": "accepted"
+          }
+        },
+        "required": [
+          "validationStatus"
+        ]
+      },
+      "then": {
+        "required": [
+          "score"
+        ]
+      }
+    }
+  ]
+}
