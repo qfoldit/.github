@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:qfoldit:scientific-action-envelope:1.1",
+  "title": "qFoldIT Scientific Action Envelope 1.1",
+  "description": "Qualified, mission-scoped scientific action. missionInceptionSha256 is mandatory and is included in the canonical v1.1 content-hash tuple immediately after missionId.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract",
+    "envelopeId",
+    "missionId",
+    "missionInceptionSha256",
+    "sessionId",
+    "actorType",
+    "actorId",
+    "scientificObjectId",
+    "schemaVersion",
+    "stateId",
+    "parentStateId",
+    "actionType",
+    "actionPayload",
+    "runtimeId",
+    "adapterVersion",
+    "timestamp",
+    "contentHash"
+  ],
+  "properties": {
+    "contract": {
+      "const": "qfoldit.scientific-action-envelope/1.1"
+    },
+    "envelopeId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "missionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "missionInceptionSha256": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-fA-F]{64}$"
+    },
+    "sessionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actorType": {
+      "type": "string",
+      "enum": [
+        "HUMAN",
+        "AI_AGENT",
+        "ROBOT",
+        "HYBRID",
+        "SYSTEM",
+        "VALIDATOR"
+      ]
+    },
+    "actorId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scientificObjectId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schemaVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stateId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parentStateId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1
+    },
+    "actionType": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actionPayload": {},
+    "runtimeId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "adapterVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "contentHash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-fA-F]{64}$"
+    }
+  }
+}
