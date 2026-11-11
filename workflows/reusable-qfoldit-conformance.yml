@@ -49,6 +49,14 @@ jobs:
             python .qfoldit-governance/conformance/validate.py <(printf '%s\\n' '{"spec":"qfoldit.scientific-adapter/1.0","adapter":{"id":"qfoldit-integration","version":"1.0.0","domain":"integration"},"scientific_engine":"qfoldit-integration","provenance_uri":"qfoldit://adapter/integration/1.0.0","capabilities":[{"id":"scene.graph","domain":"integration","description":"integration scene graph capability","input_schemas":["qfoldit.uag/0.1"],"output_schemas":["qfoldit.uag/0.1"],"validator_requirements":[],"consequential":false},{"id":"uag.validate","domain":"integration","description":"integration validation capability","input_schemas":["qfoldit.uag/0.1"],"output_schemas":["qfoldit.validation.completed/1.1"],"validator_requirements":[],"consequential":false},{"id":"uag.apply","domain":"integration","description":"integration mutation capability","input_schemas":["qfoldit.uag/0.1","qfoldit.scientific-action-envelope/1.0"],"output_schemas":["qfoldit.scientific-action-envelope/1.0"],"validator_requirements":["qfoldit-validator"],"consequential":true}]}')
           fi
 
+      - name: Test QSIS validator (offline, synthetic fixtures)
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check "jsonschema>=4.23,<5"
+          python -m py_compile .qfoldit-governance/conformance/validate_qsis.py
+          python -m unittest discover -s .qfoldit-governance/conformance -p 'test_validate_qsis.py' -v
+
       - name: Validate QSIS 0.1 capability manifests (when present)
         shell: bash
         run: |
@@ -59,6 +67,4 @@ jobs:
             echo "[INFO] No qsis/capabilities/*.json files. Legacy compatibility gate remains active; QSIS gate is not applicable yet."
             exit 0
           fi
-          python -m pip install --disable-pip-version-check "jsonschema>=4.23,<5"
-          python -m py_compile .qfoldit-governance/conformance/validate_qsis.py
           python .qfoldit-governance/conformance/validate_qsis.py --target-root . "${manifests[@]}"
