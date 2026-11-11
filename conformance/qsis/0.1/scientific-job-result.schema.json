@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qfoldit.github.io/qsis/0.1/schemas/scientific-job-result.schema.json",
+  "title": "QSIS Scientific Job Result",
+  "description": "Execution result and artifact manifest. A successful process is not scientific validation and does not create Evidence.",
+  "type": "object", "additionalProperties": false,
+  "required": ["contract", "job_id", "status", "mission", "capability", "provider", "timing", "outputs", "execution_provenance", "scientific_validation_status", "evidence_status"],
+  "properties": {
+    "contract": { "const": "qfoldit.qsis.scientific-job-result/0.1" },
+    "job_id": { "type": "string", "format": "uuid" },
+    "status": { "enum": ["succeeded", "failed", "cancelled", "timed_out", "indeterminate"] },
+    "mission": {
+      "type": "object", "additionalProperties": false,
+      "required": ["mission_id", "mission_inception_sha256"],
+      "properties": {
+        "mission_id": { "type": "string", "minLength": 1 },
+        "mission_inception_sha256": { "$ref": "#/$defs/sha256" },
+        "submission_id": { "type": ["string", "null"], "format": "uuid" },
+        "action_envelope_sha256": { "$ref": "#/$defs/sha256OrNull" }
+      }
+    },
+    "capability": {
+      "type": "object", "additionalProperties": false,
+      "required": ["capability_id", "manifest_sha256"],
+      "properties": {
+        "capability_id": { "type": "string", "minLength": 1 },
+        "manifest_sha256": { "$ref": "#/$defs/sha256" }
+      }
+    },
+    "provider": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provider_id", "implementation_id", "provider_version"],
+      "properties": {
+        "provider_id": { "type": "string", "minLength": 1 },
+        "implementation_id": { "type": "string", "minLength": 1 },
+        "provider_version": { "type": "string", "minLength": 1 },
+        "model_id": { "type": ["string", "null"] },
+        "model_revision": { "type": ["string", "null"] },
+        "model_artifact_sha256": { "$ref": "#/$defs/sha256OrNull" },
+        "container_image_digest": { "$ref": "#/$defs/sha256OrNull" }
+      }
+    },
+    "timing": {
+      "type": "object", "additionalProperties": false,
+      "required": ["started_at", "finished_at"],
+      "properties": {
+        "queued_at": { "type": ["string", "null"], "format": "date-time" },
+        "started_at": { "type": "string", "format": "date-time" },
+        "finished_at": { "type": "string", "format": "date-time" },
+        "elapsed_seconds": { "type": ["number", "null"], "minimum": 0 }
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["artifact_id", "media_type", "format", "sha256"],
+        "properties": {
+          "artifact_id": { "type": "string", "minLength": 1 },
+          "uri": { "type": ["string", "null"], "format": "uri" },
+          "media_type": { "type": "string", "minLength": 1 },
+          "format": { "type": "string", "minLength": 1 },
+          "sha256": { "$ref": "#/$defs/sha256" },
+          "size_bytes": { "type": ["integer", "null"], "minimum": 0 }
+        }
+      }
+    },
+    "execution_provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["parameters_sha256", "environment"],
+      "properties": {
+        "parameters_sha256": { "$ref": "#/$defs/sha256" },
+        "dataset_sha256": { "$ref": "#/$defs/sha256OrNull" },
+        "reference_sha256": { "$ref": "#/$defs/sha256OrNull" },
+        "random_seed": { "type": ["integer", "null"] },
+        "environment": { "type": "object", "additionalProperties": { "type": ["string", "number", "boolean", "null"] } }
+      }
+    },
+    "metrics": { "type": "object", "additionalProperties": { "type": ["number", "string", "boolean", "null"] } },
+    "warnings": { "type": "array", "items": { "type": "string" } },
+    "limitations": { "type": "array", "items": { "type": "string" } },
+    "error": {
+      "type": ["object", "null"], "additionalProperties": false,
+      "required": ["code", "message"],
+      "properties": { "code": { "type": "string" }, "message": { "type": "string" }, "retryable": { "type": "boolean" } }
+    },
+    "scientific_validation_status": { "const": "NOT_PERFORMED" },
+    "evidence_status": { "const": "NOT_CREATED" }
+  },
+  "$defs": {
+    "sha256": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "sha256OrNull": { "oneOf": [{ "$ref": "#/$defs/sha256" }, { "type": "null" }] }
+  }
+}
