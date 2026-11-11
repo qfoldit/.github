@@ -139,7 +139,7 @@ class QsisManifestValidatorTests(unittest.TestCase):
         write_json(self.capability_dir / "evidence-authority.json", manifest)
         result = self.run_validator("qsis/capabilities/evidence-authority.json")
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn("True was expected", result.stderr)
+        self.assertIn("False was expected", result.stderr)
 
     def test_duplicate_local_schema_ids_fail(self) -> None:
         write_json(self.schema_dir / "duplicate.schema.json", self.input_schema)
