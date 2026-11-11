@@ -86,3 +86,10 @@ The reusable workflow now also runs `validate_qsis.py` when the target repositor
 Repositories without QSIS manifests continue to receive only the legacy compatibility check; absence of a QSIS manifest is not reported as QSIS PASS. The governance-kit schema is a mirror of UAG-SOS and its source blob SHA is recorded in `conformance/qsis/0.1/SCHEMA-SOURCE.md`.
 
 A successful schema check is static contract validation only. It does not prove that an MCP endpoint is live, that mission authorization works, or that a scientific claim has been independently validated.
+
+
+## Cross-contract execution lineage
+
+The QSIS validator also accepts a single manifest with `--job-request` and `--job-result`; optionally supply `--action-envelope` and `--evidence-record` to check the cross-reference chain. It compares mission/inception identities, Action Envelope hash references, capability manifest SHA-256, provider identity/version, authorization state and declared execution mode. It validates request parameters and optional Job Result metrics against the local capability schemas.
+
+This layer validates JSON schemas and structural references. It does not re-compute the Rust canonical content hash, validate an asymmetric signature or authenticate the publisher. Those checks remain in the canonical qfoldit-core and production trust-plane boundaries.
