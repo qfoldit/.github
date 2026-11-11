@@ -120,8 +120,9 @@ def validate_execution_chain(
             raise ValueError(f"Job Result mission.{key} does not match Job Request")
     if request["job_id"] != result["job_id"]:
         raise ValueError("Job Result job_id does not match Job Request")
-    if request["capability"] != result["capability"]:
-        raise ValueError("Job Result capability binding does not match Job Request")
+    for key in ("capability_id", "manifest_sha256"):
+        if result["capability"][key] != request["capability"][key]:
+            raise ValueError(f"Job Result capability.{key} does not match Job Request")
     if result_mission.get("action_envelope_sha256") != request_mission.get("action_envelope_sha256"):
         raise ValueError("Job Result action envelope hash does not match Job Request")
 
