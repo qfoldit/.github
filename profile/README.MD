@@ -1,278 +1,69 @@
-<h1 align="center">qFoldIT — Science, Compiled into Foldnite Missions</h1>
-
-<a href="https://www.cell.com/trends/biotechnology/abstract/S0167-7799(22)00034-8">
- <img alt="LEGO brick road to open science on the cover of Trends in Biotechnology, September 2022." src="https://qfoldit.github.io/assets/lego_biotech.png"/>
-</a>
-<a href="https://www.nature.com/articles/s42256-022-00501-8">
- <img alt="Predicting chemical reactivity in a digital lab. An adaptive graph learning method for automated molecular interactions and properties predictions, June 2022." src="assets/img/nature_virtual_lab.png"/>
-</a>
-
-<h2 align="center"><a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">Anthropic protein design</a></h2>
-
-[![ANTHROPIC](assets/video_cover.png)](assets/ANTHROPIC_v4_max_1920x1080.mp4)
-
-<h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/uefn-mcp">UEFN MCP</a> </h2>
-
-![](assets/img/qFoldit_Foldnite_Systems.png)
-<img alt="qFoldIT Pipeline" src="assets/img/qpipeline_1.png"/>
-<a href="https://www.youtube.com/watch?v=hZHjZVVjEsE">
- <img alt="UEFN MCP" src="assets/img/unreal_mcp.png">
-</a> 
-
-<h1 align="center"><a href="https://www.bakerlab.org/">Baker Lab</a></h1>
-<h1 align="center"><a href="https://www.bakerlab.org/">
-<img alt="Baker Lab / qFoldIT visualisation" src="https://qfoldit.github.io/assets/lego_baker_lab.png"/>
-</a></h1>
-
-<h2 align="center"> <a href="https://dev.epicgames.com/documentation/fortnite/lego-templates-in-fortnite">UEFN LEGO</a> </h2>
-<p align="center"> <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="https://qfoldit.github.io/assets/LEGO_HERO_POST.png"/> </p>
-<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
- <img alt="GAMEPLAY - LEGO FORTNITE SCIENCE/TSMC" src="assets/img/TSMC_qFoldIT.png"/>
-</a>
-<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
- <img alt="GAMEPLAY - LEGO FORTNITE SCIENCE" src="assets/img/LEGO_DNA_IN_LAB_1.png"/>
-</a>
-<a href="https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3">
- <img alt="GAMEPLAY - LEGO FORTNITE SCIENCE" src="assets/img/LEGO_ADMET.png"/>
-</a>
-
-<h1 align="center">qFoldIT — Science, Compiled into Missions</h1>
-
-<p align="center"><strong>Contract-first scientific computing and human-in-the-loop discovery across MCP, UAG, simulation and interactive runtimes.</strong></p>
-
 <p align="center">
-  <a href="https://github.com/qfoldit">GitHub Organization</a> ·
-  <a href="https://qfoldit.github.io/">Public State & Project Site</a> ·
-  <a href="https://github.com/qfoldit/IP-valuation-registry">IP & Evidence Registry</a> ·
-  <a href="https://github.com/qfoldit/IP-valuation-registry/blob/main/QFOLDIT-INTEGRATED-PLATFORM-ARCHITECTURE-2026-08-21.md">Canonical Architecture</a>
+  <img src="assets/img/LEGO_HERO_POST.png" alt="Foldnite — interactive scientific worlds and missions" width="100%"/>
 </p>
 
----
+# qFoldIT / Foldnite
 
-## Organization Identity
+**A modular platform for interactive scientific missions.**
 
-**Foldnite / qFoldIT** is a scientific mission infrastructure organization turning scientific and industrial objectives into governed, executable and auditable human/AI missions.
+qFoldIT develops the scientific, technical and governance infrastructure behind **Foldnite** — a platform for producing, executing, validating and communicating interactive scientific missions.
 
-## What qFoldIT is
+Foldnite connects scientific world-building, independent validation, pop-culture and game design, human–AI collaboration, scientific computing, cross-engine runtimes, provenance and enterprise governance.
 
-qFoldIT is a **scientific mission platform** that converts research and industrial objectives into governed, executable and auditable human/AI missions.
+## Three differentiated product modules
 
-The platform separates scientific authority from presentation, gameplay, learning and commercial policy:
+| Module | What it does |
+|---|---|
+| **Scientific World & Assembly** | VBMA + SOS + SKG + SEM + UAG: typed scientific objects, knowledge relationships, execution semantics, spatial worlds and engine-neutral assembly |
+| **Scientific Validation Fabric** | qFoldIT-adapted diagnostics, reconciliation and claim-specific independent validation |
+| **Popularization & Experience** | Pop culture, narrative, game design, characters, learning, community and science communication |
 
-```text
-Scientific / Industrial Objective
-        ↓
-Mission Contract
-        ↓
-Capability Profile
-        ↓
-Mission Router
-        ↓
-Mission Compiler
-        ↓
-UAG / Scientific Object Model
-        ↓
-Runtime Adapter
-        ↓
-Human + AI Search
-        ↓
-Submission / Event
-        ↓
-CAMEO Reconciliation
-        ↓
-Scientific Validation
-        ↓
-Evidence / Contribution Record
-        ↓
-STATE Projection
-        ↓
-Enterprise Deliverable
-```
+These are supported by seven platform services: Mission Control & Scientific Mission Factory; Scientific Computing & Scientific MCP Mesh; Human–AI Collective Work; Mission Production & Runtime; Evidence & Provenance Trust; Enterprise & Commercial Governance; and Standards & Conformance.
 
-The result is not merely a game level. It is a **validated scientific workflow** that can be rendered as an interactive experience when that is the best interface for the mission.
+## One interoperable system
 
-## qFoldIT in Claude / MCP environments
+- **FIC 1.0** is the common interoperability contract for every Foldnite block.
+- **QSIS Core 1.0** is the scientific interoperability profile for scientific providers.
+- **MCP** is a transport and tool-discovery protocol; it does not define scientific meaning or validation authority.
 
-qFoldIT is designed to operate as a **scientific capability fabric for MCP-compatible agents**, including Claude-based research workflows.
+The ten-block architecture, machine-readable registry and qualification status are published in [UAG-SOS](https://github.com/qfoldit/UAG-SOS).
 
-The correct boundary is:
+## The mission loop
 
 ```text
-Claude / Scientific Agent
-        ↓
-MCP Scientific Tools & Services
-        ↓
-qFoldIT Mission Contract
-        ↓
-UAG / Scientific Object Model
-        ↓
-Mission Compiler / Runtime Adapter
-        ↓
-Execution
-        ↓
-Scientific Validator
+Objective → Mission Inception → Protocol Lock
+         → Approved Mission Contract
+         → Scientific World + Experience
+         → Runtime + Human/AI Collaboration
+         → Candidate Submission
+         → Independent Validation
+         → Evidence → Enterprise Delivery
 ```
 
-Claude is an orchestration and reasoning interface. **Scientific truth remains external to the conversational layer and is established by the configured scientific validators and customer-authorized reference boundaries.**
+This is the governed end-to-end product model. Evidence 1.2 is the target trusted record for new qualified missions; its production publisher, signed-attestation verification and durable storage remain qualification gates. Some provider, runtime and enterprise integrations also remain under qualification; we do not represent architecture documents or planned adapters as live production deployments.
 
-## Core architecture
+## Explore the platform
 
-| Layer | Function | Representative qFoldIT surfaces |
-|---|---|---|
-| Governance | Rights, provenance, contracts, evidence | `.github`, `.github-private`, `IP-valuation-registry` |
-| Enterprise Control Plane | Customer objectives and mission lifecycle | `CORPORATE_APP` |
-| Compilation | Routing and deterministic mission compilation | `CORPORATE_APP`, conformance fixtures |
-| Scientific Object Model | Canonical scientific/world representation | `Scientific-Object-Schema`, UAG |
-| Scientific MCP Mesh | Machine-readable tools and agents | `Protein-MCP`, `Protein-Design-MCP`, `Atomic-MCP`, scientific skills |
-| Validation Fabric | Authoritative scientific scoring | `OPENSTRUCTURE`, domain validators, quantum services |
-| Reconciliation | Runtime submission → scientific evidence | `CAMEO-REALTIME-VALIDATION`, `INDUSTRIAL-CAMEO` |
-| Runtime Mesh | Engine/browser/desktop execution | UEFN, Unity, UNIGINE, Web, Standalone |
-| Learning | Strategy/coaching/compute optimization | learning-policy and mission optimization |
-| Attention / Presentation | Participation and distribution | narrative and interactive game layers |
-| Commercial Policy | Eligibility, rights, rewards and customer policy | enterprise policy layer |
-| STATE | Safe public/organizational projection | `qfoldit.github.io` |
+| Area | Repository |
+|---|---|
+| Mission/control plane | [UEFN-QFOLDIT](https://github.com/qfoldit/UEFN-QFOLDIT) |
+| Standards and schemas | [UAG-SOS](https://github.com/qfoldit/UAG-SOS) |
+| Level and scientific scene production | [RANDOM42](https://github.com/qfoldit/RANDOM42) |
+| Enterprise governance | [CORPORATE_APP](https://github.com/qfoldit/CORPORATE_APP) |
+| Structural validation boundary | [OPENSTRUCTURE](https://github.com/qfoldit/OPENSTRUCTURE) |
+| Molecular property research adapter | [GLAM](https://github.com/qfoldit/GLAM) |
+| Industrial reconciliation | [INDUSTRIAL-CAMEO](https://github.com/qfoldit/INDUSTRIAL-CAMEO) |
+| Partnership / Snezhinka records | [Foldnite-Sirius-Partnership](https://github.com/qfoldit/Foldnite-Sirius-Partnership) |
 
-## Runtime adapters
+## Standards and architecture
 
-One scientific representation can be delivered through multiple interaction surfaces:
+- [Foldnite Block Interoperability Contract 1.0](https://github.com/qfoldit/UAG-SOS/blob/main/STANDARDS/FOLDNITE/FOLDNITE-BLOCK-INTEROPERABILITY-1.0.md)
+- [QSIS Core 1.0](https://github.com/qfoldit/UAG-SOS/blob/main/STANDARDS/QSIS/QSIS-CORE-AND-PROVIDER-COMPATIBILITY-1.0.md)
+- [Machine-readable F-01…F-10 registry](https://github.com/qfoldit/UAG-SOS/blob/main/SCHEMAS/FOLDNITE/foldnite-block-interface-registry-1.0.json)
+- [Foldnite technical status](https://github.com/qfoldit/UEFN-QFOLDIT/blob/main/QFOLDIT-STATUS.md)
 
-```text
-                    Canonical UAG / Scientific State
-                                │
-          ┌─────────────────────┼─────────────────────┐
-          │                     │                     │
-        UEFN                  Unity                 UNIGINE
-          │                     │                     │
-   UEFN-TOOLBELT         UNITY-TOOLBELT       UNIGINE-TOOLBELT
-          │                     │                     │
-          └─────────────────────┼─────────────────────┘
-                                │
-                          WEB-TOOLBELT
-                                │
-                         STANDALONE APP
-```
+**Compatibility is evidence-based:** F0 is declared; F3 requires integrated producer/consumer conformance before a block is called fully compatible; F4 is the operational production qualification gate.
 
-Runtime adapters are **execution surfaces, not scientific authorities**.
+qFoldIT/Foldnite builds on the idea of game-based scientific collective search demonstrated by Foldit, with its own contracts, architecture and integrations. This is not a claim of legal succession or ownership of upstream Foldit IP. Third-party software, models, datasets and assets retain their own licences.
 
-## Scientific validation
-
-qFoldIT's current OpenStructure integration establishes a server-side scientific validation boundary with protected references and native structural scoring.
-
-```text
-CORPORATE_APP
-      ↓ authenticated server-side request
-OPENSTRUCTURE qFoldIT service
-      ↓
-OpenStructure / `ost`
-      ↓
-LDDT / local-LDDT / QS-score
-      ↓
-ValidationResult
-      ↓
-validation.completed + audit evidence
-```
-
-A failed validator does not become a score by fallback logic. This fail-closed rule is fundamental to the qFoldIT evidence model.
-
-## CAMEO and three clocks
-
-qFoldIT distinguishes:
-
-1. **Authoring clock** — target creation and mission compilation.
-2. **Runtime clock** — interaction and event capture.
-3. **Reconciliation clock** — external scientific validation and evidence publication.
-
-For UEFN this distinction is essential: live Verse execution is not treated as a direct arbitrary-network scientific client. The intended model is runtime interaction → session publication → external reconciliation → scientific validation.
-
-## Human + AI discovery
-
-qFoldIT treats players and agents as search participants rather than as sources of scientific truth.
-
-```text
-Mission State
-+ Player / Agent State
-+ Historical Outcomes
-+ Compute State
-        ↓
-Learning Policy
-        ↓
-Decision / Coaching
-        ↓
-Runtime Outcome
-        ↓
-Validation
-        ↓
-Evidence
-        ↓
-Policy Update
-```
-
-The target metric is **validated scientific contribution density**, not raw playtime.
-
-## Scientific mission domains
-
-qFoldIT's mission architecture is designed for:
-
-- protein and peptide design;
-- structural biology and molecular modeling;
-- drug discovery and ADMET;
-- synthetic biology and L-systems;
-- materials and crystal search;
-- batteries and energy storage;
-- semiconductors and AI hardware;
-- quantum computing and hybrid optimization;
-- aerospace and space science;
-- energy, hydrogen and CCUS;
-- mining and resource processing;
-- industrial engineering and process optimization;
-- scientific software and cloud AI.
-
-## Evidence discipline
-
-qFoldIT distinguishes:
-
-- **E1** — verified implementation evidence;
-- **E2** — strong architecture/product evidence;
-- **E3** — design, roadmap or option evidence;
-- **EX** — third-party/upstream evidence.
-
-Repository size, external ecosystem reach, prospect lists, TAM, gameplay hypotheses and third-party scientific achievements are not automatically qFoldIT-owned value or revenue evidence.
-
-## Visual and interaction heritage
-
-<a href="https://github.com/qfoldit/UEFN-TOOLBELT"><img alt="qFoldIT UEFN Toolbelt" src="https://qfoldit.github.io/assets/lego-standarts_toolbeth.png"/></a>
-
-<a href=" ">
- <img alt="NARRATIVE CONTROL CENTER" src="assets/img/narrative_control_concept.png">
-</a>
-<p align="center"> <img alt="qFoldIT — scientific computing, human-in-the-loop discovery and interactive runtimes" src="assets/img/qFoldit_ide.jpg"/> </p>
-
-![](assets/clientapp/01-missions.png)
-![](assets/clientapp/02-mission-designer.png)
-![](assets/clientapp/03-dispatch-preflight.png)
-![](assets/clientapp/04-live-runs.png)
-![](assets/clientapp/05-sync-center.png)
-![](assets/clientapp/06-validation.png)
-![](assets/clientapp/07-evidence.png)
-![](assets/clientapp/08-collaboration.png)
-![](assets/clientapp/09-knowledge.png)
-![](assets/clientapp/10-audit.png)
-![](assets/clientapp/11-settings.png)
-
-## Explore
-
-- [qFoldIT GitHub organization](https://github.com/qfoldit)
-- [Public project site and STATE](https://qfoldit.github.io/)
-- [Canonical Integrated Platform Architecture](https://github.com/qfoldit/IP-valuation-registry/blob/main/QFOLDIT-INTEGRATED-PLATFORM-ARCHITECTURE-2026-08-21.md)
-- [IP, provenance and valuation registry](https://github.com/qfoldit/IP-valuation-registry)
-- [UEFN / Fortnite experience](https://create.fortnite.com/join/2f8d8693-4fbf-4a21-ac3d-9a97efd6ed97/2b51a870-d7ef-40f8-8e57-73273fa578b3)
-- [FoldIT](https://play.fold.it/)
-- [MCP standard](https://modelcontextprotocol.io/)
-
-> Built on the open Model Context Protocol (MCP) standard.
-> 
-> Scientific authority remains with validated scientific services and authorized reference boundaries.
-
-**Global Headquarters:** **Elkridge, Maryland, USA**  
-**CEO:** [qFoldIT CEO](https://x.com/qFoldIT_CEO)  
-**Email:** **qFoldIT@gmail.com**
+**qFoldIT builds the infrastructure. Foldnite turns scientific objectives into governed, interactive missions.**
