@@ -36,7 +36,7 @@ Objective → Mission Inception → Protocol Lock
          → Evidence → Enterprise Delivery
 ```
 
-This is the governed end-to-end product model. Some provider, runtime, Evidence publisher and enterprise integrations remain under qualification; we do not represent architecture documents or planned adapters as live production deployments.
+This is the governed end-to-end product model. Evidence 1.2 is the target trusted record for new qualified missions; its production publisher, signed-attestation verification and durable storage remain qualification gates. Some provider, runtime and enterprise integrations also remain under qualification; we do not represent architecture documents or planned adapters as live production deployments.
 
 ## Explore the platform
 
