@@ -1,3 +1,6 @@
+
+# Epic AI MEGAJAM 2026
+
 <p align="center">
   <img src="assets/img/LEGO_HERO_POST.png" alt="Foldnite — interactive scientific worlds and missions" width="100%"/>
 </p>
