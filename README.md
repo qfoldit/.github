@@ -1,217 +1,254 @@
 # qFoldIT / Foldnite
 
-**Scientific mission infrastructure: from a research objective to an interactive, independently reviewable mission and evidence-backed deliverable.**
+**Scientific mission infrastructure: turning research objectives into standardized, executable and independently reviewable interactive missions.**
 
-qFoldIT develops the technical and scientific infrastructure behind **Foldnite** — a modular platform for producing, executing, validating and communicating interactive scientific missions.
+qFoldIT develops the standards, software and production infrastructure behind **Foldnite** — a modular platform for compiling scientific and industrial tasks into interactive scientific missions and engine-adaptable gameplay experiences.
 
-The platform combines scientific object and world assembly, independent validation workflows, science popularization and game design, human–AI collaboration, scientific computing, cross-engine runtime adapters, provenance and enterprise governance.
+Foldnite combines scientific-world representation, mission compilation, human–AI collective work, standardized scientific computing interfaces, independent validation, provenance and enterprise delivery.
 
-> **Product principle:** a scientific mission is not just a game level. It is a governed workflow connecting a real objective, typed scientific state, authorized execution, candidate submissions, independent review and evidence.
+> **A Foldnite level is not an arbitrary game map. It is the interactive execution layer of a governed scientific task.** Scientific meaning, permitted actions, source identity and validation requirements are established before presentation and remain traceable throughout execution.
 
 ---
 
-## What qFoldIT and Foldnite are
+## qFoldIT and Foldnite
 
-- **qFoldIT** is the organization and technology programme responsible for the scientific mission architecture, software, standards, integrations and research/production workflows.
-- **Foldnite** is the modular scientific mission platform built on that infrastructure.
-- **Scientific Missions** are the units of work: each has a defined objective, scientific objects, permitted methods, execution environment, acceptance criteria, validator requirements and provenance.
-- **MCP** is one supported transport for exposing tools. It is not the scientific data model, mission authority or validation standard.
+- **qFoldIT** develops the scientific mission architecture, software, standards, integrations and production workflows.
+- **Foldnite** is the modular platform that turns scientific objectives into interactive missions.
+- **A Scientific Mission** defines what is being investigated, which scientific objects and methods are in scope, what actions are allowed, how the task is executed and how candidate results are assessed.
+- **A gameplay level** is one possible runtime representation of that mission — not the scientific source of truth.
+- **MCP** is a tool-discovery and invocation protocol. It does not, by itself, define scientific data, authority, reproducibility or result acceptance.
 
-Foldnite is designed to serve scientific and industrial workflows across molecular and structural biology, chemistry, materials science, virtual laboratories, education and other domains where interactive collective work can contribute useful candidate solutions or observations.
+The platform is designed for molecular and structural biology, chemistry, materials and atomic-scale computing, quantum workflows, virtual laboratories, education and industrial/scientific simulation.
 
-## The three differentiated Foldnite modules
+## Three differentiated Foldnite modules
 
 ### 1. Scientific World & Assembly
 
 **VBMA + SOS + SKG + SEM + UAG**
 
-A shared representation layer for scientific objects, knowledge relationships, operations, spatial worlds and engine-neutral assembly.
+This module provides the common language for representing scientific objects, their relationships, operations and the worlds in which missions take place.
 
-- **VBMA** — Voxel–Block–Molecular Architecture: spatial and modular world-authoring grammar.
-- **SOS** — Scientific Object Schema: typed scientific objects, identity and state.
-- **SKG** — Scientific Knowledge Graph: relationships, claims, sources and derived knowledge.
-- **SEM** — Scientific Execution Model: operations, workflows, agents, constraints and execution traces.
-- **UAG** — Universal Assembly Graph: versioned, engine-neutral runtime assembly package.
-- **UAG-Asset** — separate asset-origin, licensing, dependency and derivative graph; not the runtime UAG.
+- **VBMA — Voxel–Block–Molecular Architecture:** a spatial and modular grammar for constructing scientific environments.
+- **SOS — Scientific Object Schema:** typed scientific objects, identity, state, properties and constraints.
+- **SKG — Scientific Knowledge Graph:** relationships between objects, claims, source material and derived knowledge.
+- **SEM — Scientific Execution Model:** operations, workflows, agents, experiments, measurements and execution context.
+- **UAG — Universal Assembly Graph:** an engine-neutral package for assembling scientific objects and environments into runtime-ready worlds.
+- **UAG-Asset:** a separate record of asset origin, licence, rights, dependencies and derivatives. It is not the runtime UAG.
 
-The same scientific meaning should survive translation between qualified runtimes. Visual simplification must not silently discard the scientific identity or relationships required by a mission.
+Together, these standards are intended to preserve scientific identity and required semantics when a mission is transformed into different visual and runtime representations. The VBMA–SOS–UAG interchange specification is currently a draft; its scope and maturity are identified in the standards registry.
 
 ### 2. Scientific Validation Fabric
 
-A qFoldIT-adapted validation and reconciliation module that keeps computational output, diagnostics, independent scientific judgement and trusted evidence separate.
+The validation module separates computational output, diagnostic checks, independent scientific judgement and trusted evidence.
 
-Its documented integration surfaces include RDKit, PoseBusters, OpenStructure and CAMEO-oriented reconciliation, with mission-specific independent validators and laboratory evidence where required.
+Its scope includes scientific data normalization, structural and molecular assessment, geometry and plausibility checks, domain-specific evaluation, reconciliation and validator-specific acceptance criteria.
 
-A solver result, model score, docking score, game score or successful tool call is **not** scientific acceptance. The validator and protocol must be appropriate to the claim being assessed.
+Validation is selected for the scientific claim being tested. There is no universal score that can replace a domain-appropriate protocol or an independent validator.
 
 ### 3. Popularization & Experience
 
 **Pop culture + narrative + game design + learning + community**
 
-The experience module translates approved scientific objectives into understandable and engaging interactive missions.
+This module translates approved scientific objectives into engaging interactive experiences. It covers mission narrative, characters, interaction design, game mechanics, learning experiences, visual communication and community participation.
 
-It covers narrative, characters, interaction design, learning experiences, visual communication, community participation and science popularization. It is a core Foldnite product module — not a decorative marketing layer.
-
-It may explain or visualize provisional findings, but it cannot modify source scientific data, validator outcomes or evidence status.
+Popularization is a core Foldnite module, not a marketing layer. It makes scientific work accessible while preserving the distinction between established findings, candidate results and hypotheses.
 
 ---
 
-## The platform services around those modules
+## From scientific task to interactive level
 
-| Block | Responsibility |
-|---|---|
-| **F-04 — Mission Control & Scientific Mission Factory** | Mission Inception, scientific triage, Protocol Lock, Mission Contract, AGDM, Gameplay IR, compilation, routing and mission orchestration |
-| **F-05 — Scientific Computing & Scientific MCP Mesh** | Versioned scientific capabilities and bounded computation through MCP or other declared provider interfaces |
-| **F-06 — Human–AI Collective Work & Agent Runtime** | Coordination of scientists, players, designers, operators and bounded AI agents |
-| **F-07 — Mission Production, Runtime & Toolbelts** | Materialization and execution through engine-specific adapters and creator tools |
-| **F-08 — Evidence & Provenance Trust Plane** | Verification of mission lineage, validator attestations and integrity before trusted Evidence publication |
-| **F-09 — Enterprise & Commercial Governance** | Partner/tenant policy, identity, rights, budgets, disclosure, delivery, attribution and settlement |
-| **F-10 — Standards, Schemas & Conformance Registry** | Normative standards, machine-readable schemas, compatibility rules, migrations and conformance tests |
-
-The ten blocks are governed as one interoperable platform. They are not ten independent products and they are not required to connect through uncontrolled all-to-all calls. Mission Control and explicit typed adapters govern the hand-offs.
-
-## Interoperability standards
-
-Two internal qFoldIT standards define the current compatibility baseline:
-
-- **Foldnite Interoperability Contract (FIC) 1.0** — common identity, mission, schema, object, artifact, event, rights, trace and version context for every Foldnite block.
-- **QSIS Core 1.0** — scientific-provider profile for capabilities, scientific jobs, observations, formats, provenance, authority and validation hand-off.
-
-**MCP remains transport and tool discovery. FIC defines cross-block context. QSIS defines scientific interoperability semantics.**
-
-The normative documents and executable registry are maintained in [qfoldit/UAG-SOS](https://github.com/qfoldit/UAG-SOS):
-
-- [Foldnite Block Interoperability Contract 1.0](https://github.com/qfoldit/UAG-SOS/blob/main/STANDARDS/FOLDNITE/FOLDNITE-BLOCK-INTEROPERABILITY-1.0.md)
-- [QSIS Core 1.0](https://github.com/qfoldit/UAG-SOS/blob/main/STANDARDS/QSIS/QSIS-CORE-AND-PROVIDER-COMPATIBILITY-1.0.md)
-- [Machine-readable block registry](https://github.com/qfoldit/UAG-SOS/blob/main/SCHEMAS/FOLDNITE/foldnite-block-interface-registry-1.0.json)
-- [Individual F-01…F-10 interface manifests](https://github.com/qfoldit/UAG-SOS/tree/main/SCHEMAS/FOLDNITE/BLOCKS)
-
-These are adopted **internal qFoldIT requirements**, not claims of formal ISO, IEC, IEEE, IETF or other standards-body ratification.
-
-### Compatibility is an evidence-based status
-
-The standard makes full compatibility mandatory as a target. It does not mean every existing provider or runtime has already passed.
-
-| Level | Meaning |
-|---|---|
-| F0 | Declared |
-| F1 | Schema aligned |
-| F2 | Contract tested |
-| F3 | Integrated producer/consumer compatibility — required before calling a block fully compatible |
-| F4 | Operationally qualified — production release gate |
-
-The current registry records all ten blocks at **F0 for FIC conformance** while the new cross-block schemas, fixtures and integration receipts are completed. This does not erase existing working subsystems; it means the new platform-wide compatibility claim has not yet been proven.
-
-Scientific providers have their own QSIS qualification gates. A catalogue entry or MCP endpoint is not automatically a qualified provider.
-
----
-
-## The Scientific Mission lifecycle
-
-The intended end-to-end workflow is:
+Foldnite is built around a standards-driven compilation process. The objective is to transform a scientific task into an executable mission package without allowing the game layer to redefine the science.
 
 ```text
-Customer / Research / Industrial Objective
-                  |
-                  v
-          Mission Inception
-                  |
-                  v
-       Scientific Triage / Protocol Lock
-                  |
-                  v
-         Approved Mission Contract
-                  |
-                  v
-        SOS / SKG / SEM + AGDM / IR
-                  |
-                  v
-         UAG + Experience Packages
-                  |
-                  v
-       Qualified Runtime / Mission Room
-                  |
-                  v
-       Human + AI Collective Work
-                  |
-                  v
-         Candidate Submission
-                  |
-                  v
-      Claim-specific Independent Review
-                  |
-                  v
-       Evidence & Provenance Boundary
-                  |
-                  v
-       Enterprise Delivery / Settlement
+Scientific / Industrial Objective
+              |
+              v
+     Source & Mission Inception
+              |
+              v
+    Scientific Triage / Protocol
+              |
+              v
+      Approved Mission Contract
+              |
+              v
+  Standardized Scientific Objects
+   + Knowledge + Execution Model
+              |
+              v
+     Mission / Experience Compile
+              |
+              v
+  Engine-Neutral World & Level Package
+              |
+              v
+    Qualified Runtime / Game Level
+              |
+              v
+     Human + AI Collective Work
+              |
+              v
+       Candidate Submissions
+              |
+              v
+    Independent Scientific Review
+              |
+              v
+       Evidence & Delivery
 ```
 
-Not every deployment currently implements every stage end to end. The mission contract, qualification state and evidence record must say what is implemented, what was actually executed and what remains open.
+At a high level, compilation connects five kinds of information:
 
-## Runtime and scientific provider strategy
+1. **Scientific meaning:** objects, states, relations, units, constraints and source references.
+2. **Mission logic:** objectives, permitted operations, task boundaries and success criteria.
+3. **Execution design:** available capabilities, human and AI roles, resource limits and workflow.
+4. **Experience design:** spatial representation, interaction, gameplay, learning and narrative.
+5. **Runtime requirements:** the capabilities and limitations of the selected engine or delivery environment.
 
-Foldnite is designed to be runtime- and provider-neutral.
+The compiler and adapters translate the approved mission into a standardized, engine-neutral package and then into the chosen runtime representation. The same mission can be adapted to different visual environments while preserving its canonical scientific identity, required constraints and validation policy.
 
-**Runtime targets:** UEFN / Unreal, Unity, UNIGINE, Web and VR. Each engine and target profile requires its own adapter and qualification evidence. A documented target is not automatically a production integration.
+This is a governed compilation pipeline, not a claim that every target engine or every mission type is already fully automated or production-qualified. Runtime-specific materialization and cross-engine semantic parity are verified separately.
 
-**Scientific capability providers:** protein and structure workflows, GLAM, atomistic/materials computing, quantum backends, chemistry tooling, laboratory/virtual-laboratory systems and other domain-specific providers.
+## The standards system
 
-Provider integration is staged and operation-specific. For example, the GLAM adapter documents a bounded adaptive molecular-property training/model-selection workflow and its MCP wrapper remains experimental. Atomic-MCP, nested Protein MCP tools and quantum backends retain their own open qualification gates. NVIDIA BioNeMo/NIM and Dell AI Factory/NVIDIA AI-Q are considered provider/infrastructure reference patterns, not proof of live qFoldIT production connections.
+qFoldIT uses a layered standards architecture. Each standard has a defined responsibility; no single schema is expected to describe the entire platform.
 
-## Validation, evidence and commercial authority
+### Scientific representation and world construction
 
-The architecture deliberately separates four outcomes:
+| Standard / model | Purpose |
+|---|---|
+| **SOS** | Identity, structure, state and typing of scientific objects |
+| **SKG** | Knowledge relationships, claims and source lineage |
+| **SEM** | Scientific operations, workflows, agents and execution context |
+| **VBMA** | Spatial and modular construction grammar for scientific worlds |
+| **UAG** | Engine-neutral world and assembly package |
+| **UAG-Asset** | Asset provenance, licensing, dependencies and derivatives |
 
-1. **Execution:** a provider or runtime ran and returned an explicit job outcome.
-2. **Scientific validation:** an approved validator assessed a defined claim under a defined protocol.
-3. **Evidence publication:** the trusted evidence boundary verified authority and integrity and published the evidence record.
-4. **Commercial acceptance:** the enterprise/customer policy determined delivery, attribution or settlement.
+### Mission and execution contracts
 
-A provider cannot issue its own trusted Evidence record. A validator returns an attestation to the separate trust boundary. Commercial logic cannot change a scientific finding.
+Mission Inception, scientific triage, Protocol Lock and the Approved Mission Contract formalize the research question, intended use, objects, permitted operations, constraints, execution requirements and validation plan.
 
-Evidence 1.2 is the target trust-plane record for new qualified missions. Its production publisher, signed validator-attestation verification, durable append-only storage and key lifecycle remain explicit qualification gates.
+The mission contract acts as the controlled source for downstream compilation and execution. Runtime-specific representations must not silently broaden the approved scope or discard required scientific semantics.
+
+### Interoperability across all Foldnite blocks
+
+**FIC 1.0 — Foldnite Interoperability Contract**
+
+FIC defines the common contract shared by every Foldnite block: identity, mission context, schema references, object and artifact references, versioning, traceability, rights and status semantics.
+
+It provides a consistent way for world construction, compilation, scientific computing, validation, runtimes, evidence and enterprise services to exchange information.
+
+### Scientific MCP standardization
+
+**QSIS Core 1.0 — qFoldIT Scientific Interoperability Standard**
+
+QSIS is the scientific-provider standard carried over the common FIC context. It is designed to make scientific capabilities portable across providers, organizations and execution environments.
+
+It standardizes, at a common level:
+
+- scientific capability discovery and per-operation manifests;
+- versioned input and output schemas;
+- scientific job requests, results and observations;
+- identifiers, scientific formats, units and parameter conventions;
+- execution states, errors, resource limits and idempotency;
+- model, algorithm, dataset, software and environment provenance;
+- artifact identity and content-integrity references;
+- provider authority, security, data rights and policy boundaries;
+- hand-off to claim-specific independent validation.
+
+**Why this matters:** an MCP server should not be a bespoke island whose tools, payloads and meanings must be reimplemented for every client. A scientific operation should be discoverable, typed, versioned and auditable in a consistent way. A mission should be able to select or replace a qualified provider without changing the scientific meaning of the task.
+
+MCP remains the transport and tool-discovery protocol. QSIS defines the scientific semantics above that transport. The same QSIS capability model is intended to work through MCP and other declared interfaces.
+
+A server that merely supports MCP is not automatically QSIS-conformant. Each scientific operation must be declared and qualified at the level actually supported.
+
+### Action integrity, validation and evidence
+
+The platform also maintains standards for:
+
+- **Scientific Action Envelope:** mission-bound authorization and integrity for consequential actions.
+- **Validation profiles:** claim-specific roles, methods, references, limits and acceptance semantics.
+- **Evidence and provenance:** the lineage connecting the mission, inputs, execution, candidate artifact, validator and result.
+- **Runtime compatibility:** the requirements for translating a canonical mission into engine-specific experiences.
+- **Quality and release:** checks for schemas, assets, runtime builds, provenance and release readiness.
+- **Scientific agent/skill packages:** bounded capabilities and their declared inputs, outputs and execution context.
+
+FIC 1.0 and QSIS Core 1.0 are adopted internal qFoldIT requirements. Some domain interchange and agent-package specifications remain drafts. Evidence 1.2 is the target trusted record for new qualified missions; the production issuer and parts of its downstream migration remain qualification gates. These internal standards are not represented as formal ISO, IEC, IEEE, IETF or other standards-body ratification.
+
+The [UAG-SOS standards registry](https://github.com/qfoldit/UAG-SOS) contains the normative documents, schemas, compatibility matrix, machine-readable block registry and migration status.
+
+## Scientific validation: execution is not proof
+
+Foldnite deliberately separates four states:
+
+1. **Executed:** a scientific provider or runtime performed an operation and returned an explicit result.
+2. **Validated:** an approved validator assessed a defined scientific claim under an appropriate protocol.
+3. **Evidenced:** the trusted evidence boundary verified the validator authority, mission binding, artifact identity and provenance before publishing a record.
+4. **Accepted:** the applicable customer or enterprise process accepted the deliverable under its own terms.
+
+A model prediction, simulation output, numerical score, gameplay result or successful MCP call does not by itself establish scientific validity.
+
+The component that generates a candidate does not independently approve its own result. Validator authority is claim-specific and separate from the evidence publisher. Commercial or presentation logic cannot alter a scientific finding.
+
+This separation is fundamental to making interactive scientific work reviewable, reproducible and suitable for serious research or industrial use.
+
+## Platform services
+
+The three product modules are supported by a connected set of platform services:
+
+| Service | Responsibility |
+|---|---|
+| **Mission Control & Scientific Mission Factory** | Intake, mission qualification, contract management, compilation and orchestration |
+| **Scientific Computing & Scientific MCP Mesh** | Standardized scientific capabilities and execution across domain providers |
+| **Human–AI Collective Work** | Coordination of researchers, participants, designers and bounded AI agents |
+| **Mission Production & Runtime** | Engine adapters, level materialization, interactive sessions and runtime receipts |
+| **Evidence & Provenance Trust Plane** | Integrity, validator attestations and trusted evidence publication |
+| **Enterprise & Commercial Governance** | Identity, rights, budgets, delivery, attribution and settlement |
+| **Standards & Conformance Registry** | Specifications, schemas, version policy, compatibility tests and change control |
+
+These services form one platform. They interact through explicit, typed and versioned interfaces rather than uncontrolled direct dependencies.
+
+## Runtime and scientific domain scope
+
+Foldnite is designed to support multiple execution environments, including UEFN / Unreal, Unity, UNIGINE, Web and VR. Each runtime has its own adapter and qualification requirements. A listed target is not automatically a verified production integration.
+
+Scientific capability areas include protein and structural workflows, molecular chemistry, molecular-property modelling, atomistic and materials computation, quantum workflows, laboratory and virtual-laboratory execution, and industrial/scientific simulation.
+
+Provider choice is intended to remain replaceable within the limits of scientific and mission compatibility. The standards define what a provider must declare; the qualification process determines whether a particular operation is suitable for a particular mission.
+
+## Technical status and implementation boundaries
+
+The main implementation and standards repositories are:
+
+- [UEFN-QFOLDIT](https://github.com/qfoldit/UEFN-QFOLDIT) — canonical Rust/Tauri mission and control plane.
+- [UAG-SOS](https://github.com/qfoldit/UAG-SOS) — standards, schemas, governance and conformance registry.
+- [RANDOM42](https://github.com/qfoldit/RANDOM42) — level, scene and scientific environment production workflows.
+- [CORPORATE_APP](https://github.com/qfoldit/CORPORATE_APP) — enterprise identity, policy and commercial governance.
+- [OPENSTRUCTURE](https://github.com/qfoldit/OPENSTRUCTURE) — structural computation and validation boundary.
+- [GLAM](https://github.com/qfoldit/GLAM) — molecular-property research implementation and qFoldIT adapter.
+- [CAMEO-REALTIME-VALIDATION](https://github.com/qfoldit/CAMEO-REALTIME-VALIDATION) — validation reconciliation boundary.
+- [INDUSTRIAL-CAMEO](https://github.com/qfoldit/INDUSTRIAL-CAMEO) — industrial mission and reconciliation workflows.
+
+The repositories contain implemented components, standards, adapters, reference profiles and experimental work at different maturity levels. Production deployment, independent scientific qualification, cross-runtime parity and customer acceptance are separate evidence requirements. Documentation or a repository entry is not itself proof that an integration is live.
 
 ## Relationship to Foldit and open research
 
-Foldit (publicly introduced in 2008) is an important predecessor demonstrating how human spatial reasoning and game mechanics can contribute to scientific research.
+Foldit is an important public predecessor demonstrating how human spatial reasoning and game mechanics can contribute to scientific research.
 
-qFoldIT/Foldnite continues and extends the **idea of scientific game-based collective search** through its own mission contracts, object models, validation boundaries, world-assembly system and runtime integrations. This is feature-level and architectural continuity — not a claim of wholesale source-code reuse, legal succession or ownership of upstream Foldit intellectual property.
+qFoldIT/Foldnite continues and extends the **idea of scientific game-based collective search** through its own mission standards, scientific representations, compilation architecture, validation boundaries and runtime integrations. This is feature-level and architectural continuity — not a claim of wholesale source-code reuse, legal succession or ownership of upstream Foldit intellectual property.
 
-qFoldIT combines proprietary and open components. Every repository, upstream model, dataset, asset and dependency retains its applicable licence and provenance. Public visibility of a repository or internal permission to integrate a component does not automatically grant third-party ownership or redistribution rights.
+qFoldIT combines original work with open and third-party components. Each upstream library, model, dataset, asset and dependency retains its own provenance and applicable licence. Public visibility or technical integration does not automatically transfer ownership or redistribution rights.
 
-## Current engineering status
+## Explore
 
-The principal implementation repositories are:
-
-- [UEFN-QFOLDIT](https://github.com/qfoldit/UEFN-QFOLDIT) — canonical Rust/Tauri mission and control plane.
-- [UAG-SOS](https://github.com/qfoldit/UAG-SOS) — normative standards, schemas, governance and runbooks.
-- [RANDOM42](https://github.com/qfoldit/RANDOM42) — level, scene, laboratory asset and production workflow.
-- [CORPORATE_APP](https://github.com/qfoldit/CORPORATE_APP) — enterprise, tenant, rights and commercial governance.
-- [OPENSTRUCTURE](https://github.com/qfoldit/OPENSTRUCTURE) — structural computation/validation boundary and upstream integration.
-- [GLAM](https://github.com/qfoldit/GLAM) — GLAM research implementation and qFoldIT adapter.
-- [CAMEO-REALTIME-VALIDATION](https://github.com/qfoldit/CAMEO-REALTIME-VALIDATION) — realtime reconciliation boundary.
-- [INDUSTRIAL-CAMEO](https://github.com/qfoldit/INDUSTRIAL-CAMEO) — industrial mission routing and reconciliation.
-- [Atomic-MCP](https://github.com/qfoldit/Atomic-MCP) — atomistic/materials provider, currently qualification-gated.
-- [Protein-Design-MCP](https://github.com/qfoldit/Protein-Design-MCP) — upstream-derived MCP distribution and separately licensed qFoldIT skill bundle; not currently qualified as a qFoldIT QSIS provider.
-- [Foldnite–Sirius Partnership](https://github.com/qfoldit/Foldnite-Sirius-Partnership) — partnership and Snezhinka/Yamal programme records.
-
-The canonical Foldnite 0.7.0 repository is build-capable for local development, but release-verified status is not claimed. Native Lore integration, governed UEFN materialization, reproducible dependency locks, production signing and verified target builds remain gates. GitHub Actions workflows and code-level tests must be distinguished from successful runner-executed results.
-
-## How to explore and collaborate
-
-Start with the [qFoldIT organization repositories](https://github.com/qfoldit) and the [UAG-SOS standards registry](https://github.com/qfoldit/UAG-SOS).
-
-Useful entry points:
-
-- [Foldnite technical mission lifecycle](https://github.com/qfoldit/UEFN-QFOLDIT/blob/main/docs/FOLDNITE-SCIENTIFIC-MISSION-GENESIS.md)
-- [Foldnite platform status](https://github.com/qfoldit/UEFN-QFOLDIT/blob/main/QFOLDIT-STATUS.md)
-- [Foldnite block interoperability matrix](https://github.com/qfoldit/UAG-SOS/blob/main/STANDARDS/FOLDNITE/FOLDNITE-BLOCK-INTEROPERABILITY-1.0.md)
+- [qFoldIT organization](https://github.com/qfoldit)
+- [Foldnite mission/control plane](https://github.com/qfoldit/UEFN-QFOLDIT)
+- [Standards and schemas — UAG-SOS](https://github.com/qfoldit/UAG-SOS)
+- [Foldnite system interoperability matrix](https://github.com/qfoldit/UAG-SOS/blob/main/STANDARDS/FOLDNITE/FOLDNITE-BLOCK-INTEROPERABILITY-1.0.md)
 - [QSIS Core 1.0](https://github.com/qfoldit/UAG-SOS/blob/main/STANDARDS/QSIS/QSIS-CORE-AND-PROVIDER-COMPATIBILITY-1.0.md)
-- [Implementation and standards readiness audit](https://github.com/qfoldit/UAG-SOS/blob/main/GOVERNANCE/STANDARDS-READINESS-AUDIT-2026-11-11.md)
-
-Scientific, engineering, runtime, design and enterprise collaborators should begin with the relevant repository's current interface, licence and qualification status. Please use repository Issues and Discussions for technical proposals; no partnership, endorsement, data access or production entitlement should be inferred from a documented integration target.
+- [Scientific Mission genesis and lifecycle](https://github.com/qfoldit/UEFN-QFOLDIT/blob/main/docs/FOLDNITE-SCIENTIFIC-MISSION-GENESIS.md)
+- [Foldnite technical status](https://github.com/qfoldit/UEFN-QFOLDIT/blob/main/QFOLDIT-STATUS.md)
 
 ---
 
-**qFoldIT builds the infrastructure. Foldnite turns scientific objectives into governed, interactive missions — and keeps execution, validation, evidence and commercial outcomes distinct.**
+**qFoldIT standardizes the scientific workflow. Foldnite compiles it into an interactive mission. Independent validation keeps the result accountable.**
